@@ -1,0 +1,21 @@
+"loads up the FST tokenizer and morphology"
+
+"P!basic-parse-tok.fst G!default-gen-tokenizer.fst"
+VALEXPB PORTUGUESE MORPHOLOGY (1.0)
+
+TOKENIZE:
+P!fst/tokenizer.fst G!fst/tokenizer.fst
+
+
+ANALYZE:
+fst/valex_verbs.fst
+fst/test-verbs.fst
+fst/brlex02.fst
+G!fst/valex_verbs.fst
+G!fst/test-verbs.fst
+G!fst/brlex02.fst
+
+
+BuildMultiwordsFromLexicon:
+
+----

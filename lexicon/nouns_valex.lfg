@@ -1,0 +1,5501 @@
+VALEXPB PORTUGUESE LEXICON (1.0)
+
+"Nouns"
+
+estado	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL state).
+
+ônibus	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL bus).
+
+estádio	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL stadium).
+
+fortuna	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL fortune).
+
+cabeça	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL head).
+
+
+região	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL region).
+
+encomenda  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL package).
+
+homem	  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL man).
+
+operário  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL worker).
+
+índios  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl)
+	      @(GL aboriginal).
+
+artista	  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg)
+	      @(GL man).
+	      
+criança	  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL child).
+	      
+população N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL population).
+
+multidão  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL crowd).
+
+prisão   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL prision).
+
+árvore   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL tree).
+
+
+porta	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL door).
+
+parede	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL wall).
+
+brasil    N * @(PROPER Brasil location)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+ana    N * @(PROPER Ana person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+alface	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL lettuce).
+
+curiosidade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL curiosity).
+
+obra	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL work).
+
+escola	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL school).
+
+chave	  N * @(COMMON %stem)
+	      @N-HUM
+	      (^ ANIM)= -
+	      @(N-AGR fem sg)
+	      @(GL key).
+
+vento	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL wind).
+
+tratamento  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL treatment).
+
+tempos	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL time).
+
+exemplo	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL example).
+
+show	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL show).
+
+pedaços	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL piece).
+
+viagem	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL trip).
+
+pedra	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL stone).
+
+ajuda	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL help).
+
+horas	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL hour).
+
+meses	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL month).
+
+curso	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL course).
+
+milhão	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL million).
+
+milhões	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL million).
+
+brinquedo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL toy).
+
+boneca  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL doll).
+
+gato	   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL cat).
+
+peixe	   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL fish).
+
+
+sala	   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL room).
+
+rosas	   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL rose).
+
+
+acidente    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL accident).
+
+acusado    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL accused).
+
+acusados    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl)
+	      @(GL accused).
+
+advogado    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL lawyer).
+
+agricultor    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL farmer).
+
+água    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL water).
+
+algo	    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL something).
+
+alpinista    N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg)
+	      @(GL climber).
+
+alpinistas    N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl)
+	      @(GL clibmer).
+
+aluno    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL student).
+
+alunos    N * @(COMMON %stem)
+	       @HUM
+	      @(N-AGR masc pl)
+	      @(GL student).
+
+amada    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL loved).
+
+amigos    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl)
+	      @(GL friends).
+
+análise    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL analysis).
+
+anfitrião    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL host).
+
+aniversariante    N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+ano    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL year).
+
+apartamento    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL apartment).
+
+apresentador    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL presenter).
+
+assassinato    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL murder).
+
+assunto    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL subject).
+
+atleta    N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg)
+	      @(GL athlete).
+
+atos    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL act).
+
+atriz    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL actress).
+
+autor    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL author).
+
+autoridade    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL authority).
+
+auxílio    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL aid).
+
+aves    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL bird).
+
+avô    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL grandfather).
+
+bagunça    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL mess).
+
+bala    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL bullet).
+
+banco    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL bank).
+
+bandeira    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL flag).
+
+barulho    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL noise).
+
+bebida    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL drink).
+
+bens    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL goods).
+
+bíblia    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL bible).
+
+biblioteca    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL library).
+
+biscoito    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL cookie).
+
+bobagem    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL bullshit).
+
+bolo    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL cake).
+
+bolos    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL cake).
+
+bombons    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL candies).
+
+braço    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL arm).
+
+brincadeira    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL game).
+
+brinquedos    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL toy).
+
+cabelo    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL hair).
+
+cachorro    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL dog).
+
+caderno    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL notebook).
+
+café    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL coffee).
+
+caixa    N * @(COMMON %stem)
+	      @N-HUM
+	     {@(N-AGR fem sg)|
+	      @(N-AGR masc sg)}
+	      @(GL box).
+
+calça    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL pants).
+
+campanha    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL campaign).
+
+canto    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL corner).
+
+carne    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL meat).
+
+carro    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL car).
+
+carros    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL car).
+
+casa    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL house).
+
+casamento    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL marriage).
+
+católicos    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl)
+	      @(GL catholic).
+
+cavaleiro    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL knight).
+
+cavalo    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL horse).
+
+cerimônia    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL cerimony).
+
+cesto    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL basket).
+
+chá    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL tea).
+
+chapéu    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL hat).
+
+chef    N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg)
+	      @(GL chef).
+
+chefe    N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg)
+	      @(GL boss).
+
+chegada    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL arrival).
+
+chocolate    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL chocolate).
+
+chuva    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL rain).
+
+cidade    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL town).
+
+cintura    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL waist).
+
+
+cliente    N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg)
+	      @(GL client).
+
+cloro    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL chlorine).
+
+cobra    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL snake).
+
+cobras    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL snake).
+
+colega    N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg)
+	      @(GL colleague).
+
+comissão    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL comission).
+
+comitê    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL committee).
+
+comprador    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL buyer).
+
+compromissos    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL commitment).
+
+comunidade    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL community).
+
+conferência    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL conference).
+
+construtor    N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL builder).
+
+conta    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL account).
+
+conversa    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL talk).
+
+convidados   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL guest).
+
+cor   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL color).
+
+coragem   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL courage).
+
+corrupção   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL corruption).
+
+cozinheiro   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL cook).
+
+crise   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL crisis).
+
+crítico   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL critic).
+
+curativo   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL bandage).
+
+dados   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL data).
+
+degraus   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL stair).
+
+demissões   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL demission).
+
+denunciados   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl)
+	      @(GL accused).
+
+deputado   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL congressman).
+
+detalhes   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL detail).
+
+dia   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL day).
+
+dificuldade   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL difficulty).
+
+dimensão   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL dimension).
+
+dinheiro   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL money).
+
+diretor   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL director).
+
+diretoria   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL board).
+
+diretrizes   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL guideline).
+
+dívidas   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL dept).
+
+doação   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL donation).
+
+doações   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL donation).
+
+documentos   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL document).
+
+dor   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL pain).
+
+dragão   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL dragon).
+
+educação   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL education).
+
+email   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL email).
+
+empregada   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL maid).
+
+empregadas   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem pl)
+	      @(GL maid).
+
+emprego   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL job).
+
+empresa   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL company).
+
+empresário   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL businessman).
+
+entrada   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL entry).
+
+entrevistada   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL interviewee).
+
+equipe   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL team).
+
+escada   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL ladder).
+
+espada   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL sword).
+
+espanhol  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+esposa   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL wife).
+
+essências   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL essence).
+
+evidências   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL evidence).
+
+excesso   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL excess).
+
+explicação   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL explanation).
+
+fadas   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem pl)
+	      @(GL fair).
+
+faixa   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL band).
+
+falta   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL absence).
+
+família   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL family).
+
+fantasia   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL fantasy).
+
+fazenda   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL farm).
+
+feijoada   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+férias   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL vacation).
+
+ferida   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL wound).
+
+festa   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL party).
+
+figuras   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL pictures).
+
+filha   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL daughter).
+
+filho   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL son).
+
+filhos   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl)
+	      @(GL children).
+
+filme   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL movie).
+
+filmes   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL movie).
+
+flanelinha   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+flocos   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL flake).
+
+flores   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL flower).
+
+floresta   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL forest).
+
+fogo   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL fire).
+
+fogos   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL firework).
+
+fome   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL hunger).
+
+frutas   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL fruit).
+
+funcionários   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl)
+	      @(GL employee).
+
+funcionário   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL employee).
+
+garçom   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL waiter).
+
+gasolina   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL gasoline).
+
+gata   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL cat).
+
+gatos   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL cat).
+
+gaveta   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL drawer).
+
+gerador   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL generator).
+
+gerente   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL manager).
+
+gordo   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL fat`man).
+
+governador   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL governer).
+
+governanta   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL housekeeper).
+
+governo   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL govern).
+
+gramática   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL grammar).
+
+granizo   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL hail).
+
+grego   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL greek).
+
+greve   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL strike).
+
+herdeira   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL heiress).
+
+herói   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL hero).
+
+hipérbole   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL hyperbole).
+
+história   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL history).
+
+histórias   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL history).
+
+honestidade   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL honesty).
+
+hóspede   N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg)
+	      @(GL guest).
+	     
+hospital   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL hospital).
+
+humanidade   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL humanity).
+
+humilhações   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL humiliation).
+
+idade   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL age).
+
+ideias   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL idea).
+
+igreja   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL church).
+
+ilustrações   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL illustration).
+
+imagem   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL image).
+
+imagens   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL image).
+
+inflação   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL inflation).
+
+informação   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL information).
+
+informações   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL information).
+
+inglês   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL english).
+
+inovação   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL innovation).
+
+instituição   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL institution).
+
+internet   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL internet).
+
+irmã   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL sister).
+
+irmão   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL brother).
+
+jagunço   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL henchman).
+
+janeiro   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL january).
+
+janela   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL window).
+
+jogador   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL player).
+
+juiz   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL judge).
+
+laço   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL bow).
+
+ladrão   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL thief).
+
+lama   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL mud).
+
+lança   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL spear).
+
+lazer   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL leisure).
+
+
+leite   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL milk).
+
+leitor   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL reader).
+
+limpeza   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL cleaning).
+
+livro   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL book).
+
+império   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL empire).
+
+locutor   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL announcer).
+
+loja   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL store).
+
+lua   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL mooon).
+
+lucros   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL profit).
+
+luto   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL mourning).
+
+luz   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL light).
+
+luzes   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL light).
+
+mãe   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL mother).
+
+mães   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem pl)
+	      @(GL mother).
+
+maioria   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL majority).
+
+manias   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL manias).
+
+manifestantes   N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl)
+	      @(GL protester).
+
+mão   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL hand).
+
+máquina   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL machine).
+
+mar   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL sea).
+
+marido   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL husband).
+
+matéria   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL subject).
+
+médico   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL doctor).
+
+medidas   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL measure).
+
+menina   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL girl).
+
+menino   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL boy).
+
+meninos   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl)
+	      @(GL boy).
+
+mensagem   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL message).
+
+mentira   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL lie).
+
+mentiras   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL lie).
+
+mesa   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL table).
+
+metros   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL meter).
+
+ministro   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL minister).
+
+moça   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL lady).
+
+molho   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL sauce).
+
+morte   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL death).
+
+motor   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL motor).
+
+movimento   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL movement).
+
+mulher   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL woman).
+
+mundo   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL world).
+
+música   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL music).
+
+necessidade   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL need).
+
+neta   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL granddaughter).
+
+neto   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL grandson).
+
+noiva   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL bride).
+
+nome   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL name).
+
+notícia   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL news).
+
+notícias   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL news).
+
+obras   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL work).
+
+obstáculos   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL obstacle).
+
+óculos   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL glasses).
+
+ofensa   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL offense).
+
+paciente   N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg)
+	      @(GL patient).
+
+pai   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL father).
+
+país   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL country).
+
+países   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL country).
+
+palco   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL stage).
+
+pandemia   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL pandemic).
+
+pânico   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL panic).
+
+papéis   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL paper).
+
+participantes   N * @(COMMON %stem)
+	      @N-HUM
+	      @(NUM-N-AGR pl)
+	      @(GL participant).
+
+partido   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL party).
+
+passaporte   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL passport).
+
+patrão   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL boss).
+
+passageiro   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL passanger).
+
+patrimônio   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL patrimony).
+
+paz   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL peace).
+
+pé   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL foot).
+
+peça   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL piece).
+
+pele   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL skin).
+
+perfume   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL perfume).
+
+perigo   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL danger).
+
+perna   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL leg).
+
+pesadelo   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL nightmare).
+
+pessoa   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL person).
+
+pessoas   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem pl)
+	      @(GL people).
+
+piano   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL piano).
+
+elogio   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+pico   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL peak).
+
+pimenta   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL pepper).
+
+plantação   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL plantation).
+
+plenário   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL plenary).
+
+pneu   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL tire).
+
+pobres   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl)
+	      @(GL poor).
+
+poema   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL poem).
+
+poeta   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL poet).
+
+polícia   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL police).
+
+policial   N * @(COMMON %stem)
+	      @HUM		
+	      @(NUM-N-AGR sg)
+	      @(GL police).
+      
+pomada   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL cream).
+
+porão   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL basement).
+
+porteiro   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL doorman).
+
+posição   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL position).
+
+poste   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL lamppost).
+
+povo   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL people).
+
+praça   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL square).
+
+praias   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL beach).
+
+prazo   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL deadline).
+
+preço   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL price).
+
+prefeito   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL mayor).
+
+prefeitura   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL city`hall).
+
+presente   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL present).
+
+presidente   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL president).
+
+princesa   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL princess).
+
+príncipe   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL prince).
+
+problema   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL problem).
+
+processo   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL process).
+
+professor   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL teacher).
+
+professora   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL teacher).
+
+professores   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl)
+	      @(GL teacher).
+
+proposta   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL proposal).
+
+protestantes   N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl)
+	      @(GL protestant).
+
+protótipo   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL prototype).
+
+provas   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL proof).
+
+
+
+quarto   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL bedroom).
+
+quilo   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL kilo).
+
+quilômetros   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL kilometer).
+
+química   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL chemistry).
+
+quintal   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL backyard).
+
+racismo   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL racism).
+
+rapaz   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL boy).
+
+reais   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL real).
+
+receita   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL recipe).
+
+recurso   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL resource).
+
+recursos   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL resource).
+
+reforma   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL reform).
+
+refugiados   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl)
+	      @(GL refugee).
+
+relatório   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL report).
+
+relógio   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL clock).
+
+resfriado   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL month).
+
+resultados   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL result).
+
+réu   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL respondent).
+
+rio   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL river).
+
+rios   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL river).
+
+rodas   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL wheel).
+
+roupa   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL clothes).
+
+secretária   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL secretary).
+
+secretário   N * @(COMMON %stem)
+	       @HUM
+	      @(N-AGR masc sg)
+	      @(GL secretary).
+
+senador   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL senator).
+
+serviços   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL service).
+
+situação   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL situation).
+
+sódio   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL sodium).
+
+sofrimento   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL suffering).
+
+sol   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL sun).
+
+soldado   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL soldier).
+
+solução   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL solution).
+
+sonda   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL probe).
+
+sopa   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL soup).
+
+sorte   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL luck).
+
+sujeira   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL dirt).
+
+sul   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL south).
+
+supermercado   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL supermaket).
+
+sushi   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL sushi).
+
+suspeito   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL suspect);
+	   A * (^ PRED)='suspeito' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+tamanho   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL size).
+
+técnico   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL technician).
+
+tenda   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL tent).
+
+teoria   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL theory).
+
+testamento   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL testment).
+
+tinta   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL paint).
+
+tio   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL uncle).
+
+tomate   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL tomato).
+
+tragédia   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL tragedy).
+
+traidor   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL traitor).
+
+treinamento   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL training).
+
+tribunal   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL court).
+
+turma   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL class).
+
+tudo   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL everything).
+
+
+tv   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL tv).
+
+vagabundo   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL vagabond).
+
+vaqueiros   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl)
+	      @(GL cowboy).
+
+velho   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL elder).
+
+vendedor   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL salesman).
+
+verdade   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL truth).
+
+vacina   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL vaccine).
+
+verduras   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL vegetable).
+
+vergonha   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL shame).
+
+vestido   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL dress).
+
+vidro   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL glass).
+
+vilão   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL vilan).
+
+vinho   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL wine).
+
+violência   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL violence).
+
+vírus   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL virus).
+
+aids   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+vizinha   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL neighboor).
+
+vizinho   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL neighboor).
+
+vovó   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL grandmother).
+
+vovô   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL grandfather).
+
+
+"Proper Nouns"
+
+abraão	N * @(PROPER Abraão person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+amazônia    N * @(PROPER Amazônia location)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+bob	N * @(PROPER Bob person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+carlos	N * @(PROPER Carlos person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+ceará    N * @(PROPER Ceará location)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+davi	N * @(PROPER Davi person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+deus	N * @(PROPER Deus person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+gabriel	N * @(PROPER Gabriel person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+golias	N * @(PROPER Golias person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+hitler	N * @(PROPER Hitler person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+itália    N * @(PROPER Itália location)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+londres    N * @(PROPER Londres location)
+	      @N-HUM
+	      @(NUM-N-AGR sg).
+
+lula	N * @(PROPER Lula person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+marcos	N * @(PROPER Marcos person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+maria	N * @(PROPER Maria person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+marte    N * @(PROPER Marte location)
+	      @N-HUM
+	      @(NUM-N-AGR sg).
+
+onu 	N * @(PROPER Onu location)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+pedro	N * @(PROPER Pedro person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+tom	N * @(PROPER Tom person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+zé	N * @(PROPER Zé person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+
+
+
+
+
+camelô   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL salesman).
+
+candidato   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL candidate).
+
+crianças   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem pl)
+	      @(GL child).
+
+democrata  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL democrat).
+
+dono   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL owner).
+
+
+
+aula   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL class).
+
+balança N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL scale).
+
+doença N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL disease).
+
+equívoco   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL mistake).
+
+jardim   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL garden).
+
+lugar   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL place).
+
+objeto   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL object).
+
+piolho   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL louse).
+
+pudim   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL pudding).
+
+termo   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL term).
+
+
+semanas   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL week).
+
+tarefa   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL word).
+
+vasilha   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL recipient).
+
+abraço	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL word).
+
+absurdo	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL word).
+
+
+ação 	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL word).
+
+acidentes N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl)
+	      @(GL word).
+
+ações    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL word).
+
+acordo    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL word).
+
+açougueiro N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg)
+	      @(GL word).
+
+acupuntura  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL word).
+
+acusação N * @(COMMON %stem)
+	     @N-HUM
+	     @(N-AGR fem sg).
+
+acusações  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+adestrador  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+adeus    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+adolescentes  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+aeroporto  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+agricultores  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+agulha  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+ajudante  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+alavanca  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+alcool  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+alergia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+algas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+alimentação  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+alimento  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+aluguel  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+amante  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+amantes  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+americano  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg);
+	   A * (^ PRED)='americano' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+amiga  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+amigo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+amor  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+animais  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+animal  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+aniversário  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+anos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+apoio  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+aprendizagens  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+apresentação  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+aprovados  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+arbusto  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+armário  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+arquiteto  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+arroz  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+artesanato  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+artigo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+árvores  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+assaltante  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+assaltantes  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+assalto  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+assassino  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+assessor  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+astros  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+atacante  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+atitudes  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+acre N * @(PROPER Acre location)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+atividade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+atletas  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+auditório  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+aumento  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+autismo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+avenida  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+avião  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+avó  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+babá  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+balão  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+banda  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+bandido  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+banheiro  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+banho  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+batom  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+bêbado  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+bebê  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+bexigas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+bibliografia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+bicos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+bisavó  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+biscoitos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+bispo  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+bode  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+bola  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+bolsa  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+bolsos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+braços  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+briga  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+brinde  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+cadeiras  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+calor  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+caminhão  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+caminho  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+camisa  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+camisas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+campo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+câncer  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+cansaço  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+cantor  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+capital  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+cara  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+caravana  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+cardápio  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+cargo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+carpinteiro  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+carta  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+carteira  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+cartório  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+casaco  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+casal  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+caso  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+catapora  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+causas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+cavalheiro  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+caverna  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+célula  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+celular  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+centro  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+cerca  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+cérebro  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+cervejas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+cesariana  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+cestas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+céu  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+chamada  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+chaves  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+cheiro  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+cheque  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+chiclete  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+ciência  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+cientista  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+cigarro  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+cinema  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+cirurgia    N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL surgery).
+
+clientes  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+clube  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+coisa  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+coitado  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+colegas  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+combustível  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+comediante  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+comércio  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+companheiros  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+comportamento  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+compromisso  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+condenação  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+condôminos  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+confeiteiro  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+confusão  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+consciência  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+consequência  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+consoante  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+constituição  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+construção  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+consumidor  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+consumo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+convidado  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+convite  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+cooperativa  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+coração  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+coronavírus  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+corpo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+correio  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+corte  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+cortina  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+costume  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+costura  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+costureira  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+couro  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+covarde  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+cozinheira  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+creme  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+crescimento  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+crime  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+criminalidade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+criminoso  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+cristão  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+cristianismo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+crítica  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+críticas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+cruz  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+culinária  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+cupim  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+dança  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+datas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+débitos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+decisão  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+decreto  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+dedicação  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+dedo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+delegacia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+delegado  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+democracia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+demora   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg)
+	      @(GL delay).
+
+dente  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+depressão  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+deputados  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+desabrigados  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+desânimo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+desastre  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+desemprego  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+desempregos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+desenho  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+desinteresse  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+desorganização  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+detalhe  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+detetive  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+deuses  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+diamante  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+dificuldades  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+diplomata  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+direção  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+direito  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+direitos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+diretora  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+discípulo  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+discípulos  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+discurso  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+doces  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+doenças  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+dores  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+droga  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+drogas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+dúvida  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+eclipse  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+economias  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+elefantes  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+eleições  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+eleitores  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+eletrônicos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+embaixador  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+embalagem  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+emoções  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+empenho  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+empreendedor  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+empreendedores  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+empresas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+empréstimo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+encomendas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+encontro  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+energia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+enfermeira  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+engenheiro  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+enteado  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+enteados  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+entrega  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+envelhecimento  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+escolha  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+escravo  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+escultor  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+especialistas  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+esperança  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+espírito  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+esporte  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+esquema  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+esquerda  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+esquina  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+esquizofrenia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+estrada  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+estudantes  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+estudo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+estudos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+evento  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+exercício  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+exercícios  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+exigências  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+fábrica  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+faca  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+faculdade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+falência  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+famílias  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+fantasma  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+fãs  N * @(COMMON %stem)
+	      @HUM
+	      {@(N-AGR fem pl)|
+	      @(N-AGR masc pl)}.
+
+fato  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+fatos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+faxineira  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+fazendeiro  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+fé  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+feira  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+feirante  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+felicidade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+feriado  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+ferrugem  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+fiéis  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+filhas  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem pl).
+
+filhotes  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+filosofia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+final  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+firma  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+física  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+flecha  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+força  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+foto  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+fotografia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+francês  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+freira  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+frentista  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+fronteira  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+frutos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+fumaça  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+funcionária   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg)
+	      @(GL employee).
+
+fundo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+futebol  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+futuro  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+galinha  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+garganta  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+gari  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+gastos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+gênero  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+gente  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+globalização  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+gol  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+goleiro  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+grávida  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg);
+	 A * (^ PRED)='grávida <(^ SUBJ)>' 
+	     (a::^ REL) = 'grávida<(^ STATIVE_OBJECT)>' 
+	     (a::^ STATIVE_OBJECT) = (^ SUBJ)
+	     @(A-AGR fem sg).
+
+gravidez  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+gritaria  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+guarda  N * @(COMMON %stem)
+	      @N-HUM
+	      {@(N-AGR masc sg)|@(N-AGR fem sg)}.
+
+hacker  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+hectares  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+hindus  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+hipóteses  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+hobby  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+homens  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+horizonte  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+hospitais  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+ideia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+indenização  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+independência  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+imóvel  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+imprensa  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+imprevistos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+incredulidade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+indiferença  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+infecção  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+ingredientes  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+injeções  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+insatisfação  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+insegurança  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+inteligência  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+intensidade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+invenção  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+inverno  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+investidor  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+investidores  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+jantar  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+jeito  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+jogo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+jornais  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+jornal  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+jornalista  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+jornalistas  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+jovem  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg);
+	A * (^ PRED)='jovem' 
+	        (^ NUM) = sg.
+
+jovens  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+juíza  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+julgamento  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+jumento  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+karatê  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+lábios  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+lágrima  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+laje  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+lâmpada  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+lápis  N * @(COMMON %stem)
+	      @HUM
+	      {@(N-AGR masc sg)|
+	       @(N-AGR masc pl)}
+	      @(GL pencil).
+
+lasanha  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+latinhas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+lei  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+leis   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl)
+	      @(GL law).
+
+leitura  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+lentilha  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+lição  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+líder  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+ligações  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+limão  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+limite  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+lixo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+lojas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+louças  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+loucura  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+lucro  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+macacos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+macarrão  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+machos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl);
+	A * (^ PRED)='macho' 
+	        (^ GEND) = masc
+	        (^ NUM) = pl.
+
+madeira  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+maestro  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+mágico  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+maio  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+mala  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+mamãe  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+mamorado  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+manifestação  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+manifestante  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+mãos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+maquiagem  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+maquinário  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+mármore  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+máscara  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+máscaras  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+massa  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+massagem  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+mata  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+mecanico  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+medicina  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+meio 	N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg);
+	A * (^ PRED)='meio' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+melancia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+mente  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+mercadoria  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+mesada  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+mestre  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+meteorito  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+mina  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+missão  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+missionários  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+moedas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+momento  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+monarquia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+mordomias  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+morfemas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+morro  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+morto  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+mosquitos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+motivo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+moto  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+motorista  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+móveis  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+mudança  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+mudanças  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+mulheres  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem pl).
+
+músculos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+namorada  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+nativos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+negócio  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+nobel  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+noite  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+noivado  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+noivo  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+noivos  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+novidade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+nutricionista  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+nutrientes  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+ofensas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+oficiais  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+óleo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+olho  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+olhos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+ombro  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+onça  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+operários  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+opinião  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+oportunidade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+oportunidades  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+orçamento  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+ordem  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+orfanato  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+osso  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+ovo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+ovos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+pacote  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+padrasto  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+
+padre  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+pagamento  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+página  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+pais  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+paisagem  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+palavra  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+palavras  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+palavrões  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+palestra  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+palestrante  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+palhaço  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+pancada  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+panela  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+pão  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+papa  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+papai  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+
+papel  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+paralisação  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+parceria  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+parque  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+parte  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+partículas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+parto  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+passarinho  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+pastor  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+peças  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+pedagogia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+peito  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+peregrinos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+pergunta  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+perguntas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+período  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+pés  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+pescoço  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+pesquisador  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+pinguins  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+pista  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+plano  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+planta  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+plantas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+plástico  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+plateia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+pó  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+poetas  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+polêmica  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+policiais  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+política  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg);
+ 	  A * @(AFS).
+
+políticos   N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl)
+	      @(GL politician).
+
+poltrona  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+ponte  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+popularidade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+portas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+português  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg);
+  	   A * (^ PRED)='português' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+posse  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+posses  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+postura  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+poupança  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+praia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+prazer  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+preconceito  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+pedreiro  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+prego  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+prêmio  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+preocupação  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+presa  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+presença  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+presentes  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+pressão  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+primavera  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+primo  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+problemas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+produção  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+produtividade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+produto  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+produtor  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+produtos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+profecia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+profeta  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+projeto  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+promotor  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+propina  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+propostas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+proprietário  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+proteína  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+protestantismo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+protocolo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+prova     N * @(COMMON %stem)
+	   @N-HUM
+	   @(N-AGR fem sg).
+
+províncias  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+psicolinguística  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+psicologia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+psiquiatra  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+quebra-cabeça  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+questão  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+quilos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+rabo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+rádio  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+realidade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+recém-nascido  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg);
+	      A * @(A-SUBJ %stem)
+	      @(A-AGR masc sg).
+
+rede  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+refrigeração  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+regras  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+remédio  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+reservatório  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+responsabilidade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+restaurante  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+resultado  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+reunião  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+riscos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+robô  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+rochas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+rodovia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+rosto  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+rostos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+rotina  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+roubo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+sábados  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+sacerdote  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+saia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+saída  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+sal  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+salário  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+samba  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+sangue  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+sapato  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+saudade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+secretaria  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+segunda  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+sementes  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+senado  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+sentimentos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+separação  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+serviço  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+sexta  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+signos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+silêncio  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+símbolo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+sindicato  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+síndico  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+sinfonia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+sino  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+sintomas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+sobremesa  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+sobrinha  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+sobrinho  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+sociedade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+sócio  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+sócios  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+socorro  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+sogro  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+solo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+sono  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+substância  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+sucesso  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+sucessor  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+súditos  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+suicídio  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+superintendência  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+surpresa  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+suspeitos  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+tampa  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+tanque  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+táxi  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+teatro  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+telefone  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+telha  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+temperatura  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+tempestade  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+tempo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+terapia  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+terra  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+terreno  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+terroristas  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+teste  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+testemunho  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+texto  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+tia  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+time  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+tiro  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+toalha  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+tomada  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+torcedor  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+torre  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+torres  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+toupeiras  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+trabalhador  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+trabalho  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+traficante  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+tráfico  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+traição  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+trajes  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+transexuais  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+transportadora  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+trem  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+tristeza  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+trovão  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+uvas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+valor  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+valsa  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+vaso  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+velhinha  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+verba  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+verdades  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+vereador  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc sg).
+
+vereadores  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+viajante  N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR sg).
+
+vida  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+vídeo  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+vilã  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+violão  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+vira-lata  N * @(COMMON %stem)
+	      @N-HUM
+	      @(NUM-N-AGR sg).
+
+
+visitantes  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+vítima  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+vítimas  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem pl).
+
+vizinhos  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR masc pl).
+
+vó  N * @(COMMON %stem)
+	      @HUM
+	      @(N-AGR fem sg).
+
+vôlei  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+volumes  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+votos  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc pl).
+
+voz  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+alemanha  N * @(PROPER Alemanha location)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+alex  N * @(PROPER Alex person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+álvaro  N * @(PROPER Álvaro person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+anderson  N * @(PROPER Anderson person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+andré  N * @(PROPER André person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+ângela  N * @(PROPER Ângela person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+angélica  N * @(PROPER Angélica person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+aninha  N * @(PROPER Aninha person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+anita  N * @(PROPER Anita person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+antônio  N * @(PROPER Antônio person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+beatriz  N * @(PROPER Beatriz person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+bolsonaro  N * @(PROPER Bolsonaro person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+brasília  N * @(PROPER Brasília location)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+camila  N * @(PROPER Camila person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+carla  N * @(PROPER Carla person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+charles  N * @(PROPER Charles person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+chicó  N * @(PROPER Chicó person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+china  N * @(PROPER China location)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+chomsky  N * @(PROPER Chomsky person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+clarice  N * @(PROPER Clarice person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+cleiton  N * @(PROPER Cleiton person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+cristina  N * @(PROPER Cristina person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+cristóvão  N * @(PROPER Cleiton person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+dálmata  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+denis  N * @(PROPER Denis person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+djavan  N * @(PROPER Djavan person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+equador  N * @(PROPER Equador location)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+érica  N * @(PROPER Érica person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+europa  N * @(PROPER Europa location)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+fátima  N * @(PROPER Fátima person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+felipe  N * @(PROPER Felipe person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+flamengo  N * @(PROPER Flamengo location)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+francisca  N * @(PROPER Francisca person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+francisco  N * @(PROPER Francisco person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+fred  N * @(PROPER Fred person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+hamilton  N * @(PROPER Hamilton person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+heitor  N * @(PROPER Heitor person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+humberto  N * @(PROPER Humberto person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+isaque  N * @(PROPER Isaque person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+itaú  N * @(PROPER Itaú location)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+izaura  N * @(PROPER Izaura person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+jesus  N * @(PROPER Jesus person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+joana  N * @(PROPER Joana person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+joão  N * @(PROPER João person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+jorge  N * @(PROPER Jorge person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+júlia  N * @(PROPER Júlia person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+juliano  N * @(PROPER Juliano person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+lara  N * @(PROPER Lara person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+lucas  N * @(PROPER Lucas person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+lúcio  N * @(PROPER Lúcio person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+maranhão  N * @(PROPER Maranhão location)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+márcia  N * @(PROPER Márcia person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+mariana  N * @(PROPER Mariana person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+marília  N * @(PROPER Marília person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+marina  N * @(PROPER Marina person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+marli  N * @(PROPER Marli person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+marta  N * @(PROPER Marta person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+matias  N * @(PROPER Matias person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+messi  N * @(PROPER Messi person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+neymar  N * @(PROPER Neyman person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+paraíba  N * @(PROPER Paraíba location)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+paulo  N * @(PROPER Paulo person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+pedrinho  N * @(PROPER Pedrinho person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+pelé  N * @(PROPER Pelé person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+piauí  N * @(PROPER Piauí location)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+priscila  N * @(PROPER Priscila person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+sabrina  N * @(PROPER Sabrina person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+sandra  N * @(PROPER Sandra person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+sandro  N * @(PROPER Sandro person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+santos  N * @(PROPER Santos location)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+sofia  N * @(PROPER Sofia person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+talita  N * @(PROPER Talita person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+tânia  N * @(PROPER Tânia person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+teresa  N * @(PROPER Teresa person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+tomas  N * @(PROPER Tomas person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+tony  N * @(PROPER Tony person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+unibanco  N * @(PROPER Unibanco location)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+vettel  N * @(PROPER Vettel person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+vietnã  N * @(PROPER Vietnã location)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+ygor  N * @(PROPER Ygor person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+zagallo  N * @(PROPER Zagallo person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+alberto  N * @(PROPER Alberto person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+zeca  N * @(PROPER Zeca person)
+	      @HUM
+	      @(N-AGR masc sg).
+
+zélia  N * @(PROPER Zélia person)
+	      @HUM
+	      @(N-AGR fem sg).
+
+
+1822	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+
+1945	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+
+1950	 N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+
+1970	 N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+2000	 N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+
+"Pronouns"
+
+
+nada	  N * (^ PRED) = 'nada'
+	      @N-HUM
+	      @(AGR sg 3)
+ 	      (^ NSYN)=demon
+	      (^ PRON-TYPE) = quant.
+
+
+alguém	  N * (^ PRED) =  '%stem'
+	      @HUM
+	      @(AGR sg 3)
+ 	      (^ NSYN) = pronoun
+	      (^ PRON-TYPE) = quant.
+
+ninguém	  N * (^ PRED) =  '%stem'
+	      @HUM
+	      @(AGR sg 3)
+ 	      (^ NSYN) = pronoun
+	      (^ PRON-TYPE) = quant.
+
+
+----

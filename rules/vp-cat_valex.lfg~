@@ -1,0 +1,28 @@
+VALEXPB  PORTUGUESE   RULES (1.0)
+
+   VP --> (ADV-ADJUNCT) "#Valex addition: allows preverbal adverb"
+	 ({CL @(IFF (^ PRON-TYPE)=c refl [(^ SUBJ PERS)= (! PERS) (^ SUBJ NUM)= (! NUM) ]) | CL: (^ OBJ)=! "@(IFF (^ PRON-TYPE)=c refl [(^ SUBJ PERS)= (! PERS) (^ SUBJ NUM)= (! NUM) ])"}) "clitic reflexive objects in Portuguese" "TODO: checar a importância dessa restrição condicional para o Valex PB"
+
+ 	  Vbar.
+
+   
+   Vbar --> V
+  	  { [DIR-OBJ,IND-OBJ] |
+            [POSP-SUBJECT, (IND-OBJ)]|  "#Valex addition: allows postposed subject optionally followed by Obliques"
+	    BARE-INF | "#Valex addition:"
+	    CP: (^ XCOMP)= ! (! VFORM)=c infinitive (! COMP-FORM) |
+	    DIR-OBJ |
+ 	    IND-OBJ|
+ 	    PREDIC |
+ 	    AP: (^ XCOMP-PRED)=! |
+ 	    AP: (^ XCOMP)=! ; DIR-OBJ (PP: (^ XCOMP OBL-AG)=!) |
+ 	    DIR-OBJ AP: (^ XCOMP)=! |
+ 	    [DIR-OBJ, PREDIC]| "#Valex addition: allows post-objetc predicative"
+	    { DIR-OBJ | IND-OBJ }#0#1 CP: (^ XCOMP)=! | 
+ 	    [ DIR-OBJ, BARE-INF] |
+ 	    (IND-OBJ) BARE-INF |
+ 	    (IND-OBJ) CP: (^ COMP)=!
+ 	  }#0#1 / V-ADJUNCT.
+ 	
+
+   ----

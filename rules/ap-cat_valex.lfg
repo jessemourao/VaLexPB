@@ -1,0 +1,12 @@
+VALEXPB   PORTUGUESE   RULES (1.0)
+
+   AP --> { AdvP: ! $ (^ ADJUNCT) (! ADV-TYPE)=degree (^ DEGREE)=(! DEGREE) (^ DEG-DIM)=(! DEG-DIM) | e: (^ DEGREE)=positive (^ DEG-DIM)=pos} Abar. "include {manner intensity}?"
+
+   Abar --> A { PP: (^ OBL)=! 
+            | VP: (^ XCOMP)=! 
+	    | PP: (^ OBL1)=! ; PP: (^ OBL2)=!
+	    | PP: (^ OBL)=! 
+	    | PP: (^ OBL-COMPAR)=! (! PFORM)=c que}#0#1.
+
+
+   ----

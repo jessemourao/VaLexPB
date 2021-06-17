@@ -1,0 +1,604 @@
+VALEXPB PORTUGUESE LEXICON (1.0)
+
+
+"Adjectives"
+
+corrupto  A * (^ PRED)='corrupto' 
+	       (^ GEND) = masc
+	       (^ NUM) = sg.
+
+perigosa  A * (^ PRED)='perigoso' 
+	       (^ GEND) = fem
+	       (^ NUM) = sg
+	      @(GL dangerous).
+ 	      "(a::^ REL) = 'perigoso<(^ STATIVE_OBJECT)>' 
+	      (a::^ STATIVE_OBJECT) = (^ SUBJ)"
+
+oficiais   A * (^ PRED)='oficial' 
+	       (^ NUM) = pl.
+
+azul	  A * (^ PRED)='azul' 
+	      (^ NUM) = sg
+	      @(GL blue);
+	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+bom  	A *  (^ PRED)='bom' 
+	     (^ GEND) = masc
+	     (^ NUM) = sg.
+         
+
+culpado	A *  (^ PRED)='culpado' 
+	     (^ GEND) = masc
+	     (^ NUM) = sg
+	      @(GL guilty).
+
+branco	A *  (^ PRED)='branco' 
+	     (^ GEND) = masc
+	     (^ NUM) = sg
+	      @(GL white);
+	N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+
+brasileira  A * (^ PRED)='brasileiro' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg
+	      @(GL brazilian).
+
+carentes  A * (^ PRED)='carente' 
+	      (^ NUM) = pl
+	      @(GL needy).
+
+corajoso  A * (^ PRED)='corajoso' 
+	      (^ GEND) = masc
+	      (^ NUM) = sg
+	      @(GL courageous).
+
+desesperançada	A * (^ PRED)='desesperançado' 
+	            (^ GEND) = fem
+	            (^ NUM) = sg
+	            @(GL hopeless).
+
+difícil	  A * (^ PRED)='difícil' 
+	      (^ NUM) = sg
+	      @(GL difficult).
+
+espalhados  A * (^ PRED)='espalhado' 
+	        (^ GEND) = masc
+	        (^ NUM) = pl
+	      @(GL spread).
+
+furioso    A * (^ PRED)='furioso' 
+	       (^ GEND) = masc
+	       (^ NUM) = sg.
+         
+honesta   A * (^ PRED)='honesto' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg
+	      @(GL honest).
+
+geral	 A *    (^ PRED)='geral' 
+	        (^ NUM) = sg
+	      @(GL general).
+
+importante A *  (^ PRED)='importante' 
+	        (^ NUM) = sg
+	      @(GL important).
+
+incompetente  A * (^ PRED)='incompetente' 
+	          (^ NUM) = sg
+	          @(GL incompetent).
+
+inteiro   A *   (^ PRED)='inteiro' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg
+	      @(GL whole).
+
+inteligente  A * (^ PRED)='inteligente' 
+	         (^ NUM) = sg
+	         @(GL intelligent).
+
+leve	  A * (^ PRED)='leve' 
+	      (^ NUM) = sg
+	      @(GL light).
+
+
+luminoso  A * (^ PRED)='luminoso' 
+	      (^ GEND) = masc
+	      (^ NUM) = sg
+	      @(GL luminous).
+
+maravilhoso  A * (^ PRED)='maravilhoso' 
+	         (^ GEND) = masc
+	         (^ NUM) = sg
+	         @(GL wonderful).
+
+nova	A * (^ PRED)='novo' 
+	    (^ GEND) = fem
+	    (^ NUM) = sg
+	    @(GL new).
+
+novas	A * (^ PRED)='novo' 
+	        (^ GEND) = fem
+	        (^ NUM) = pl
+	      @(GL new).
+
+novo	A * (^ PRED)='novo' 
+	    (^ GEND) = masc
+	    (^ NUM) = sg
+	      @(GL new).
+
+ocupados  A * (^ PRED)='ocupado' 
+	       (^ GEND) = masc
+	        (^ NUM) = pl
+	      @(GL occupied).
+
+orgulhoso A * (^ PRED)='orgulhoso' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg
+	      @(GL proud).
+
+outro 	  A * (^ PRED)='outro' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg
+	      @(GL other)";
+	  N * (^ PRED) = 'pro'
+	      (^ NTYPE NSYN) = pronoun
+	      (^ PRON-FORM) = outro
+	      (^ PRON-TYPE) = recip 
+	      @(N-AGR masc sg)".
+
+outra 	  A * (^ PRED)='outro' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg";
+	  N * (^ PRED) = 'pro'
+	      (^ NTYPE NSYN) = pronoun
+	      (^ PRON-FORM) = outra
+	      (^ PRON-TYPE) = recip 
+	      @(N-AGR fem sg)".
+
+outras 	  A * (^ PRED)='outro' 
+	        (^ GEND) = fem
+	        (^ NUM) = pl
+	      @(GL other)";
+	  N * (^ PRED) = 'pro'
+	      (^ NTYPE NSYN) = pronoun
+	      (^ PRON-FORM) = outras
+	      (^ PRON-TYPE) = recip 
+	      @(N-AGR fem pl)".
+
+outros 	  A * (^ PRED)='outro' 
+	        (^ GEND) = masc
+	        (^ NUM) = pl
+	      @(GL other)";
+	  N * (^ PRED) = 'pro'
+	      (^ NTYPE NSYN) = pronoun
+	      (^ PRON-FORM) = outros
+	      (^ PRON-TYPE) = recip 
+	      @(N-AGR masc pl)".
+
+pequenos  A * (^ PRED)='pequeno' 
+	        (^ GEND) = masc
+	        (^ NUM) = pl
+	      @(GL small).
+
+		
+alto  A *     (^ PRED)='alto' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.  
+
+
+clássica  A * (^ PRED)='clássico' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg
+	      @(GL classic).
+
+
+preta     A * (^ PRED)='preto' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg
+	      @(GL black).
+
+velha     A * (^ PRED)='velho' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg
+	      @(GL old).
+
+aberta  A * (^ PRED)='aberto' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+aberto  A * (^ PRED)='aberto' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+agitado  A * (^ PRED)='agitado' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+amputada  A * (^ PRED)='amputado' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+animada  A *  (^ PRED)='animado' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+básicas  A * (^ PRED)='básico' 
+	        (^ GEND) = fem
+	        (^ NUM) = pl.
+
+breve	A * (^ PRED)='aberto'
+	        (^ NUM) = sg.
+
+calada  A * (^ PRED)='calado' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+calma  A * (^ PRED)='calmo' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg;
+	N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR fem sg).
+
+calmo  A * (^ PRED)='calmo' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+cansada  A * (^ PRED)='cansado' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+cansado  A * (^ PRED)='cansado' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+careca	A * (^ PRED)='careca' 
+	        (^ NUM) = sg.
+
+carente	A * (^ PRED)='carente'
+	        (^ NUM) = sg.
+
+caro  A * (^ PRED)='caro' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg;
+	N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+certo  A * (^ PRED)='certo' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+comunitário  A * (^ PRED)='comunitário' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+confidenciais	A * (^ PRED)='confidencial' 
+	        (^ NUM) = sg.
+
+criativo  A * (^ PRED)='criativo' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+culpada  A * (^ PRED)='culpado' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+curta  A * (^ PRED)='curto' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+deprimida  A * (^ PRED)='deprimido' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+desigual	A * (^ PRED)='desigual' 
+	        (^ NUM) = sg.
+
+destruída  A * (^ PRED)='destruído' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+destruídas  A * {(^ PRED)='destruído' 
+	    (^ GEND) = fem
+	    (^ NUM) = pl |
+            (^ PRED)='destruído<(^ OBL)>' 
+	    (^ OBL PFORM)=c por
+	    (^ GEND) = fem
+	    (^ NUM) = pl
+	    (a::^ REL) = 'destruído<(^ AGENT)>'
+	    (a::^ AGENT) = (^ OBL)}.
+
+difíceis  A * (^ PRED)='difícil'
+	        (^ NUM) = pl
+	      @(GL difficult).
+
+doente	A * (^ PRED)='doente' 
+	        (^ NUM) = sg.
+
+equivocada  A * (^ PRED)='equivocado' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+errado  A * (^ PRED)='erraddo' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+fácil	A * (^ PRED)='fácil'
+	        (^ NUM) = sg;
+	Adv * (^ PRED)='%stem'
+	      (^ ADV-TYPE)=manner.
+
+famosa  A * (^ PRED)='famoso' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+fechada  A *(^ PRED)='fechado' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+feito  A * (^ PRED)='feito' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+feliz	A * (^ PRED)='aberto'
+	        (^ NUM) = sg.
+
+frio  A * (^ PRED)='frio' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+furiosa  A * (^ PRED)='furioso' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+grande	A * (^ PRED)='grande' 
+	        (^ NUM) = sg.
+
+grave	A * (^ PRED)='grave' 
+	        (^ NUM) = sg.
+
+honesto  A * (^ PRED)='honesto' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+humano  A * (^ PRED)='humano' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+ilegal	A * (^ PRED)='ilegal' 
+	        (^ NUM) = sg.
+
+importantes  A * (^ PRED)='importante' 
+	        (^ NUM) = pl.
+
+inconstitucional A * (^ PRED)='aberto' 
+	             (^ GEND) = fem
+	       	     (^ NUM) = sg.
+
+inocente    A * (^ PRED)='inocente'
+	        (^ NUM) = sg.
+
+insignificante	A * (^ PRED)='insignificante' 
+	        (^ NUM) = sg.
+
+inteira  A * (^ PRED)='inteiro' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+intensos  A * (^ PRED)='intenso' 
+	        (^ GEND) = masc
+	        (^ NUM) = pl.
+
+inviável	A * (^ PRED)='inviável' 
+	        (^ NUM) = sg.
+
+legais  A * (^ PRED)='legal' 
+	        (^ NUM) = pl.
+
+louco  A * (^ PRED)='louco' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+melhor	A * (^ PRED)='melhor'
+	        (^ NUM) = sg;
+	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+molhada  A * (^ PRED)='molhado' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+necessária  A * (^ PRED)='necessário' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+necessário  A * (^ PRED)='necessário<(^ XCOMP)>' 
+	        (^ XCOMP SUBJ PRED) = 'pro' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg
+		(a::^ REL) = 'necessário<(^ STATIVE_OBJECT)>' 
+		(a::^ STATIVE_OBJECT) =a:: (^ XCOMP).
+
+nua  A * (^ PRED)='nu' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+oficiais	A * (^ PRED)='oficial' 
+	        (^ NUM) = pl.
+
+ótimos  A * (^ PRED)='ótimo' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+perigoso  A * {(^ PRED)='perigoso' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg |
+	      (^ PRED)='perigoso<(^ XCOMP)>' 
+	        (^ XCOMP SUBJ PRED) = 'pro' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg
+		(a::^ REL) = 'perigoso<(^ STATIVE_OBJECT)>' 
+		(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)}.
+
+perpétua  A * (^ PRED)='perpétuo' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+preconceituoso  A * (^ PRED)='preconceituoso' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+preto  A * (^ PRED)='preto' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+principal    A *(^ PRED)='principal' 
+	        (^ NUM) = sg.
+
+privilegiadas  A * (^ PRED)='privilegiado' 
+	        (^ GEND) = fem
+	        (^ NUM) = pl.
+
+pública  A * (^ PRED)='público' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+público  A * (^ PRED)='público' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg;
+	   N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg)
+	      @(GL public).
+
+quantitativa  A * (^ PRED)='quantitativo' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+quente	A * (^ PRED)='quente' 
+	        (^ NUM) = sg.
+
+quieto  A * (^ PRED)='quieto' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+salarial	A * (^ PRED)='salarial' 
+	        (^ NUM) = sg.
+
+sociais	A * (^ PRED)='social' 
+	        (^ NUM) = pl.
+
+sozinha  A * (^ PRED)='sozinho' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+suja  A * (^ PRED)='sujo' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+terminada  A * (^ PRED)='terminado' 
+	        (^ GEND) = fem
+	        (^ NUM) = sg.
+
+textual	A * (^ PRED)='textual' 
+	        (^ NUM) = sg.
+
+torto  A * (^ PRED)='torto' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+triste	A * (^ PRED)='triste' 
+	        (^ NUM) = sg.
+
+usados  A * (^ PRED)='usado' 
+	        (^ GEND) = masc
+	        (^ NUM) = pl.
+
+vencidos  A * (^ PRED)='vencido' 
+	        (^ GEND) = masc
+	        (^ NUM) = pl.
+
+verde	A * (^ PRED)='verde' 
+	        (^ NUM) = sg.
+
+vermelho  A * (^ PRED)='vermelho' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg;
+ 	  N * @(COMMON %stem)
+	      @N-HUM
+	      @(N-AGR masc sg).
+
+virgem	A * (^ PRED)='virgem' 
+	        (^ NUM) = sg.
+
+racista	A * (^ PRED)='racista' 
+	        (^ NUM) = sg.
+
+rico  A * (^ PRED)='rico' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+ridículo  A * (^ PRED)='ridículo' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+
+"Adjective Passive Participles"
+
+comido A *  {(^ PRED)='comer<(^ OBL)(^ SUBJ)>' 
+	    (^ OBL PFORM)=c por
+	    (^ ASPECT) = processual
+	    (a::^ REL) = 'comer<(^ PATIENT)(^ AGENT)>' 
+	    (a::^ PATIENT) = (^ SUBJ)
+	    (a::^ AGENT) = (^ OBL) |
+	    (^ PRED)='comer<NULL (^ SUBJ)>' @(DEFAULT (^ ASPECT) processual)
+	    (a::^ REL) = 'comer<(^ PATIENT)>' 
+	    (a::^ PATIENT) = (^ SUBJ)}
+	    @(A-AGR masc sg).
+
+escrita A * {(^ PRED)='escrever<(^ OBL)(^ SUBJ)>' 
+	    (^ OBL PFORM)=c por
+	    (^ ASPECT) = processual
+	    (a::^ REL) = 'escrever<(^ PATIENT)(^ AGENT)>' 
+	    (a::^ PATIENT) = (^ SUBJ)
+	    (a::^ AGENT) = (^ OBL) |
+	    (^ PRED)='escrever<NULL (^ SUBJ)>' @(DEFAULT (^ ASPECT) processual)
+	    (a::^ REL) = 'sentir<(^ PATIENT)>' 
+	    (a::^ PATIENT) = (^ SUBJ)}
+	    @(A-AGR fem sg).
+
+sentida A * {(^ PRED)='sentir<(^ OBL)(^ SUBJ)>' 
+	    (^ OBL PFORM)=c por
+	    (^ ASPECT) = processual
+	    (a::^ REL) = 'sentir<(^ STATIVE_OBJECT)(^ EXPERIENCER)>' 
+	    (a::^ STATIVE_OBJECT) = (^ SUBJ)
+	    (a::^ EXPERIENCER) = (^ OBL) |
+	    (^ PRED)='sentir<NULL (^ SUBJ)>' @(DEFAULT (^ ASPECT) processual)
+	    (a::^ REL) = 'sentir<(^ STATIVE_OBJECT)>' 
+	    (a::^ STATIVE_OBJECT) = (^ SUBJ)}
+	    @(A-AGR fem sg).
+
+enviado A *  {(^ PRED)='enviar<(^ SUBJ)(^OBL1)(^ OBL2)>' 
+	    {(^ OBL1 CASE)=c dat | (^ OBL1 PFORM)=c a}
+ 	    (^ OBL2 PFORM)=c por
+	    (^ ASPECT) = processual
+	    (a::^ REL) = 'enviar<(^ AGENT)(^ THEME)(^ GOAL)>' 
+	    (a::^ THEME) = (^ SUBJ)
+	    (a::^ GOAL) = (^ OBL1)
+	    (a::^ AGENT) = (^ OBL2) |
+	    (^ PRED)='enviar<NULL (^ SUBJ)(^ OBL)>' @(DEFAULT (^ ASPECT) processual)
+	    (a::^ REL) = 'enviar<(^ THEME)(^ GOAL)>' 
+	    (a::^ THEME) = (^ SUBJ)
+	    (a::^ GOAL) = (^ OBL)
+	    {(^ OBL CASE)=c dat | (^ OBL PFORM)=c a}}
+	    @(A-AGR masc sg).
+
+
+----

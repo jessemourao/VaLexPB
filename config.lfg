@@ -1,0 +1,42 @@
+VALEXPB	  PORTUGUESE   CONFIG (1.0)
+  BASECONFIGFILE /home/jessemourao/Documentos/BrGram-master/config.lfg.
+
+  FILES
+	+templates/verb-valences_valex.lfg
+	+templates/general.lfg
+	+tags_valex.lfg
+	-lexicon/verbs.lfg
+	-lexicon/prepositions.lfg
+	+lexicon/prepositions_valex.lfg
+	+lexicon/verbs_valex.lfg
+	+lexicon/adjectives_valex.lfg
+	+lexicon/adverbs_valex.lfg
+	+lexicon/clitics_valex.lfg
+	+lexicon/determiners_valex.lfg
+	+lexicon/nouns_valex.lfg
+	+lexicon/complementizers_valex.lfg
+ 	+morphology_valex.lfg
+	+rules/metacategories_valex.lfg
+	+rules/vp-cat_valex.lfg
+	+rules/ap-cat_valex.lfg
+        +rules/sublexical_valex.lfg
+	-rules/vp-cat.lfg
+	+rules/cp-cat_valex.lfg
+	+rules/ip-cat_valex.lfg
+	+rules/advp-cat_valex.lfg
+	+rules/pp-cat_valex.lfg
+	+rules/dp-cat_valex.lfg
+	+lexicon/test_lexicon.lfg.
+
+  LEXENTRIES "(all all)" (PARGRAM PORTUGUESE)(VALEXPB PORTUGUESE).
+  RULES  (PARGRAM PORTUGUESE) (VALEXPB PORTUGUESE).
+  MORPHOLOGY (PARGRAM PORTUGUESE) (VALEXPB PORTUGUESE).
+  TEMPLATES (all all) "(PARGRAM PORTUGUESE) (VALEXBR PORTUGUESE)".
+  GOVERNABLERELATIONS    SUBJ OBJ OBL OBL1 OBL2 XCOMP XCOMP-PRED COMP PREDLINK.
+  SEMANTICFUNCTIONS    ADJUNCT MOD TOPIC FOCUS.
+  NONDISTRIBUTIVES    NUM PERS CONJ-FORM.
+  EPSILON   e.
+  OPTIMALITYORDER NOGOOD.
+  CHARACTERENCODING utf-8.
+
+----

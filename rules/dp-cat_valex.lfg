@@ -1,0 +1,11 @@
+VALEXPB   PORTUGUESE   RULES (1.0)
+   DP --> { (QP) Dbar
+ 	  | QP: ^=! (^ PRED)='pro' | D: ^=! (! PRON-TYPE)=c free (^ PRED)='pro'; VP: ! $ (^ ADJUNCT) (! SUBJ )= ^ }.
+
+   Dbar --> { (D) {NumP | NP | PossP} | PRON IP: ! $ (^ ADJUNCT) (^ ADJUNCT OBJ PRED) = 'o` que' (^ ADJUNCT OBJ TOPIC-REL) = (^ ADJUNCT OBJ) |  D: ^=! @(IFF (^ PRON-TYPE)=c pers (^ PRED)='pro')| CL | PRON | DATEP}. "TODO: only personal pronouns as D heads provide PRED feature to DP when used without complements"
+
+
+   DATEP --> Date.
+----
+
+

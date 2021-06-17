@@ -1,0 +1,10 @@
+PARGRAM PORTUGUESE LEXICON (1.0)
+
+"Complementizers"
+que 	  C * (^ COMP-FORM)=que
+	      (^ CLAUSE-TYPE)=decl.
+
+de` que C * (^ COMP-FORM)=de` que
+	       (^ CLAUSE-TYPE)=decl.
+
+----

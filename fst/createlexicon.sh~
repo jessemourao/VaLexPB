@@ -1,0 +1,11 @@
+#!/bin/bash
+
+xfst
+
+
+read spaced-text valex_verbs
+
+save stack valex_verbs2.fst
+
+quit
+

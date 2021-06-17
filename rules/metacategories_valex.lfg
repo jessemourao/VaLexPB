@@ -1,0 +1,38 @@
+VALEXPB   PORTUGUESE   RULES (1.0)
+
+"meta-categories"
+
+   XP = { AP|PP }.
+
+   POSP-SUBJECT = DP: (^ SUBJ)=! (! CASE)=nom.
+
+   SUBJECT = DP: (^ SUBJ)=! (! CASE)=nom.
+
+   IND-OBJ = {AdvP: (^ OBL)=! | PP: (^ OBL)=! ~(! VFORM)= infinitive | PP: (^ OBL2)=! | PP: (^ XCOMP)=!}. "#Valex addition: PP as OBLIQUE, but not with a XCOMP as its object, or XCOMP and Adv as OBLIQUE.; but it also allows two obliques, with the OBL1 being given by the verb morphology as in 'Vovó perguntou-lhe da namorada'"
+
+   DIR-OBJ = DP: (^ OBJ)=! (! CASE)=acc. 
+
+   PREDIC = {DP: (^ PREDLINK)=!  | AdvP: (^ PREDLINK)=! | AP: (^ PREDLINK)=! (! GEND)= (^ SUBJ GEND) (!NUM)=(^ SUBJ NUM) ~(! XCOMP)}. "#Valex addition: AP PREDLINK allows agreement between predicativa adjective and noun at the level of syntactic rules, but only when there's no XCOMP inside the AP."
+
+   BARE-INF = Vbar: {(^ XCOMP)= ! (! VFORM)=c infinitive | (^ XCOMP1)= ! (! VFORM)=c infinitive}. "#Valex addition: two XCOMPs as in 'Ele prefere jogar a beber'"
+
+   ZP = { AdvP|PP|DP}."#Valex addition: DP added to account for 'comigo', 'ele casou comigo', as an OBL DP)."
+
+   PP-ADJUNCT = {PP:! $ (^ ADJUNCT) (! SUBJ PRED)='pro' (^ PSEM)| PP:! $ (^ ADJUNCT) (! PSEM)} "#Valex addition: second disjunct allow PP adjunct withou subj restriction. Ex.: Há um gato na árvore." "#: (^PSEM) is needed to allow only PP adjuncts with a semantic pred. PPs with no PRED will be analyzed as OBLs"
+   ADV-ADJUNCT= AdvP:! $ (^ ADJUNCT).
+   V-ADJUNCT = { ADV-ADJUNCT| PP-ADJUNCT}.
+   N-AP-ADJUNCT= AP: ! $ (^ ADJUNCT)
+		     (^ ADJUNCT ATYPE)=attributive
+		     "(^ NUM) = (! SUBJ NUM)" "agreement between adjective and head noun"
+		     "(^ GEND) = (! SUBJ GEND)"
+		     "(^ PRED) = (! SUBJ PRED)." "satisfaction of adjective subject requirement"
+		     (^ ADJUNCT GEND) = (^ GEND). "#Valex Addition: allowing local agreement as in 'o menino bom'"
+		     "^ = (! SUBJ)." "BrGram only: adjective sucategorizing a subject"
+   N-PP-ADJUNCT = PP: ! $ (^ ADJUNCT).
+   N-ADJUNCT = { N-AP-ADJUNCT| N-PP-ADJUNCT}. "TODO: N-MOD including complements of N, e.g. 'fear of'"
+   "the two metacategories below are not used"
+   VERB = { V | Ptcp: (^ PARTICIPLE) = past}.
+
+   ADJ = { A | Ptcp: (^ PARTICIPLE) = passive}.
+
+----

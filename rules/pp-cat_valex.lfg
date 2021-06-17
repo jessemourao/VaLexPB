@@ -1,0 +1,12 @@
+VALEXPB   PORTUGUESE   RULES (1.0)
+
+   PP --> { P: ^=! (! PFORM)"existential constraint: preposition must have PFORM feature";
+ 	      DP|
+	    P: ^=! (! PFORM)"existential constraint: preposition must have PFORM feature";
+ 	      VP|  "#Valex addition: allowing PP with internal VP. Ex.: Eu me acostumo a dormir cedo."
+ 	      P: ^=! (! PRED)"existential constraint: preposition must have PRED feature"; 
+ 	      DP: (^ OBJ)=!|
+	      P:  ^=! (! PFORM); "#Valex addition: allowing PP oblique with AP as a XCOMP. Ex.: Ele me acusou de corrupto."
+	      AP} .
+
+   ----

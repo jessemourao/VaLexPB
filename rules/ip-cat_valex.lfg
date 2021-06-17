@@ -1,0 +1,10 @@
+VALEXPB   PORTUGUESE   RULES (1.0)
+
+   IP --> "{"{e: (^ SUBJ PRED)='PRO'| VP: (^ SUBJ)=! (! SUBJ PRED)= 'null_pro' (! VFORM)=c infinitive |(DP: (^ SUBJ)=! (! CASE)=nom ~ (! PRON-TYPE)=int)} "| PP: { (^ XCOMP OBJ-TH)=! | (^ XCOMP OBL)=!}}"
+ 	  (NegP:! $ (^ ADJUNCT))  "Valex Addition: epsilon disjunt allowing sentences without explicit subject"s
+ 	  { VP | Ibar}. 
+
+   Ibar --> I VP.
+
+
+----

@@ -1,0 +1,88 @@
+VALEXPB PORTUGUESE LEXICON (1.0)
+
+
+"Syntactic prepositions"
+
+"a 	  P * (^ PFORM)=a." "see entry for 'a' in the Determiners section"
+
+de 	  P * { (^ PFORM)=de
+		(^ PTYPE)=nosem
+		(^ CASE)=obl
+	       |
+		@(SEM-PREP de {poss purp source} ) "source not in ParGram list"
+	      };
+	  C * (^ COMP-FORM)=de.
+
+por 	P *  {(^ PFORM)=por
+	      (^ PTYPE)=nosem
+	      (^ CASE)=obl|
+	      @(SEM-PREP por {via} )}. "ParGram: (^ PSEM)=ag German, PFORM English"
+
+de` o` que P * (^ PFORM)= de` que
+	      (^ PTYPE)=nosem
+	      (^ CASE)=nom. "TODO: if CASE is nom, is this really a preposition?"
+
+"à 	  P * (^ PFORM)=a
+	       (^ SPEC)=DEF
+	       (^ GEN)=fem
+	       (^ NUM)=sg."
+
+como 	P *  {(^ PFORM)=como  
+	      (^ PTYPE)=nosem
+	      (^ CASE)=obl |
+	      @(SEM-PREP sobre {manner})};
+	C * (^ COMP-FORM)=como
+	      (^ CLAUSE-TYPE)=decl. 
+
+contra 	P *  (^ PFORM)=contra
+	      (^ PTYPE)=nosem
+	      (^ CASE)=obl. 
+
+
+sobre 	  P * { (^ PFORM)=sobre
+		(^ PTYPE)=nosem
+		(^ CASE)=obl
+	       |
+		@(SEM-PREP sobre {loc cont}) }.
+
+"Semantic prepositions"
+
+dentro` de 	  P * (^ PRED)='dentro` de<(^ OBJ)>'.
+
+perto` de 	  P * (^ PRED)='perto` de<(^ OBJ)>'
+		      (^ PSEM)=loc.
+
+acerca` de 	  P * @(SEM-PREP %stem {cont}).
+
+em 	P * {(^ PFORM)=em
+		(^ PTYPE)=nosem
+		(^ CASE)=obl|
+                (^ PRED)='em<(^ OBJ)>' 
+	        (^ PTYPE)=sem
+		(^ PSEM)={loc}
+		(a::^ REL) = '%stem<(a::^ LOCATION)>'
+	  	(a::^ LOCATION) = (^ OBJ)}.
+
+
+para 	  P * {@(SEM-PREP %stem {dir purp goal})
+	      @(GL to_for)|
+	      (^ PFORM)= para
+	      (^ PTYPE)= nosem
+	      {(^ CASE)= obl | (^ CASE)= dat}}. "#Valex addition: second disjunct allows 'para' as a dative preposition for sentences like 'Ele contribuiu milhões para o projeto'"
+
+depois 	  P * @(SEM-PREP %stem temp)
+	      @(GL after).
+
+entre 	  P * {@(SEM-PREP %stem loc)|
+	      @(GL between)}.
+
+durante 	  P * @(SEM-PREP %stem temp)
+	      @(GL during).
+
+até 	  P * @(SEM-PREP %stem {dir temp})
+	      @(GL until).
+
+com 	  P * {@(NOSEM-PREP %stem) |@(SEM-PREP %stem {comit inst manner})}. "#Valex addition: fist disjunct added to allow 'com' as a non-semantic preposition." 
+
+
+----

@@ -1,0 +1,2179 @@
+VALEXPB PORTUGUESE LEXICON (1.0)
+
+"Verbs"
+
+abaixar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJth "D15%" |
+		@SUBJ_de-OBLth "D34%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJ_OBJth "D43.1%"}.
+
+abanar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJagt_OBJth "D59%"}.
+
+abandonar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJth_OBJsorc "D64%" |
+		@SUBJagt_OBJsorc "D532%"}.
+
+aborrecer V XLE	{@SUBJcaus_OBJexp "D73%" |
+		@SUBJcaus "D99%" |
+		@SUBJexp_CL_com-OBLcaus "D164%" |
+		@SUBJexp_CL "D242%"}.
+
+abrigar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJloc_OBJstat-obj "D113%" |
+		@SUBJloc_OBJpat_de-contra-OBLstat-obj "D539%" |
+		@SUBJth_CL_em-OBLloc "D155.2%"}.
+
+abrir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJth_para-OBLgol "D105%" |
+		@SUBJagt_CL_com-OBLstat-obj "D161%"}.
+
+absolver V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJpat_de-OBLth "D52%"}.
+
+abundar V XLE	{@SUBJstat-obj_OBLloc "D5%" |
+		@SUBJpossr_em-OBLstat-obj "D91.1%"}.
+
+abusar V XLE	{@SUBJagt_com-OBLpat "D47%" |
+		@SUBJagt_de-OBLpat "D58%"}.
+
+acabar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJ_OBJpat "D43%" |
+		@SUBJpat_PLINKrsult "D7%" |
+		@SUBJagt_com-OBLpat "D47%" |
+		@SUBJpat_como-OBLrsult "D48%" |
+		@SUBJth_em-OBLloc "D93.2%"}.
+
+acarretar V XLE	{@SUBJcaus_OBJrsult "D234%" |
+		@SUBJcaus_em-OBLrsult "D235%"}.
+
+aceitar V XLE	{@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_OBJstat-obj_como-OBLqlity "D202%" |
+		@SUBJagt_OBJpat_por-OBLqlity "D284%" |
+		@SUBJagt_S-XCOMPstat-obj "D331%" |
+		@SUBJagt_COMPstat-obj "D332%"}.
+
+achar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJexp_OBJstat-obj_PLINKqlity "D35%" |
+		@SUBJstat-obj_CL_PLINKqlity "D76%" |
+		@SUBJstat-obj_CL_em-OBLloc "D103%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJagt_de-S-XCOMPsta-obj "D334%" |
+		@SUBJexp_PLINKstat-obj "D491%"}.
+
+acompanhar V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJagt_OBJstat-obj_em-OBLloc "D198%" |
+		@SUBJagt_OBJstat-obj_com-OBLth "D537%" |
+		@SUBJagt_OBJgol "D11.1%"}.
+
+acontecer V XLE	{@SUBJemerg_com-OBLpat "D114%" |
+		@SUBJemerg_a-OBLgol "D116%" |
+		@SUBJemerg "D241%"}.
+
+acostumar V XLE	{@SUBJagt_OBJexp_com-OBLstat-obj "D162%" |
+		@SUBJagt_OBJexp_a-OBLstat-obj "D163%" |
+		@SUBJagt_OBJexp_a-O-XCOMPstat-obj "D337%" |
+		@SUBJexp_com-OBLstat-obj "D761%" |
+		@SUBJexp_CL_com-OBLstat-obj "D164.1%" |
+		@SUBJexp_CL_a-OBLstat-obj "D164.2%" |
+		@SUBJexp_CL_a-S-XCOMPstat-obj "D337.1%"}.
+
+acreditar V XLE	{@SUBJexp_em-OBLstat-obj "D51%" |
+		@SUBJexp_COMPstat-obj "D333%"}.
+
+acrescentar V XLE	@SUBJagt_OBJth_a-OBLgol "D29.1%".
+
+acusar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJpat_de-OBLstat-obj "D26%" |
+		@SUBJagt_OBJpat_por-OBLstat-obj "D37%" |
+		@SUBJagt_OBJstat-obj_de-OBLdesig "D71%" |
+		@SUBJagt_OBJpat_de-O-XCOMPstat-obj "D339%" |
+		@SUBJcaus_OBJstat-obj "D56.1%"}.
+
+adaptar V XLE	{@SUBJagt_OBJpat_a-OBLgol "D140%" |
+		@SUBJpat_CL_a-OBLgol "D306%"}.
+
+aderir V XLE	{@SUBJagt_a-OBLgol "D100.1%" |
+		@SUBJth_em-OBLpat "D93.1%"}.
+
+admirar V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJexp_CL_de-OBLstat-obj "D208%" |
+		@SUBJexp_CL_com-OBLstat-obj "D164.1%"}.
+
+adorar V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJexp_S-XCOMPstat-obj "D341%"}.
+
+adquirir V XLE	{@SUBJrec_OBJth "D32%" |
+		@SUBJagt_OBJth "D59%"}.
+
+afastar V XLE	{@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth_de-OBLsorc "D159%"}.
+
+afinar V XLE	{@SUBJexp_CL_com-OBLstat-obj "D164.1%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_OBJpat "D1%" |
+		@SUBJexp_com-OBLstat-obj "D61.1%"}.
+
+afirmar V XLE	{@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_CL "D108%" |
+		@SUBJagt_COMPstat-obj "D332%"}.
+
+agarrar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_CL_a-OBLgol "D67%" |
+		@SUBJagt_em-OBLloc "D79%" |
+		@SUBJagt_CL_com-OBLstat-obj "D161%" |
+		@SUBJexp_de-OBLstat-obj "D14%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJcaus "D99%" |
+		@SUBJstat-obj_a-pron-OBLexp "D266%"}.
+
+agradar V XLE	{@SUBJexp_de-OBLstat-obj "D14%"|
+		@SUBJcaus_OBJexp "D73%"|
+		@SUBJcaus "D99%"|
+		@SUBJstat-obj_a-pron-OBLexp "D266%"}.
+
+
+aguardar V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp_por-OBLstat-obj "D181%" |
+		@SUBJstat-obj_OBJgol "D342%"}.
+
+ajustar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJpat_a-OBLgol "D140%"}.
+
+alagar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJpat_de-OBLth "D301%" |
+		@SUBJpat_CL_a-OBLgol "D306%" |
+		@SUBJcaus_OBJpat_de-OBLth "D52.1%"}.
+
+alcançar V XLE	@SUBJth_OBJgol "D11%".
+
+alegrar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJexp_CL_com-OBLcaus "D164%"}.
+
+alimentar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJcaus_OBJpat "D9%" |
+		@SUBJagt_OBJpat_de-OBLth "D52%"}.
+
+aliviar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJcaus_OBJpat_de-OBLth "D52.1%"}.
+
+alugar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJth "D59%"}.
+
+amanhecer V XLE	{@SUBJpat "D4%" |
+		@SUBJnull "D66%" |
+		@SUBJemerg_PLINKemerg "D529%"}.
+
+amar V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_S-XCOMPstat-obj "D341%"}.
+
+amolar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJexp_CL_com-OBLstat-obj "D164.1%"}.
+
+andar V XLE	{@SUBJagt "D2%" |
+		@SUBJth "D15%" |
+		@SUBJagt_OBJmsure "D49%" |
+		@SUBJstat-obj_por-OBLmsure "D75%" |
+		@SUBJagt_de-OBLstat-obj "D115%" |
+		@SUBJstat-obj_de-OBLmner "D273%"}.
+
+anexar V XLE	{@SUBJagt_OBJth_a-OBLrec "D29%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJth_CL_a-OBLloc "D155.1%"}.
+
+anoitecer V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJnull "D66%" |
+		@SUBJemerg_PLINKemerg "D529%"}.
+
+anunciar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJstat-obj_CL_PLINKqlity "D76%" |
+		@SUBJagt_COMPstat-obj "D332%"}.
+
+apaixonar V XLE	{@SUBJexp_CL_por-OBLstat-obj "D60%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJexp_CL "D242%"}.
+
+apanhar V XLE	{@SUBJpat "D4%" |
+		@SUBJrec_OBJth "D32%" |
+		@SUBJexp_OBJstat-obj_PLINKqlity "D35%" |
+		@SUBJpat_de-OBLcaus "D57%" |
+		@SUBJagt_OBJth "D59%"}.
+
+apelidar V XLE	@SUBJagt_OBJstat-obj_de-OBLdesig "D71%".
+
+aplicar V XLE	{@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJagt_OBJth_a-OBLgol "D29.1%"}.
+
+apoiar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJstat-obj_CL_em-OBLloc "D103%" |
+		@SUBJagt_COMPstat-obj "D332%"}.
+
+apontar V XLE	{@SUBJpat "D4%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_OBJth_para-OBLgol "D74%" |
+		@SUBJagt_para-OBLgol "D206%" |
+		@SUBJagt_OBJstat-obj_como-PLINKqlity "D44.1%"}.
+
+apreciar V XLE	@SUBJexp_OBJstat-obj "D39%".
+
+aprender V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp "D131%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_a-S-XCOMPstat-obj "D351%"}.
+
+apresentar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpossr_OBJstat-obj "D33%" |
+		@SUBJagt_OBJth_dat-OBLgol "D38%" |
+		@SUBJstat-obj_CL_PLINKqlity "D76%"}.
+
+aproveitar V XLE	{@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_CL_de-OBLstat-obj "D128%" |
+		@SUBJagt_para-S-XCOMPgol "D487%"}.
+
+aproximar V XLE	{@SUBJth_CL_de-OBLstat-obj "D124%" |
+		@SUBJagt_OBJth_de-OBLstat-obj "D125%" |
+		@SUBJcaus_OBJth "D535%" |
+		@SUBJth_CL-se "D159.1%"}.
+
+arrepender V XLE	{@SUBJexp_de-OBLstat-obj "D14%" |
+		@SUBJexp "D131%" |
+		@SUBJexp_CL_de-OBLstat-obj "D208%" |
+		@SUBJexp_CL "D242%" |
+		@SUBJexp_CL_de-S-XCOMPstat-obj "D352%" |
+		@SUBJexp_de-S-XCOMPstat-obj "D352.1%"}.
+
+arrumar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth_OBLloc "D72%"}.
+
+assistir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJstat-obj_a-pro-OBLpossr "D237%" |
+		@SUBJexp_a-OBLstat-obj "D343%"}.
+
+assumir V XLE	{@SUBJpat_OBJrsult "D540%" |
+		@SUBJagt_OBJpat "D1%"}.
+
+assustar V XLE	{@SUBJexp_com-OBLcaus "D61%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJcaus "D99%" |
+		@SUBJexp_CL_com-OBLcaus "D164%" |
+		@SUBJexp_CL "D242%"}.
+
+atender V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJstat-obj_por-OBLdesig "D134%" |
+		@SUBJagt_a-OBLstat-obj "D135%"}.
+
+atinar V XLE	{@SUBJexp_para-OBLstat-obj "D256%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_a-OBLstat-obj "D343%" |
+		@SUBJ_a-S-XCOMPemerg "D384%" |
+		@SUBJexp_com-OBLstat-obj "D61.1%"}.
+
+atingir V XLE	{@SUBJth_OBJgol "D11%" |
+		@SUBJth_a-OBLgol "D100%"}.
+
+atravessar V XLE	{@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJth_OBJstat-obj "D147%"}.
+
+avaliar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJstat-obj_em-OBLmsure "D318%" |
+		@SUBJexp_COMPstat-obj "D333%"}.
+
+avançar V XLE	{@SUBJth "D15%" |
+		@SUBJagt_em-OBLloc "D79%" |
+		@SUBJagt_OBJth_sobre-OBLgol "D534%"}.
+
+avisar V XLE	{@SUBJagt_OBJexp_de-OBLstat-obj "D13%" |
+		@SUBJagt_sobre-OBLstat-obj "D282%" |
+		@SUBJagt_dat-OBL1gol_de-sobre-OBL2stat-obj "D358%" |
+		@SUBJagt_COMPstat-obj "D332%"}.
+
+bastar V XLE	{@SUBJstat-obj "D40%" |
+		@SUBJstat-obj_para-OBLgoal "D54%" |
+		@SUBJagt_S-XCOMPstat-obj "D331%"}.
+
+bater V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJstat-obj_OBLloc "D5%" |
+		@SUBJth_em-OBLgol "D93%" |
+		@V_OBJemerg "D112%" |
+		@SUBJstat-obj_OBJth_em-OBLgol "D255%" |
+		@SUBJstat-obj_com-OBLstat-obj "D63.2%" |
+		@SUBJagt_em-OBLpat "D79.1%" |
+		@SUBJth_em-OBLloc "D93.2%"}.
+
+batizar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_OBJstat-obj_de-OBLdesig "D71%"}.
+
+beber V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJagt_de-OBLpat "D58%"}.
+
+beneficiar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJagt_CL_de-OBLstat-obj "D128%"}.
+
+borrar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_OBJpat_de-OBLth "D52%" |
+		@SUBJcaus "D99%"}.
+
+botar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJagt_OBJth_para-O-XCOMPgol "D367%" |
+		@SUBJagt_OBJpat_a-O-XCOMPstat-obj "D363.1%"}.
+
+brilhar V XLE	@SUBJstat-obj "D40%".
+
+brincar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_de-OBLstat-obj "D115%" |
+		@SUBJagt_com-OBLstat-obj "D195%" |
+		@SUBJagt_de-OBLmner "D246%" |
+		@SUBJagt_S-XCOMPstat-obj "D331%" |
+		@SUBJagt_de-S-XCOMPmner "D368%"}.
+
+buscar V XLE	{@SUBJth_OBJgol "D11%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_S-XCOMPstat-obj "D331%" |
+		@SUBJagt_OBJth "D59%"}.
+
+caber V XLE	{@SUBJstat-obj_OBLloc "D5%" |
+		@SUBJloc_OBJstat-obj "D113%" |
+		@SUBJstat-obj_a-pro-OBLpossr "D237%" |
+		@SUBJstat-obj "D40%" |
+		@V_pro-XCOMPstat-obj "D360%" |
+		@V_a-OBLpossr_Obl-XCOMPstat-obj "D371%"}.
+
+cair V XLE	{@SUBJpat "D4%" |
+		@SUBJstat-obj_OBLloc "D5%" |
+		@SUBJth "D15%" |
+		@SUBJ_de-OBLth "D34%" |
+		@SUBJstat-obj_OBLmner "D97%" |
+		@SUBJpat_em-OBLrsult "D526%"}.
+
+caminhar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_OBJmsure "D49%" |
+		@SUBJth_para-OBLgol "D105%"}.
+
+cansar V XLE	{@SUBJpat "D4%" |
+		@SUBJexp_de-OBLstat-obj "D14%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJpat_CL_de-OBLcaus "D96%" |
+		@SUBJcaus "D99%" |
+		@SUBJpat_de-S-XCOMPcaus "D373%"}.
+
+carregar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_OBJpat_de-OBLth "D52%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJagt_em-OBLpat "D79.1%"}.
+
+casar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_com-OBLagt "D63%" |
+		@SUBJagt_CL_com-OBLagt "D211%" |
+		@SUBJagt_OBJpat_com-OBLpat "D291%"}.
+
+ceder V XLE	{@SUBJpat "D4%" |
+		@SUBJpat_a-OBLcaus "D254%" |
+		@SUBJagt_OBJth_dat-OBLrec "D38.1%"}.
+
+chamar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_por-OBLstat-obj "D10%" |
+		@SUBJagt_OBJth_dat-OBLgol "D38%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_OBJstat-obj_de-OBLdesig "D71%" |
+		@SUBJstat-obj_PLINKdesig "D78%" |
+		@SUBJstat-obj_CL_PLINKdesig "D186%" |
+		@SUBJcaus_OBJexp_a-OBLstat-obj "D275%"}.
+
+chegar V XLE	{@SUBJth "D15%" |
+		@SUBJth_a-S-XCOMPgol "D375%" |
+		@SUBJstat-obj_para-OBLgoal "D54%" |
+		@SUBJagt_OBJth_para-OBLgol "D74%" |
+		@SUBJth_a-OBLloc "D100.2%" |
+		@SUBJth_em-OBLloc "D93.2%"}.
+
+cheirar V XLE	{@SUBJstat-obj_a-OBLmner "D24%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJstat-obj_OBLmner "D97%"}.
+
+chocar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJth_CL_com-OBLgol "D19%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJcaus "D99%" |
+		@SUBJagt "D2%" |
+		@SUBJagt_OBJstat-obj "D56%"}.
+
+chover V XLE	{@SUBJnull "D66%" |
+		@V_OBJemerg "D112"}.
+
+chorar	V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_OBJstat-obj "D56%"}.
+
+
+cobrar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJmsure "D49%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_OBJstat-obj_por-OBLco-stat-obj "D95%" |
+		@SUBJagt_OBJstat-obj_de-OBL1source_por-OBL2co-stat-obj "D536%"}.
+
+coçar V XLE	@SUBJcaus "D99%".
+
+coincidir V XLE	{@SUBJstat-obj "D40%" |
+		@V_de-COMPstat-obj "D379%" |
+		@SUBJstat-obj_com-OBLstat-obj "D63.2%"}.
+
+colocar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth_OBLloc "D72%"}.
+
+combinar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJpl-stat-obj_OBJ-CL "D288%" |
+		@SUBJagt_OBJpat_com-OBLpat "D291%" |
+		@SUBJagt_S-XCOMPstat-obj "D331%" |
+		@SUBJagt_de-S-XCOMPsta-obj "D334%" |
+		@SUBJstat-obj_com-OBLstat-obj "D63.2%"}.
+
+começar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJstat-obj_OBLloc "D5%" |
+		@SUBJagt_com-OBLpat "D47%" |
+		@SUBJpat_como-OBLrsult "D48%" |
+		@SUBJ_a-S-XCOMPemerg "D384%"}.
+
+comer V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJagt_de-OBLpat "D58%"}.
+
+comparecer V XLE	{@SUBJth_a-OBLloc "D100.2%" |
+		@SUBJth_em-OBLloc "D93.2%"}.
+
+compor V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpossr_CL-se_de-OBLstat-obj "D91%" |
+		@SUBJcaus_OBJemerg "D387%"}.
+
+comportar V XLE	{@SUBJpat_CL "D3%" |
+		@SUBJloc_OBJstat-obj "D113%"}.
+
+comprar V XLE	{@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth_pro-para-OBLgol "D388%"}.
+
+compreender V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJloc_OBJstat-obj "D113%" |
+		@SUBJexp_COMPstat-obj "D333%"}.
+
+concluir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_por-OBLstat-obj "D10%" |
+		@SUBJexp_COMPstat-obj "D333%"}.
+
+concordar V XLE	{@SUBJexp_em-OBLstat-obj "D51%" |
+		@SUBJexp_em-S-XCOMPstat-obj "D390%" |
+		@SUBJexp_de-S-XCOMPstat-obj "D352.1%" |
+		@SUBJexp_com-OBLstat-obj "D61.1%" |
+		@SUBJstat-obj_com-OBLstat-obj "D63.2%"}.
+
+condenar V XLE	{@SUBJagt_OBJpat_por-OBLstat-obj "D37%" |
+		@SUBJagt_OBJpat_a-OBLgol "D140%"|
+		@SUBJagt_OBJpat "D1%" |
+		@SUBJcaus_OBJpat "D9%"}.
+
+conduzir V XLE	{@SUBJagt_OBJth "D59%" |
+		@SUBJstat-obj_a-OBLgol "D138%"}.
+
+confiar V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp_em-OBLstat-obj "D51%" |
+		@SUBJagt_OBJth_dat-OBLrec "D38.1%"}.
+
+conhecer V XLE	{@SUBJexp_de-OBLstat-obj "D14%" |
+		@SUBJexp_OBJstat-obj "D39%"}.
+
+considerar V XLE	{@SUBJexp_OBJstat-obj_PLINKqlity "D35%" |
+		@SUBJexp_OBJstat-obj_PLINKqlity "D35%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp_COMPstat-obj "D333%"}.
+
+constar V XLE	{@SUBJstat-obj_OBLloc "D5%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJstat-obj_de-OBLloc "D86%" |
+		@SUBJpossr_de-OBLstat-obj "D102%"}.
+
+constituir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJstat-obj_PLINKqlity "D6%" |
+		@SUBJagt_OBJpat_PLINKrsult "D53%" |
+		@SUBJpossr_CL-se_de-OBLstat-obj "D91%"}.
+
+construir V XLE	@SUBJagt_OBJpat "D1%".
+
+contar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJpossr_com-OBLstat-obj "D183%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJexp_com-OBLstat-obj "D61.1%"}.
+
+conter V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJpat "D1%" |
+		@SUBJloc_OBJstat-obj "D113%"}.
+
+continuar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJstat-obj_PLINKqlity "D6%" |
+		@SUBJagt_com-OBLpat "D47%" |
+		@SUBJ_S-XCOMPstat-obj "D392%"}.
+
+contrair V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJrec_OBJth "D32%"}.
+
+contratar V XLE	@SUBJagt_OBJpat "D1%".
+
+contribuir V XLE	{@SUBJagt_com-OBLth "D187%" |
+		@SUBJcaus_para-S-XCOMPrsult "D393%" |
+		@SUBJcaus_para-OBLemerg "D541%" |
+		@SUBJagt_OBJth_dat-OBLrec "D38.1%" |
+		@SUBJagt_em-OBLpat "D79.1%"}.
+
+convencer V XLE	{@SUBJagt_OBJexp_de-OBLstat-obj "D13%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJexp_CL_de-OBLstat-obj "D208%" |
+		@SUBJagt_OBJexp_de-que-COMPstat-obj "D395%" |
+		@SUBJagt_OBJpat_a-O-XCOMPstat-obj "D363.1%"}.
+
+conversar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_com-OBLagt "D63%"}.
+
+converter V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJpat_em-OBLrsult "D17%" |
+		@SUBJpat_CL_em-OBLrsult "D77%" |
+		@SUBJagt_OBJpat_a-OBLgol "D140%" |
+		@SUBJpat_CL_a-OBLgol "D306%"}.
+
+convidar V XLE	{@SUBJagt_OBJstat-obj_OBLgol "D80%" |
+		@SUBJagt_OBJstat-obj_para-OBLgol "D137%" |
+		@SUBJagt_OBJstat-obj_para-pro-XCOMPgol "D396%"}.
+
+correr V XLE	{@SUBJagt "D2%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJagt_OBJmsure "D49%" |
+		@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJagt_de-OBLstat-obj "D115%" |
+		@SUBJth_OBLmner "D230%"}.
+
+costurar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJagt_OBJth_OBLloc "D72%"}.
+
+cravar V XLE	{@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJth_CL_em-OBLloc "D155.2%"}.
+
+crer V XLE	{@SUBJexp_em-OBLstat-obj "D51%" |
+		@SUBJexp_COMPstat-obj "D333%"}.
+
+cruzar V XLE	{@SUBJagt_OBJth "D59%" |
+		@SUBJth_OBJstat-obj "D147%" |
+		@SUBJth_com-OBLstat-obj "D245%" |
+		@SUBJagt_OBJpat_com-OBLpat "D291%"}.
+
+cuidar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_de-OBLpat "D58%"}.
+
+culpar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJpat_de-OBLstat-obj "D26%" |
+		@SUBJagt_OBJpat_por-OBLstat-obj "D37%" |
+		@SUBJagt_OBJpat_por-pro-XCOMPstat-obj "D398%"}.
+
+cumprir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJagt_com-OBLpat "D47%" |
+		@SUBJstat-obj_a-pro-OBLpossr "D237%" |
+		@V_a-OBLpossr_Obl-XCOMPstat-obj "D371%"}.
+
+cuspir V XLE	{@SUBJagt_OBJpat "D1%"|
+	         @SUBJagt "D2%"}.
+
+custar V XLE	{@SUBJstat-obj_PLINKmsure "D8%" |
+		@SUBJstat-obj_OBJmsure_a-OBLgol "D210%" |
+		@V_pro-XCOMPstat-obj "D360%" |
+		@SUBJ_a-para-S-XCOMPstat-obj "D467%" |
+		@SUBJ_a-XCOMPstat-obj "D524%"}.
+
+dançar V XLE	{@SUBJpat "D4%" |
+	        @SUBJagt "D2%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_com-OBLagt "D63%"}.
+
+dar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJstat-obj_para-OBLgoal "D54%" |
+		@SUBJth_em-OBLgol "D93%" |
+		@SUBJstat-obj_para-OBLgol "D101%" |
+		@V_OBJemerg "D112%" |
+		@SUBJagt_OBJpat_por-OBLqlity "D284%" |
+		@SUBJagt_OBJth_dat-OBLrec "D38.1%" |
+		@SUBJagt_OBJth_por-OBLstat-obj "D74.2%"}.
+
+debruçar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_OBJth_OBLloc "D72%"}.
+
+decepcionar V XLE	{@SUBJcaus_OBJexp "D73%" |
+		@SUBJcaus "D99%" |
+		@SUBJexp_CL_com-OBLcaus "D164%" |
+		@SUBJexp_CL "D242%"}.
+
+decidir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_por-OBLstat-obj "D10%" |
+		@SUBJagt_CL_sobre-OBLstat-obj "D281%" |
+		@SUBJagt_sobre-OBLstat-obj "D282%" |
+		@SUBJagt_S-XCOMPstat-obj "D331%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJagt_CL_entre-OBLstat-obj "D402%" |
+		@SUBJagt_entre-OBLstat-obj "D403%" |
+		@SUBJagt_CL_por-OBLstat-obj "D108.2%"}.
+
+declarar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJagt_OBJstat-obj_como-PLINKdesig "D70%" |
+		@SUBJagt_OBJstat-obj_OBLgol "D80%" |
+		@SUBJagt_dat-OBLgol_COMPstat-obj "D463%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJagt_OBJstat-obj_PLINKqlity "D35.2%" |
+		@SUBJth "D15%" |
+		@SUBJth_OBLmner "D230%"}.
+
+dedicar V XLE	{@SUBJagt_OBJth_dat-OBLgol "D38%" |
+		@SUBJagt_OBJth_a-OBLgol "D29.1%"}.
+
+definir V XLE	{@SUBJpat_CL "D3%"|
+		@SUBJagt_OBJpat "D1%"}.
+
+deitar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_de-OBLpat "D58%" |
+		@SUBJth_OBJsorc "D64%" |
+		@SUBJagt_OBJth_para-OBLgol "D74%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJagt_de-S-XCOMPpat "D464%" |
+		@SUBJagt_OBJ_O-XCOMPstat-obj "D466%" |
+		@SUBJcaus_OBJpat_PLINKrsult "D53.2%" |
+		@SUBJagt_OBJth_por-OBLco-th "D89.2%"}.
+
+
+deixar V XLE	{@SUBJagt_OBJpat "D1%"|
+		@SUBJagt_de-OBLpat "D58%"  |
+		@SUBJth_OBJsorc "D64%" |
+		@SUBJagt_OBJth_para-OBLgol "D74%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJagt_de-S-XCOMPpat "D464%" |
+		@SUBJagt_OBJ_O-XCOMPstat-obj "D466%" |
+		@SUBJcaus_OBJpat_PLINKrsult "D53.2%" |
+		@SUBJagt_OBJth_por-OBLco-th "D89.2%"}.
+
+
+demorar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJstat-obj_PLINKmsure "D8%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJagt_CL_a-S-XCOMPstat-obj "D363%" |
+		@SUBJ_S-XCOMPstat-obj "D392%" |
+		@SUBJagt_OBJstat-obj_OBLloc "D404%" |
+		@SUBJ_a-para-S-XCOMPstat-obj "D467%" |
+		@SUBJagt_CL_a-para-S-XCOMPstat-obj "D468%" |
+		@V_para-COMPstat-obj "D469%" |
+		@SUBJstat-obj_CL "D288.1%"}.
+
+denunciar V XLE	{@SUBJagt_OBJpat_por-OBLstat-obj "D37%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJloc_OBJstat-obj "D113%"}.
+
+depender V XLE	@SUBJdep_de-OBLstat-obj "D225%".
+
+depositar V XLE	{@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJth_OBLloc "D84%" |
+		@SUBJth_CL_em-OBLloc "D155.2%"}.
+
+desaparecer V XLE	{@SUBJpat "D4%" |
+		@SUBJagt_com-OBLpat "D47%"}.
+
+descansar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJexp_de-OBLstat-obj "D14%" |
+		@SUBJagt_OBJth_OBLloc "D72%"}.
+
+descer V XLE	{@SUBJth "D15%" |
+		@SUBJ_de-OBLth "D34%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJth_OBJstat-obj "D147%" |
+		@SUBJagt_para-OBLgol "D206%" |
+		@SUBJagt_a-OBLgol "D100.1%" |
+		@SUBJagt_OBLsorc "D82.1%"}.
+
+desconfiar V XLE	{@SUBJexp_de-OBLstat-obj "D14%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_S-XCOMPstat-obj "D341%" |
+		@SUBJexp_de-que-COMPstat-obj "D471%"}.
+
+desculpar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_CL_por-OBLstat-obj "D108.2%"}.
+
+desejar V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJexp_S-XCOMPstat-obj "D341%"}.
+
+desfazer V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJagt_de-OBLstat-obj "D115%" |
+		@SUBJagt_CL_de-OBLpat "D304%"}.
+
+designar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJstat-obj_OBJref "D68%" |
+		@SUBJagt_OBJstat-obj_como-PLINKdesig "D70%" |
+		@SUBJagt_OBJstat-obj_para-OBLgol "D137%"}.
+
+desobedecer V XLE	@SUBJagt_a-OBLstat-obj "D135%".
+
+despedir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_CL "D108%" |
+		@SUBJagt_CL_de-OBLsta-obj "D325%"}.
+
+despreocupar V XLE	{@SUBJexp_com-OBLcaus "D61%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJcaus "D99%" |
+		@SUBJexp_CL_de-OBLstat-obj "D208%" |
+		@SUBJexp_CL "D242%"}.
+
+destinar V XLE	{@SUBJagt_OBJth_dat-OBLgol "D38%" |
+		@SUBJagt_OBJth_dat-OBLgol "D38%" |
+		@SUBJstat-obj_CL-se_a-S-XCOMPgol "D472%" |
+		@SUBJstat-obj_CL-se_a-OBLgol "D155.3%" |
+		@SUBJagt_OBJpat "D1%"}.
+
+
+destruir V XLE @SUBJagt_OBJpat "D1%".
+
+
+determinar V XLE	{@SUBJagt_OBJpat "D1%" |
+			@SUBJcaus_OBJpat "D9%" |
+		         @SUBJagt_COMPstat-obj "D332%" |
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%"}.
+
+detestar V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp_COMPstat-obj "D333%"}.
+
+dever V XLE	{@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJstat-obj_CL-se_a-OBLcaus "D69%" |
+		@SUBJagt_dat-OBLgol "D408%"}.
+
+devolver V XLE	{@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth_dat-OBLrec "D38.1%"}.
+
+diminuir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_OBJth_de-OBLsorc "D159%" |
+		@SUBJ_de-OBLpat "D34.1%"}.
+
+dirigir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJth_dat-OBLgol "D38%" |
+		@SUBJagt_OBJth_a-OBLgol "D29.1%"}.
+
+discutir V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_com-OBLagt "D63%" |
+		@SUBJagt_OBJstat-obj_com-OBLagt "D409%" |
+		@SUBJstat-obj_sobre-acerca-OBLref "D410%"}.
+
+dispor V XLE	{@SUBJagt_OBJth "D59%" |
+		@SUBJpossr_de-OBLstat-obj "D102%" |
+		@SUBJagt_CL_a-S-XCOMPstat-obj "D363%" |
+		@SUBJstat-obj_sobre-acerca-OBLref "D410%" |
+		@SUBJagt_OBJth_a-OBLgol "D29.1%"}.
+
+dizer V XLE	{@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJagt_OBJstat-obj "D56%" |	
+		@SUBJagt_OBJ-CL-stat-obj_PLINKqlity "D154%" |
+		@SUBJagt_dat-OBLgol_COMPstat-obj "D463%" |
+		@SUBJagt_COMPstat-obj "D332%"}.
+
+doer V XLE	{@SUBJstat-obj "D40%" |
+		@SUBJcaus "D99%" |
+		@SUBJexp_CL_com-OBLcaus "D164%" |
+		@SUBJexp_CL_de-OBLstat-obj "D208%" |
+		@SUBJexp_CL "D242%" |
+		@SUBJcaus_pro-OBLexp_OBJloc "D411%" |
+		@SUBJcaus_pro-OBLexp "D412%" |
+		@SUBJloc_de-com-OBLcaus "D413%"}.
+
+dormir V XLE	{@SUBJpat "D4%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp "D131%"}.
+
+durar V XLE	{@SUBJstat-obj_PLINKmsure "D8%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJstat-obj_por-OBLmsure "D75%"}.
+
+eleger V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJagt_OBJpat_PLINKrsult "D53%"}.
+
+emprestar V XLE	{@SUBJagt_OBJth_de-OBLsorc "D159%" |
+		@SUBJagt_OBJth_dat-OBLrec "D38.1%"}.
+
+encarar V XLE	@SUBJagt_OBJstat-obj "D56%".
+
+encher V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_OBJpat_de-OBLth "D52%" |
+		@SUBJpat_de-OBLth "D301%" |
+		@SUBJpat_CL_de-OBLth "D418%"}.
+
+encontrar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJstat-obj_CL_PLINKqlity "D76%" |
+		@SUBJstat-obj_CL_em-OBLloc "D103%" |
+		@SUBJth_com-OBLstat-obj "D245%" |
+		@SUBJth_CL_com-OBLth "D290.1%" |
+		@SUBJexp_OBJstat-obj_PLINKqlity "D35%"}.
+
+enfeitar V XLE	@SUBJcaus_OBJpat "D9%".
+
+enfiar V XLE	{@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJth_CL_em-OBLloc "D155.2%" |
+		@SUBJth_em-OBLpat "D93.1%"}.
+
+enfrentar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJstat-obj "D56%"}.
+
+engravidar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJpat_de-OBLcaus "D57%"}.
+
+ensinar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJagt_dat-OBLgol_COMPstat-obj "D463%" |
+		@SUBJagt_OBJrec_a-O-XCOMPstat-obj "D475%"}.
+
+entender V XLE	{@SUBJexp_de-OBLstat-obj "D14%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_CL_com-OBLstat-obj "D164.1%"}.
+
+entrar V XLE	{@SUBJth "D15%" |
+		@SUBJagt_com-OBLpat "D47%" |
+		@SUBJth_para-OBLgol "D105%" |
+		@SUBJagt_com-OBLth "D187%" |
+		@SUBJth_em-OBLloc "D93.2%"}.
+
+entregar V XLE	{@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth_dat-OBLrec "D38.1%"}.
+
+envergonhar V XLE	{@SUBJcaus_OBJexp "D73%" |
+		@SUBJexp_CL_com-OBLcaus "D164%" |
+		@SUBJexp_CL_de-OBLstat-obj "D208%" |
+		@SUBJexp_CL_de-S-XCOMPstat-obj "D352%"}.
+
+enviar V XLE	{@SUBJagt_OBJth_dat-OBLgol "D38%" |
+		@SUBJagt_OBJth "D59%"}.
+
+envolver V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJdep_OBJstat-obj "D233%"}.
+
+enxergar V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp "D131%"}.
+
+esbarrar V XLE	{@SUBJth_com-OBLstat-obj "D245%" |
+		@SUBJcaus_OBJth_OBLstat-obj "D72.1%" |
+		@SUBJth_em-OBLpat "D93.1%"}.
+
+escapar V XLE	{@SUBJth "D15%" |
+		@SUBJth_a-OBLsorc "D209%" |
+		@SUBJstat-obj_pro-OBLexp "D419%"}.
+
+esconder V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJagt_OBJpat_de-OBLstat-obj "D26%" |
+		@SUBJagt_OBJth "D59%"}.
+
+escorrer V XLE	{@SUBJth "D15%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJsorc_OBJth "D217%"}.
+
+escutar V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp "D131%" |
+		@SUBJexp_COMPstat-obj "D333%"}.
+
+espantar V XLE	{@SUBJexp_com-OBLcaus "D61%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJexp_CL_com-OBLcaus "D164%" |
+		@SUBJexp_CL "D242%"}.
+
+especializar V XLE	{@SUBJagt_OBJpat_em-OBLstat-obj "D12%" |
+		@SUBJpat_CL_em-S-XCOMPstat-obj "D477%" |
+		@SUBJpat_CL_em-OBLstat-obj "D77.1%"}.
+
+esperar V XLE	{@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJexp_por-OBLstat-obj "D181%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_S-XCOMPstat-obj "D341%" |
+		@SUBJstat-obj_OBJgol "D342%" |
+		@SUBJstat-obj_por-OBLgol "D421%"}.
+
+espirrar V XLE	{@SUBJagt "D2%" |
+		@SUBJth "D15%" |
+		@SUBJsorc_OBJth "D217%" |
+		@SUBJcaus_OBJth_OBLstat-obj "D72.1%"}.
+
+esquecer V XLE	{@SUBJexp_de-OBLstat-obj "D14%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp_CL_de-OBLstat-obj "D208%" |
+		@SUBJexp_OBJstat-obj_em-OBLloc "D222%" |
+		@SUBJexp_CL_de-S-XCOMPstat-obj "D352%" |
+		@SUBJexp_OBJstat-obj_PLINKqlity "D35%" |
+		@SUBJexp_de-S-XCOMPstat-obj "D352.1%"}.
+
+estar V XLE	{@SUBJstat-obj_PLINKqlity "D6%" |
+		@SUBJstat-obj_com-OBLstat-obj "D63.2%"}.
+
+está    I * @V3PS
+	      @VPRES
+	      @IND
+	      @PROG.
+
+havia    I * @V3PS
+	      @VIMPERF
+	      @IND
+	      @PERF.
+
+estão    I * @V3PP
+	      @VPRES
+	      @IND
+	      @PROG.
+
+
+estou    I * @V1PS
+	      @VPRES
+	      @IND
+	      @PROG.
+
+estava    I * @V3PS
+	      @VPERF.
+
+estender V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJstat-obj_CL_até-OBLgol "D293%" |
+		@SUBJth_CL_por-OBLstat-obj "D424%" |
+		@SUBJstat-obj_CL-se_a-OBLgol "D155.3%"}.
+
+estimar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJagt_OBJmsure "D49%" |
+		@SUBJagt_OBJstat-obj_em-OBLmsure "D318%" |
+		@SUBJagt_COMPstat-obj "D332%"}.
+
+esvaziar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_OBJpat_de-OBLth "D52%"}.
+
+exigir V XLE	{@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJagt_OBJstat-obj_de-OBLsorc "D92%" |
+		@SUBJdep_OBJstat-obj "D233%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJdep_pro-OBLgol_OBJstat-obj "D426%" |
+		@SUBJagt_pro-OBLsorc_OBJstat-obj "D427%" |
+		@SUBJstat-obj "D40%"}.
+
+
+existir V XLE @SUBJstat-obj "D40%".
+
+
+explicar V XLE	{@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_OBJstat-obj_para-OBLgol "D137%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJrson_OBJstat-obj "D428%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJstat-obj_OBJref "D68%" |
+		@SUBJstat-obj_CL_em-OBLloc "D103%" |
+		@SUBJagt_CL "D108%"}.
+
+
+exprimir V XLE {@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJstat-obj_OBJref "D68%"|
+		@SUBJstat-obj_CL_em-OBLloc "D103%"|
+		@SUBJagt_CL "D108%"}.
+
+
+extorquir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJagt_pro-OBLsorc_OBJth "D429%"}.
+
+falar V XLE	{@SUBJagt "D2%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJagt_de-OBLstat-obj "D115%" |
+		@SUBJagt_em-OBLstat-obj "D168%" |
+		@SUBJagt_com-OBLstat-obj "D195%" |
+		@SUBJagt_sobre-OBLstat-obj "D282%" |
+		@SUBJagt_de-S-XCOMPsta-obj "D334%" |
+		@SUBJagt_dat-OBL1gol_de-sobre-OBL2stat-obj "D358%" |
+		@SUBJagt_dat-OBLgol_COMPstat-obj "D463%" |
+		@SUBJagt_em-S-XCOMPstat-obj "D480%" |
+		@SUBJagt_para-pro-XCOMPstat-obj "D481%" |
+		@SUBJagt_pro-OBLgol_de-S-XCOMPstat-obj "D483%" |
+		@SUBJagt_a-OBLgol "D100.1%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJagt_pro-OBLgol_em-S-XCOMPstat-obj "D480.1%" |
+		@SUBJagt_a-pro-OBLgol_para-Obl-XCOMPstat-obj "D481.1%" |
+		@SUBJagt_para-OBLgol_Obl-XCOMPstat-obj "D481.2%"}.
+
+faltar V XLE	{@SUBJpat "D4%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJagt_com-OBLpat "D47%" |
+		@SUBJstat-obj_a-OBLgol "D138%" |
+		@SUBJagt_a-OBL1pat_com-OBL2stat-obj "D223%" |
+		@V_pro-XCOMPstat-obj "D360%" |
+		@SUBJstat-obj_pro-OBLpossr "D434%" |
+		@V_pro-OBLpossr_Obl-XCOMPstat-obj "D484%"}.
+
+fazer V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJstat-obj_PLINKmsure "D8%" |
+		@V_OBJemerg "D112%" |
+		@SUBJpat_CL_PLINKrsult "D310%" |
+		@SUBJagt_OBJ_O-XCOMPstat-obj "D466%" |
+		@SUBJagt_de-OBLpat_OBJrsult "D257.1%" |
+		@SUBJagt_OBJpat_de-OBLqlity "D309.1%" |
+		@SUBJcaus_OBJpat_PLINKrsult "D53.2%"}.
+
+fechar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJ_OBJpat "D43%" |
+		@SUBJagt_com-OBLagt "D63%" |
+		@SUBJagt_CL_com-OBLstat-obj "D161%"}.
+
+feder V XLE	{@SUBJstat-obj_a-OBLmner "D24%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJstat-obj_OBLloc "D5%" |
+		@SUBJpat_PLINKrsult "D7%" |
+		@SUBJstat-obj_PLINKmsure "D8%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJth_para-OBLgol "D105%" |
+		@SUBJstat-obj_com-OBLstat-obj "D63.2%"}.
+
+fincar V XLE	{@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJth_OBLloc "D84%" |
+		@SUBJth_CL_em-OBLloc "D155.2%"}.
+
+fingir V XLE	{@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_de-OBLmner "D246%" |
+		@SUBJagt_CL_de-OBLmner "D309%" |
+		@SUBJagt_S-XCOMPstat-obj "D331%" |
+		@SUBJagt_COMPstat-obj "D332%"}.
+
+formar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJcaus_OBJemerg "D387%" |
+		@SUBJpat_CL_em-OBLstat-obj "D77.1%"}.
+
+fornecer V XLE	{@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth_dat-OBLrec "D38.1%"}.
+
+fragmentar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJagt_OBJpat_em-OBLrsult "D17%" |
+		@SUBJpat_CL_em-OBLrsult "D77%"}.
+
+ficar 	V XLE	{@SUBJstat-obj_OBLloc "D5%" |
+		@SUBJpat_PLINKrsult "D7%" |
+		@SUBJstat-obj_PLINKmsure "D8%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJth_para-OBLgol "D105%" |
+		@SUBJstat-obj_com-OBLstat-obj "D63.2%"}.
+
+
+fugir V XLE	{@SUBJth "D15%" |
+		@SUBJth_para-OBLgol "D105%" |
+		@SUBJth_a-OBLsorc "D209%" |
+		@SUBJth_pro-OBLsorc "D435%"}.
+
+furar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJ_OBJpat "D43%" |
+		@SUBJcaus_pro-OBLco-pat_OBJpat "D436%"}.
+
+furtar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJagt_pro-OBLsorc_OBJth "D429%" |
+		@SUBJagt_OBJth_a-OBLgol "D29.1%"}.
+
+ganhar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJth_OBJgol "D11%" |
+		@SUBJrec_OBJth "D32%" |
+		@SUBJagt_de-OBLpat "D58%" |
+		@SUBJpat_em-OBLstat-obj "D189%"}.
+
+garantir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJagt_dat-OBLgol_COMPstat-obj "D463%" |
+		@SUBJcaus_OBJpat_contra-OBLstat-obj "D197.1%" |
+		@SUBJagt_OBJth_dat-OBLrec "D38.1%"}.
+
+gostar V XLE	{@SUBJexp_de-OBLstat-obj "D14%" |
+		@SUBJexp_de-S-XCOMPstat-obj "D352.1%"}.
+
+gritar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_por-OBLstat-obj "D10%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJagt_com-OBLstat-obj "D195%" |
+		@SUBJagt_contra-OBLstat-obj "D299%" |
+		@SUBJagt_OBJstat-obj_contra-OBLgol "D437%"}.
+
+grudar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJth_CL_com-OBLgol "D19%" |
+		@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJth_CL_a-OBLloc "D155.1%" |
+		@SUBJth_CL_em-OBLloc "D155.2%" |
+		@SUBJth_em-OBLpat "D93.1%"}.
+
+habitar V XLE	{@SUBJstat-obj_OBLloc "D5%" |
+		@SUBJstat-obj_OBJloc "D23%"}.
+
+haver V XLE	@SUBJ_OBJstat-obj "D16%".
+
+herdar V XLE	@SUBJrec_OBJth "D32%".
+
+hesitar V XLE	{@SUBJexp "D131%" |
+		@SUBJexp_S-XCOMPstat-obj "D341%" |
+		@SUBJexp_em-S-XCOMPstat-obj "D390%"}.
+
+imaginar V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp "D131%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_OBJstat-obj_PLINKqlity "D35%"}.
+
+imitar V XLE	{@SUBJstat-obj_PLINKqlity "D6%" |
+		@SUBJagt_OBJstat-obj "D56%"}.
+
+decorrer V XLE	{@SUBJth "D15%" |
+		@SUBJth_OBLmner "D230%"}.
+
+implicar V XLE	{@SUBJagt_com-OBLpat "D47%" |
+		@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJdep_OBJstat-obj "D233%" |
+		@SUBJcaus_em-OBLrsult "D235%"}.
+
+impor V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJstat-obj_CL-se "D111%"}.
+
+importar V XLE	{@SUBJstat-obj "D40%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJcaus_em-OBLrsult "D235%" |
+		@SUBJstat-obj_a-pron-OBLexp "D266%" |
+		@SUBJexp_CL_de-S-XCOMPstat-obj "D352%" |
+		@SUBJexp_CL_em-S-XCOMPstat-obj "D485%" |
+		@SUBJexp_CL_com-OBLstat-obj "D164.1%"}.
+
+inclinar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJth_CL_OBLgol "D155%"}.
+
+incluir V XLE	{@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJloc_OBJstat-obj "D113%" |
+		@SUBJstat-obj_CL_entre-OBLloc "D103.1%"}.
+
+indicar V XLE	{@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJstat-obj_OBJref "D68%" |
+		@SUBJagt_OBJstat-obj_como-PLINKdesig "D70%"}.
+
+indignar V XLE	{@SUBJcaus_OBJexp "D73%" |
+		@SUBJagt_OBJexp_com-OBLstat-obj "D162%" |
+		@SUBJexp_CL_com-OBLcaus "D164%"}.
+
+induzir V XLE	{@SUBJcaus_OBJpat "D9%" |
+		@SUBJagt_OBJpat_a-O-XCOMPgol "D486%" |
+		@SUBJcaus_OBJth_a-OBLgol "D140.1%" |
+		@SUBJcaus_OBJemerg_OBLloc "D72.2%"}.
+
+inferir V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp_COMPstat-obj "D333%"}.
+
+influenciar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL_por-OBLcaus "D439%" |
+		@SUBJagt_OBJpat_a-O-XCOMPgol "D486%" |
+		@SUBJcaus_em-OBLpat "D79.2%"}.
+
+insistir V XLE	{@SUBJagt_em-OBLstat-obj "D168%" |
+		@SUBJagt_sobre-OBLstat-obj "D282%" |
+		@SUBJagt_com-OBL1gol_com-sobre-OBL2stat-obj "D440%" |
+		@SUBJagt_em-S-XCOMPstat-obj "D480%" |
+		@SUBJagt_para-S-XCOMPgol "D487%"}.
+
+instalar V XLE	{@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJth_CL_em-OBLloc "D155.2%"}.
+
+interessar V XLE	{@SUBJexp_CL_por-OBLstat-obj "D60%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJexp_CL_em-OBLstat-obj "D265%" |
+		@SUBJstat-obj_a-pron-OBLexp "D266%" |
+		@SUBJcaus_pro-OBLexp "D412%" |
+		@SUBJstat-obj_dat-OBLgol "D442%" |
+		@SUBJexp_CL_por-S-XCOMPstat-obj "D490%"}.
+
+ir V XLE	{@SUBJth "D15%" |
+		@SUBJstat-obj_por-OBLmsure "D75%" |
+		@SUBJth_em-OBLgol "D93%" |
+		@SUBJstat-obj_OBLmner "D97%" |
+		@SUBJth_para-OBLgol "D105%" |
+		@SUBJpat_OBL1mner_OBL2loc "D294%" |
+		@SUBJagt_a-OBLgol "D100.1%" |
+		@SUBJstat-obj_até-OBLgol "D293.1%"}.
+
+irritar V XLE	{@SUBJpat "D4%" |
+		@SUBJexp_com-OBLcaus "D61%" |
+		@SUBJexp_CL "D242%" |
+		@SUBJcaus_OBJexp "D73%"	|
+		@SUBJexp_CL_com-OBLstat-obj "D164.1%"}.
+
+jogar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJagt_com-OBLagt "D63%" |
+		@SUBJagt_com-OBLstat-obj "D195%" |
+		@SUBJagt_contra-OBLstat-obj "D299%"}.
+
+julgar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJexp_OBJstat-obj_PLINKqlity "D35%" |
+		@SUBJagt_OBJpat_por-OBLstat-obj "D37%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_PLINKstat-obj "D491%"}.
+
+juntar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_OBJth_a-OBLrec "D29%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJloc_OBJstat-obj "D113%" |
+		@SUBJagt_OBJpat_com-OBLpat "D291%" |
+		@SUBJagt_OBJth_a-OBLgol "D29.1%" |
+		@SUBJth_CL_com-OBLth "D290.1%"}.
+
+largar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJth "D15%" |
+		@SUBJagt_de-OBLpat "D58%"}.
+
+lembrar V XLE	{@SUBJstat-obj_PLINKqlity "D6%" |
+		@SUBJexp_de-OBLstat-obj "D14%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJcaus_OBLexp_OBJstat-obj "D203%" |
+		@SUBJexp_CL_de-OBLstat-obj "D208%" |
+		@SUBJexp_CL_de-S-XCOMPstat-obj "D352%" |
+		@SUBJagt_OBJexp_de-que-COMPstat-obj "D395%" |
+		@SUBJagt_OBJexp_de-O-XCOMPstat-obj "D492%" |
+		@SUBJagt_a-pro-OBLexp_COMPstat-obj "D493%" |
+		@SUBJexp_de-S-XCOMPstat-obj "D352.1%"}.
+
+ler V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%"}.
+
+lesar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJagt_OBJpat_em-OBLstat-obj "D12%" |
+		@SUBJcaus_pro-OBLco-pat_OBJpat "D436%"}.
+
+levantar V XLE	{@SUBJagt "D2%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJagt_CL_contra-OBLstat-obj "D443%"}.
+
+levar V XLE	{@SUBJstat-obj_PLINKmsure "D8%" |
+		@SUBJagt_OBJth_dat-OBLgol "D38%" |
+		@SUBJstat-obj_para-OBLgol "D101%" |
+		@SUBJloc_OBJstat-obj "D113%" |
+		@SUBJstat-obj_a-OBLgol "D138%" |
+		@SUBJcaus_OBJth "D535%" |
+		@SUBJcaus_OBJth_a-O-XCOMPgol "D486.1%"}.
+
+ligar V XLE	{@SUBJagt_OBJpat "D1%"|
+		@SUBJpat "D4%" |
+		@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJagt_para-OBLgol "D206%" |
+		@SUBJexp_CL_em-OBLstat-obj "D265%" |
+		@SUBJexp_CL_COMPstat-obj "D338%" |
+		@SUBJexp_a-OBLstat-obj "D343%" |
+		@SUBJcaus_OBJstat-obj_com-OBLstat-obj "D543%" |
+		@SUBJagt_OBJpat_a-OBLloc "D275.1%"}.
+
+limitar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJstat-obj_CL_a-OBLco-stat-obj "D243%" |
+		@SUBJagt_OBJpat_a-OBLstat-obj "D259%" |
+		@SUBJagt_CL_a-S-XCOMPstat-obj "D363%" |
+		@SUBJagt_OBJpat_dat-OBLgol "D62.1%" |
+		@SUBJstat-obj_com-OBLstat-obj "D63.2%"}.
+
+limpar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_OBJpat_de-OBLth "D52%"}.
+
+lotar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJcaus_OBJpat "D9%" |
+		@SUBJagt_OBJth_OBLloc "D72%"}.
+
+lutar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_por-OBLstat-obj "D10%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_com-OBLagt "D63%" |
+		@SUBJagt_contra-OBLstat-obj "D299%"}.
+
+machucar V XLE	{@SUBJcaus "D99%" |
+		 @SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJ_OBJpat "D43%"}.
+
+mandar V XLE	{@SUBJagt_OBJth_dat-OBLgol "D38%" |
+		@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJagt_OBJth_para-OBLgol "D74%" |
+		@SUBJagt_CL "D108%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJagt_OBJgol_O-XCOMPstat-obj "D494%" |
+		@SUBJagt_pro-XCOMPstat-obj "D495%" |
+		@SUBJagt_em-OBLpat "D79.1%"}.
+
+manter V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJstat-obj_CL-se "D111%" |
+		@SUBJagt_OBJstat-obj_OBLloc "D404%" |
+		@SUBJagt_OBJstat-obj_PLINKqlity "D35.2%"}.
+
+medir V XLE	{@SUBJstat-obj_PLINKmsure "D8%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_CL_com-OBLagt "D211%"}.
+
+mentir V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_para-OBLgol "D206%"}.
+
+merecer V XLE	{@SUBJgol_S-XCOMPstat-obj "D496%" |
+		@SUBJgol_OBJth "D32.1%"}.
+
+mexer V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_com-OBLpat "D47%" |
+		@SUBJagt_com-OBLstat-obj "D195%" |
+		@SUBJagt_em-OBLpat "D79.1%"}.
+
+morar V XLE	{@SUBJstat-obj_OBLloc "D5%" |
+		@SUBJstat-obj_com-OBLstat-obj "D63.2%" |
+		@SUBJstat-obj_OBLmner "D97%"}.
+
+morrer V XLE	{@SUBJpat "D4%" |
+		@SUBJpat_de-OBLcaus "D57%"}.
+
+mostrar V XLE	{@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_COMPstat-obj "D332"|
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJstat-obj_CL_PLINKqlity "D76%"}.
+
+mudar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJexp_de-OBLstat-obj "D14%" |
+		@SUBJth "D15%" |
+		@SUBJagt_OBJpat_em-OBLrsult "D17%" |
+		@SUBJagt_OBJth_para-OBLgol "D74%" |
+		@SUBJth_OBLsorc "D82%" |
+		@SUBJth_OBLsorc "D82%"}.
+
+nascer V XLE	{@SUBJpat "D4%" |
+		@SUBJpat_de-OBLcaus "D57%"}.
+
+negociar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_com-OBLagt "D63%" |
+		@SUBJagt_em-OBLstat-obj "D168%" |
+		@SUBJagt_OBJstat-obj_com-OBLagt "D409%"}.
+
+nevar V XLE	{@SUBJnull "D66%" |
+		@SUBJnull "D66%" |
+		@V_OBJemerg "D112"}.
+
+nomear V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJstat-obj_como-PLINKdesig "D70%" |
+		@SUBJagt_OBJstat-obj_para-OBLgol "D137%" |
+		@SUBJagt_OBJstat-obj_PLINKdesig "D70.1%"}.
+
+obedecer V XLE	{@SUBJagt_a-OBLstat-obj "D135%" |
+		@SUBJagt_a-pro-OBLgol "D257%"}.
+
+obrigar V XLE	{@SUBJagt_OBJpat_a-OBLstat-obj "D259%" |
+		@SUBJagt_OBJpat_a-O-XCOMPstat-obj "D363.1%"}.
+
+observar V XLE	{@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJexp_COMPstat-obj "D333%"}.
+
+obter V XLE	{@SUBJrec_OBJth "D32%" |
+		@SUBJagt_OBJth_pro-para-OBLgol "D388%"}.
+
+ocorrer V XLE	{@SUBJemerg "D241%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJstat-obj_a-pron-OBLexp "D266%" |
+		@SUBJemerg_pro-OBLexp "D545%"}.
+
+ocupar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJpat_com-OBLstat-obj "D231%" |
+		@SUBJstat-obj_CL_de-OBLref "D232%" |
+		@SUBJagt_CL_de-em-S-XCOMPstat-obj "D499%"}.
+
+odiar V XLE	@SUBJexp_OBJstat-obj "D39%".
+
+oferecer V XLE	{@SUBJagt_OBJth_dat-OBLgol "D38%" |
+		@SUBJagt_OBJstat-obj_para-OBLgol "D137%" |
+		@SUBJagt_OBJstat-obj_como-OBLqlity "D202%" |
+		@SUBJcaus_OBJrsult "D234%" |
+		@SUBJagt_OBJth_para-O-XCOMPgol "D367%" |
+		@SUBJagt_OBJth_dat-OBL1gol_por-OBL2stat-obj "D74.1%" |
+		@SUBJagt_OBJth_por-OBLstat-obj "D74.2%"}.
+
+olhar V XLE	{@SUBJagt_por-OBLstat-obj "D10%" |
+		@SUBJexp_OBJstat-obj_como-PLINKqlity "D44%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_para-OBLgol "D206%"};
+      N * @(NMSG).
+
+opor V XLE	{@SUBJagt_CL_a-OBLgol "D67%" |
+		@SUBJagt_OBJth_a-OBLgol "D29.1%"}.
+
+ordenar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJpat_CL_PLINKrsult "D310%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJagt_dat-OBLgol_COMPstat-obj "D463%" |
+		@SUBJagt_OBJpat_a-O-XCOMPstat-obj "D363.1%"}.
+
+originar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJemerg_CL-se "D159.2%"}.
+
+ouvir V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp "D131%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_OBJ_O-XCOMPstat-obj "D501%"}.
+
+padecer V XLE	{@SUBJpat "D4%" |
+		@SUBJpat_de-OBLcaus "D57%" |
+		@SUBJexp_OBJcaus "D39.1%"}.
+
+
+parar	V XLE {@SUBJagt_OBJpat "D1%" |
+	 	@SUBJpat "D4%" |
+		@SUBJagt_com-OBLpat "D47%" |
+		@SUBJagt_de-S-XCOMPpat "D464%" |
+		@V_de-pro-XCOMPpat "D502%" |
+		@SUBJth_em-OBLloc "D93.2%"}.
+
+
+pagar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_por-OBLstat-obj "D10%" |
+		@SUBJagt_pro-OBL1rec_por-OBL2stat-obj "D546" |
+		@SUBJagt_pro-OBLrec "D547%" |
+		@SUBJagt_OBJth_por-OBLstat-obj "D74.2%" |
+		@SUBJagt_OBL1rec_OBJth_por-OBL2stat-obj "D74.3%" |
+		@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_com-OBLpat "D47%" |
+		@SUBJagt_de-S-XCOMPpat "D464%" |
+		@V_de-pro-XCOMPpat "D502%" |
+		@SUBJth_em-OBLloc "D93.2%"}.
+
+parecer V XLE	{@SUBJstat-obj_PLINKqlity "D6%" |
+		@SUBJstat-obj_CL_com-OBLstat-obj "D204%" |
+		@SUBJstat-obj_pro-OBLexp_PLINKqlity "D261%" |
+		@SUBJstat-obj_com-OBLstat-obj "D63.2%"}.
+
+participar V XLE	{@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_em-OBLloc "D79%" |
+		@SUBJstat-obj_de-OBLloc "D86%" |
+		@SUBJpossr_de-OBLstat-obj "D102%"}.
+
+partir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJth "D15%" |
+		@SUBJth_para-OBLgol "D105%" |
+		@SUBJcaus_pro-OBLco-pat_OBJpat "D436%"}.
+
+passar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJth "D15%" |
+		@SUBJstat-obj_OBJmsure_OBLloc "D18%" |
+		@SUBJth_por-OBLloc "D22%" |
+		@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJstat-obj_OBLmner "D97%" |
+		@SUBJth_a-OBLgol "D100%" |
+		@SUBJth_para-OBLgol "D105%" |
+		@SUBJth_OBJstat-obj "D147%" |
+		@SUBJth_de-OBLstat-obj "D216%" |
+		@SUBJstat-obj_OBJmsure_OBLmner "D229%" |
+		@SUBJagt_CL_por-OBLqlity "D252%" |
+		@SUBJstat-obj_OBLth "D538%" |
+		@SUBJth_CL-se "D159.1%" |
+		@SUBJagt_OBJth_dat-OBLrec "D38.1%" |
+		@SUBJexp_OBJcaus "D39.1%"}.
+
+pedir V XLE	{@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJagt_OBJstat-obj_por-OBLco-stat-obj "D95%" |
+		@SUBJdep_OBJstat-obj "D233%" |
+		@SUBJagt_dat-OBLgol_COMPstat-obj "D463%" |
+		@SUBJagt_para-S-XCOMPstat-obj "D504%" |
+		@SUBJagt_a-pro-OBLgol_para-pro-XCOMPstat-obj "D505%" |
+		@SUBJagt_OBJgol_para-pro-XCOMPstat-obj "D506%" |
+		@SUBJagt_para-OBLgol_Obl-XCOMPstat-obj "D481.2%"}.
+
+pegar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJrec_OBJth "D32%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_em-OBLloc "D79%" |
+		@SUBJagt_CL_com-OBLagt "D211%" |
+		@SUBJexp_OBJ_Inf-O-XCOMPstat-obj "D501.1%" |
+		@SUBJexp_OBJstat-obj_PLINKqlity "D35%" |
+		@SUBJth_em-OBLpat "D93.1%"}.
+
+pensar V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp_em-OBLstat-obj "D51%" |
+		@SUBJexp "D131%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_S-XCOMPstat-obj "D341%" |
+		@SUBJexp_em-S-XCOMPstat-obj "D390%"}.
+
+perceber V XLE	{@SUBJrec_OBJth "D32%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_OBJstat-obj "D39%"}.
+
+perder V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJpat_de-OBLcaus "D57%" |
+		@SUBJpat_em-OBLstat-obj "D189%" |
+		@SUBJpat_OBJstat-obj "D548%"}.
+
+perguntar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_por-OBLstat-obj "D10%" |
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJagt_de-OBLstat-obj "D115%" |
+		@SUBJagt_sobre-OBLstat-obj "D282%" |
+		@SUBJagt_pro-OBL1gol_de-sobre-OBL2stat-obj "D450%" |
+		@SUBJagt_se-COMPstat-obj "D507%"}.
+
+permitir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJcaus_OBJstat-obj_a-pro-OBLrec "D236%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJagt_a-pro-OBLrec_OBJstat-obj "D452%" |
+		@SUBJagt_a-pro-OBLgol_COMPstat-obj "D508%" |
+		@SUBJagt_a-pro-OBLgol_Obl-XCOMPstat-obj "D509%"}.
+
+perservar V XLE	@SUBJagt_OBJpat "D1%".
+
+pertencer V XLE	{@SUBJstat-obj_a-pro-OBLpossr "D237%" |
+		@SUBJstat-obj_a-pro-OBLpossr "D237%"}.
+
+pesar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJstat-obj_PLINKmsure "D8%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJcaus_pro-OBLexp "D412%" |
+		@SUBJcaus_OBJstat-obj "D56.1%"}.
+
+pisar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJstat-obj_OBLloc "D5%" |
+		@SUBJagt_OBJloc "D212%" |
+		@SUBJagt_pro-OBLco-pat_OBJpat "D436.1%"}.
+
+pôr V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJagt_OBJpat_PLINKrsult "D53%" |
+		@SUBJagt_OBJth_OBLloc "D72%" |
+		@SUBJagt_OBJth_para-O-XCOMPgol "D367%" |
+		@SUBJagt_OBJpat_a-O-XCOMPstat-obj "D363.1%"}.
+
+possuir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpossr_OBJstat-obj "D33%"}.
+
+preceder V XLE	@SUBJstat-obj_OBJco-stat-obj "D233.1%".
+
+precisar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJ_OBJstat-obj "D16%" |
+		@SUBJdep_de-OBLstat-obj "D225%" |
+		@SUBJexp_S-XCOMPstat-obj "D341%"}.
+
+preferir V XLE	{@SUBJexp_OBJstat-obj_do-que-OBLco-stat-obj "D120%" |
+		@SUBJexp_S-XCOMPstat-obj "D341%" |
+		@SUBJexp_S-XCOMP1stat-obj_a-doque-S-XCOMP2co-stat-obj "D510%" |
+		@SUBJexp_OBJstat-obj_a-OBLco-stat-obj "D120.1%"}.
+
+referir V XLE {@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJagt_CL_a-OBLgol "D67%" |
+		@SUBJstat-obj_CL-se_a-OBLref "D88%"}.
+
+
+prender V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJ_OBJpat "D43%" |
+		@SUBJagt_OBJ-CLpat_a-OBLstat-obj "D549%"}.
+
+preocupar V XLE	{@SUBJexp_com-OBLcaus "D61%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJcaus "D99%" |
+		@SUBJexp_CL "D242%" |
+		@SUBJexp_CL_de-S-XCOMPstat-obj "D352%" |
+		@SUBJexp_CL_em-S-XCOMPstat-obj "D485%" |
+		@SUBJexp_CL_com-OBLstat-obj "D164.1%"}.
+
+presentear V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJrec "D146%"}.
+
+preservar V XLE	{@SUBJagt_OBJpat_de-OBLstat-obj "D26%" |
+		@SUBJagt_OBJpat "D1%"}.
+
+prestar V XLE	{@SUBJstat-obj "D40%" |
+		@SUBJagt_CL_a-OBLgol "D67%" |
+		@SUBJstat-obj_para-OBLgol "D101%" |
+		@SUBJstat-obj_CL_para-OBLgol "D447%" |
+		@SUBJstat-obj_para-S-XCOMPgol "D511%" |
+		@SUBJagt_OBJth_dat-OBLrec "D38.1%" |
+		@SUBJstat-obj_CL-se_a-para-S-XCOMPgol "D511.1%"}.
+
+prevenir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJpat_de-OBLstat-obj "D26%" |
+		@SUBJagt_de-OBLstat-obj "D115%" |
+		@SUBJagt_OBJpat_contra-OBLstat-obj "D197%" |
+		@SUBJcaus_OBJpat_contra-OBLstat-obj "D197.1%" |
+		@SUBJcaus_OBJpat_de-OBLstat-obj "D26.1%" |
+		@SUBJcaus_contra-OBLstat-obj "D299.1%" |
+		@SUBJcaus_OBJpat_de-O-XCOMPstat-obj "D339.1%"}.
+
+privar V XLE	{@SUBJagt_com-OBLagt "D63%" |
+		@SUBJagt_OBJpat_de-O-XCOMPstat-obj "D339%" |
+		@SUBJcaus_OBJpat_de-OBLth "D52.1%"}.
+
+proceder V XLE	{@SUBJth "D15%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJagt_OBLmner "D94%" |
+		@SUBJagt_a-OBLgol "D100.1%"}.
+
+procurar V XLE	{@SUBJagt_por-OBLstat-obj "D10%" |
+		@SUBJth_OBJgol "D11%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_S-XCOMPstat-obj "D331%"}.
+
+propor V XLE	{@SUBJagt_OBJth_dat-OBLgol "D38%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJagt_OBJstat-obj_para-OBLgol "D137%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJagt_CL_a-S-XCOMPstat-obj "D363%" |
+		@SUBJagt_a-pro-OBLgol_pro-XCOMPstat-obj "D514%"}.
+
+proteger V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_de-OBLstat-obj "D115%" |
+		@SUBJcaus_OBJpat_contra-OBLstat-obj "D197.1%" |
+		@SUBJcaus_OBJpat_de-OBLstat-obj "D26.1%" |
+		@SUBJcaus_contra-OBLstat-obj "D299.1%"}.
+
+provar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_de-OBLpat "D58%" |
+		@SUBJagt_OBJ-CL-stat-obj_PLINKqlity "D154%" |
+		@SUBJagt_COMPstat-obj "D332"}.
+
+pular V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJth_de-OBLcaus "D82.2%"}.
+
+puxar V XLE	{@SUBJstat-obj_PLINKqlity "D6%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJstat-obj_para-OBLgol "D101%" |
+		@SUBJth_para-OBLgol "D105%" |
+		@SUBJrec_OBJstat_de-OBLsorc "D417%" |
+		@SUBJstat-obj_OBLgol "D457%" |
+		@SUBJagt_de-OBLth "D533%"}.
+
+quebrar V XLE	{@SUBJ_OBJpat "D43%"| 
+		@SUBJpat_CL "D3%"|
+		@SUBJpat "D4%"|
+		@SUBJagt_OBJpat "D1%"}.
+
+querer V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_S-XCOMPstat-obj "D341%" |
+		@SUBJexp_a-OBLstat-obj "D343%" |
+		@SUBJexp_OBJstat-obj_PLINKqlity "D35%"}.
+
+reagir V XLE	{@SUBJagt "D2%" |
+		@SUBJexp_a-OBLstat-obj "D343%" |
+		@SUBJcaus_com-OBLcaus "D63.1%"}.
+
+realizar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJemerg_CL-se "D159.2%"}.
+
+receber V XLE	{@SUBJrec_OBJth "D32%" |
+		@SUBJrec "D201%"}.
+
+reclamar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJagt_OBJstat-obj_de-OBLsorc "D92%" |
+		@SUBJagt_de-OBLstat-obj "D115%" |
+		@SUBJagt_de-S-XCOMPstat-obj "D515%" |
+		@SUBJagt_COMPstat-obj "D332%"}.
+
+recompensar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJpat_por-OBLstat-obj "D37%"}.
+
+reconhecer V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJagt_OBJstat-obj_a-OBLgol "D174%" |
+		@SUBJexp_COMPstat-obj "D333%"}.
+
+recusar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJth_dat-OBLgol "D38%" |
+		@SUBJagt_OBJstat-obj_a-OBLgol "D174%" |
+		@SUBJagt_CL_a-S-XCOMPstat-obj "D363%"}.
+
+reduzir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_OBJpat_a-para-OBLrsult "D305%" |
+		@SUBJpat_CL_a-OBLrsult "D306.1%" |
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJagt_CL_a-OBLgol "D67%" |
+		@SUBJstat-obj_CL-se_a-OBLref "D88%"}.
+
+relampejar V XLE	{@SUBJstat-obj "D40%" |
+		@SUBJnull "D66%" |
+		@SUBJloc_OBJemerg "D550%"}.
+
+relatar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_COMPstat-obj "D332%"}.
+
+remeter V XLE	@SUBJagt_OBJth_dat-OBLgol "D38%".
+
+representar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJstat-obj_OBJref "D68%"}.
+
+requerer V XLE	{@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJagt_OBJstat-obj_de-OBLsorc "D92%" |
+		@SUBJdep_OBJstat-obj "D233%"}.
+
+residir V XLE	@SUBJstat-obj_OBLloc "D5%".
+
+resolver V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_S-XCOMPstat-obj "D331%" |
+		@SUBJagt_CL_por-OBLstat-obj "D108.2%" |
+		@SUBJagt_COMPstat-obj "D332%"}.
+
+responder V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJagt_por-OBLstat-obj "D10%" |
+		@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJpat_a-OBLcaus "D254%" |
+		@SUBJagt_a-pro-OBLgol "D257%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJagt_a-OBLgol "D100.1%"}.
+
+retirar V XLE	{@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth_de-OBLsorc "D159%"}.
+
+reunir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJth_a-OBLrec "D29%" |
+		@SUBJagt_com-OBLagt "D63%" |
+		@SUBJagt_CL_com-OBLagt "D211%" |
+		@SUBJagt_OBJpat_com-OBLpat "D291%" |
+		@SUBJagt_CL_por-OBLstat-obj "D108.2%"}.
+
+revelar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJloc_OBJemerg "D550%" |
+		@SUBJagt_OBJ-CL-stat-obj_PLINKqlity "D154%"}.
+
+rir V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_de-OBLstat-obj "D115%" |
+		@SUBJagt_para-OBLgol "D206%"}.
+
+rolar V XLE	{@SUBJth "D15%" |
+		@SUBJagt_OBJth "D59%" |
+		@V_OBJemerg "D112%"}.
+
+roubar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_OBJpat_em-OBLstat-obj "D12%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJagt_pro-OBLsorc_OBJth "D429%"}.
+
+saber V XLE	{@SUBJexp_de-OBLstat-obj "D14%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_S-XCOMPstat-obj "D341%" |
+		@SUBJexp_como-S-XCOMPstat-obj "D517%"}.
+
+sair V XLE	{@SUBJth "D15%" |
+		@SUBJpat_PLINKrsult "D7%" |
+		@SUBJstat-obj_por-OBLmsure "D75%" |
+		@SUBJagt_CL_com-OBLstat-obj "D161%" |
+		@SUBJagt_CL_OBLmner "D239%"}.
+
+seguir V XLE	{@SUBJth "D15%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJth_para-OBLgol "D105%" |
+		@SUBJstat-obj_CL_a-OBLco-stat-obj "D243%" |
+		@SUBJstat-obj_em-OBLmner "D527%" |
+		@SUBJagt_OBJgol "D11.1%"}.
+
+sentar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJstat-obj_OBJth_em-OBLgol "D255%"}.
+
+sentir V XLE	{@SUBJexp_OBJstat-obj_PLINKqlity "D35%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp_por-OBLstat-obj "D181%" |
+		@SUBJexp_em-OBLloc_OBJstat-obj "D220%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_OBJ_O-XCOMPstat-obj "D501%" |
+		@SUBJexp_OBJstat-obj_PLINKqlity "D35%"}.
+
+ser V XLE	{@SUBJstat-obj_PLINKqlity "D6%" |
+	        @SUBJ_XCOMPREDrsult "D270%"|
+		@SUBJstat-obj_de-OBLpossr "D271%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJstat-obj_PLINKstat-obj "D530%"}.
+
+servir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJstat-obj_de-OBLqlity "D20%" |
+		@SUBJstat-obj_como-OBLqlity "D21%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJagt_em-OBLloc "D79%" |
+		@SUBJagt_CL_de-OBLstat-obj "D128%" |
+		@SUBJagt_OBJrec_de-OBLth "D166%" |
+		@SUBJstat-obj_pro-OBL1gol_de-OBL2qlity "D461%"}.
+
+significar V XLE	{@SUBJstat-obj_PLINKqlity "D6%" |
+		@SUBJstat-obj_OBJref "D68%" |
+		@SUBJstat-obj_COMPref "D518%"}.
+
+simbolizar V XLE	{@SUBJstat-obj_OBJref "D68%" |
+		@SUBJstat-obj_COMPref "D518%"}.
+
+simular V XLE	@SUBJagt_OBJpat "D1%".
+
+sobrar V XLE	{@SUBJstat-obj "D40%" |
+		@SUBJth_para-OBLgol "D105%" |
+		@SUBJstat-obj_pro-OBLpossr "D434%"}.
+
+sofrer V XLE	{@SUBJpat "D4%" |
+		@SUBJpat_de-OBLcaus "D57%" |
+		@SUBJpat_com-OBLcaus "D298%" |
+		@SUBJpat_OBJcaus "D551%" |
+		@SUBJexp_OBJcaus "D39.1%"}.
+
+solicitar V XLE	{@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" | 
+		 @SUBJagt_OBJstat-obj "D56%"}.
+
+sonhar V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJexp "D131%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_em-S-XCOMPstat-obj "D390%" |
+		@SUBJexp_com-OBLstat-obj "D61.1%"}.
+
+soprar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJagt_OBJloc "D212%"}.
+
+sorrir V XLE	{@SUBJagt_de-OBLstat-obj "D115%" |
+		@SUBJagt_dat-OBLgol "D408%" |
+		@SUBJagt "D2%"}.
+	
+subir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJpat "D4%" |
+		@SUBJ_de-OBLth "D34%" |
+		@SUBJagt_OBJmsure "D49%" |
+		@SUBJagt_OBJstat-obj "D56%"}.
+
+substituir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJth_por-OBLco-th "D89.2%"}.
+
+suceder V XLE	{@SUBJemerg_com-OBLpat "D114%" |
+		@SUBJemerg "D241%" |
+		@SUBJstat-obj_OBJco-stat-obj "D233.1%"}.
+
+sugerir V XLE	{@SUBJagt_OBJstat-obj_dat-OBLgol "D62%" |
+		@SUBJstat-obj_OBJref "D68%" |
+		@SUBJagt_OBJstat-obj_para-OBLgol "D137%" |
+		@SUBJagt_COMPstat-obj "D332%" |
+		@SUBJagt_pro-XCOMPstat-obj "D495%"}.
+
+suicidar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_CL-OBJpat "D300%"}.
+
+sujar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJpat_de-OBLth "D301%" |
+		@SUBJpat_CL_de-OBLth "D418%"}.
+
+sumir V XLE	{@SUBJagt_com-OBLpat "D47%"| @SUBJpat "D4%"}.
+
+surgir V XLE	@SUBJemerg "D241%".
+
+surrupiar V XLE	@SUBJagt_OBJth "D59%".
+
+tender V XLE	{@SUBJth_a-OBLgol "D100%" |
+		@SUBJstat-obj_para-OBLgol "D101%" |
+		@SUBJth_para-OBLgol "D105%" |
+		@SUBJth_a-S-XCOMPgol "D375%"}.
+
+ter V XLE	{@SUBJ_OBJstat-obj "D16%" |
+		@SUBJrec_OBJth "D32%" |
+		@SUBJpossr_OBJstat-obj "D33%" |
+		@SUBJexp_OBJstat-obj_como-PLINKqlity "D44%" |
+		@SUBJloc_OBJstat-obj "D113%" |
+		@SUBJco-pat_OBJpat_PLINKrsult "D152%"}.
+
+tem 	   I * @V3PS
+	      @VPRES
+	      @IND
+	      @PERF.
+
+
+terminar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJpat_PLINKrsult "D7%" |
+		@SUBJagt_com-OBLpat "D47%" |
+		@SUBJpat_como-OBLrsult "D48%" |
+		@SUBJagt_de-S-XCOMPpat "D464%" |
+		@SUBJ_S-XCOMPemerg "D520%" |
+		@SUBJth_em-OBLloc "D93.2%"}.
+
+tirar V XLE	{@SUBJrec_OBJth "D32%" |
+		@SUBJrec_OBJth "D32%"}.
+
+tocar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJcaus_OBJexp "D73%" |
+		@SUBJagt_em-OBLloc "D79%" |
+		@SUBJagt_para-OBLgol "D206%" |
+		@SUBJexp_CL_de-OBLstat-obj "D208%" |
+		@SUBJexp_CL "D242%" |
+		@SUBJexp_CL_COMPstat-obj "D338%" |
+		@SUBJexp_CL_de-que-COMPstat-obj "D471.1%" |
+		@SUBJcaus_OBJstat-obj "D56.1%" |
+		@SUBJagt_OBJpat "D1%" |
+		@SUBJrec_OBJth "D32%" |
+		@SUBJexp_OBJstat-obj_como-PLINKqlity "D44%" |
+		@SUBJagt_OBJstat-obj "D56%" |
+		@SUBJagt_OBJth_de-OBLsorc "D159%" |
+		@SUBJagt_OBJstat-obj_por-OBLqlity "D224%" |
+		@SUBJcaus_OBJth_a-OBLsorc "D462%"}.
+
+tomar V XLE 	{@SUBJagt_OBJpat "D1%" |
+		@SUBJrec_OBJth "D32%" |
+		@SUBJexp_OBJstat-obj_como-PLINKqlity "D44%" |
+		@SUBJagt_OBJstat-obj "D56%" | 
+		@SUBJagt_OBJth_de-OBLsorc "D159%" |
+		@SUBJagt_OBJstat-obj_por-OBLqlity "D224%" |
+		@SUBJcaus_OBJth_a-OBLsorc "D462%"}.
+
+
+
+
+torcer V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_por-OBLstat-obj "D10%" |
+		@SUBJ_OBJpat "D43%" |
+		@SUBJpat_CL_de-OBLcaus "D96%" |
+		@SUBJagt_para-OBLgol "D206%" |
+		@SUBJpat_CL_de-XCOMPcaus "D522%"}.
+
+tornar V XLE	{@SUBJagt_OBJpat_em-OBLrsult "D17%" |
+		@SUBJagt_OBJpat_PLINKrsult "D53%" |
+		@SUBJpat_CL_PLINKrsult "D310%" |
+		@SUBJth_a-S-XCOMPgol "D375%" |
+		@SUBJagt_a-OBLgol "D100.1%"}.
+
+trabalhar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJagt_de-OBLmner "D246%"}.
+
+transformar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJagt_OBJpat_em-OBLrsult "D17%" |
+		@SUBJpat_CL_em-OBLrsult "D77%"}.
+
+tratar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_de-OBLpat "D58%" |
+		@SUBJagt_OBJstat-obj_de-OBLdesig "D71%" |
+		@SUBJstat-obj_de-OBLref "D117%" |
+		@SUBJagt_OBJpat_de-OBLco-pat "D192%" |
+		@V_se-SUBJagt_de-OBLstat-obj "D193%" |
+		@SUBJagt_de-S-XCOMPsta-obj "D334%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJloc_OBJstat-obj "D113%" |
+		@SUBJpossr_OBJstat-obj_em-OBLloc "D198.1%"}.
+
+
+trazer V XLE	{@SUBJagt_OBJth "D59%" |
+		@SUBJloc_OBJstat-obj "D113%"}.
+
+
+treinar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJagt_OBJpat_em-OBLstat-obj "D12%" |
+		@SUBJpat_CL_em-OBLstat-obj "D77.1%"}.
+
+trocar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJth "D15%" |
+		@SUBJagt_OBJth_com-OBLagt "D89%" |
+		@SUBJagt_OBJth_de-OBLsorc "D159%" |
+		@SUBJagt_OBJth_com-OBL1agt_por-OBL2co-th "D89.1%" |
+		@SUBJagt_OBJth_por-OBLco-th "D89.2%"}.
+
+ultrapassar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJth_OBJstat-obj "D147%" |
+		@SUBJth_OBJstat-obj_em-OBLco-stat-obj "D322%"}.
+
+unir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat_CL "D3%" |
+		@SUBJagt_OBJpat_com-OBLpat "D291%" |
+		@SUBJcaus_OBJth_a-OBLth "D531%" |
+		@SUBJth_CL_com-OBLth "D290.1%" |
+		@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_de-OBLstat-obj "D115%"}.
+
+usar V XLE {@SUBJagt_OBJpat "D1%" |
+	   @SUBJagt_de-OBLstat-obj "D115%"}.
+
+
+utilizar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_de-OBLstat-obj "D115%" |
+		@SUBJagt_CL_de-OBLstat-obj "D128%"}.
+
+valer V XLE	{@SUBJstat-obj_PLINKqlity "D6%" |
+		@SUBJstat-obj_PLINKqlity "D6%" |
+		@SUBJstat-obj "D40%" |
+		@SUBJagt_CL_de-OBLstat-obj "D128%" |
+		@SUBJcaus_OBJth_para-OBLrec "D552%"}.
+
+vender V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJagt_OBJth "D59%" |
+		@SUBJagt_OBJth_dat-OBLrec "D38.1%"}.
+
+ventar V XLE	@SUBJnull "D66%".
+
+ver V XLE	{@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJstat-obj_CL_PLINKqlity "D76%" |
+		@SUBJstat-obj_CL_em-OBLloc "D103%" |
+		@SUBJexp "D131%" |
+		@SUBJexp_COMPstat-obj "D333%" |
+		@SUBJexp_como-COMPstat-obj "D523%"}.
+		
+vestir V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_OBJpat_de-OBLth "D52%" |
+		@SUBJagt_OBJth_OBLloc "D72%"}.
+
+viajar V XLE	{@SUBJagt "D2%" |
+		@SUBJagt_OBJmsure "D49%"}.
+
+vir V XLE	{@SUBJstat-obj_OBLloc "D5%" |
+		@SUBJth "D15%" |
+		@SUBJth_OBLsorc "D82%" |
+		@SUBJth_OBLloc "D84%" |
+		@SUBJth_para-OBLgol "D105%" |
+		@SUBJagt_com-OBLth "D187%" |
+		@SUBJagt_a-OBLgol "D100.1%"}.
+
+virar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt_dat-OBLgol  "D408%" |
+		@SUBJpat "D4%" |
+		@SUBJpat_PLINKrsult "D7%" |
+		@SUBJagt_CL "D108%"}.
+
+viver V XLE	{@SUBJpat "D4%" |
+		@SUBJstat-obj_OBLloc "D5%" |
+		@SUBJexp_OBJstat-obj "D39%" |
+		@SUBJstat-obj_PLINKqlity "D6%" |
+		@SUBJstat-obj_de-OBLmner "D273%" |
+		@SUBJstat-obj_com-OBLstat-obj "D63.2%"}.
+
+voar V XLE	{@SUBJth_OBJmsure "D49.1%" |
+	        @SUBJagt "D2%"} .
+
+voltar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJth "D15%" |
+		@SUBJth_a-S-XCOMPgol "D375%" |
+		@SUBJagt_contra-OBLgol "D155.4%"}.
+
+xingar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJagt "D2%" |
+		@SUBJagt_OBJstat-obj_de-OBLdesig "D71%"}.
+
+zangar V XLE	{@SUBJagt_OBJpat "D1%" |
+		@SUBJpat "D4%" |
+		@SUBJexp_CL "D242%" |
+		@SUBJexp_CL_com-OBLstat-obj "D164.1%" |
+		@SUBJexp_com-OBLstat-obj "D61.1%" |
+		@SUBJagt_de-OBLstat-obj "D115%"}.
+
+zombar V XLE @SUBJagt_de-OBLstat-obj "D115%".
+
+----

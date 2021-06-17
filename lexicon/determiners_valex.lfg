@@ -1,0 +1,314 @@
+VALEXPB PORTUGUESE LEXICON (1.0)
+
+"Determiner"
+
+o 	  D * (^ GEND)=masc
+	      (^ NUM)=sg
+	      (^ PERS)=3
+	      "(^ SPEC DET PRED)='o'"  
+	      (^ SPEC DET DET-TYPE)=def.
+	  "CL * (^ PRED) = 'pro'
+	 	(^ PERS)=3
+	  	(^ NUM)= sg
+		(^ PRON-FORM)=%stem
+	      	(^ CASE)=acc
+		(^ NTYPE NSYN)=pronoun"
+
+
+a 	  D * (^ GEND)=fem
+	      (^ NUM)=sg
+	      (^ PERS)=3
+	      (^ SPEC DET PRED)='o'
+	      (^ SPEC DET DET-TYPE)=def;
+ 	  CL * (^ PRED) = 'pro'
+	 	(^ PERS)=3
+	  	(^ NUM)= sg
+		(^ PRON-FORM)=%stem
+	      	(^ CASE)=acc
+		(^ NTYPE NSYN)=pronoun;
+	  P *  {(^ PFORM)=a  
+	      (^ PTYPE)=nosem
+	      (^ CASE)=dat |
+		@(SEM-PREP %stem goal)} "#Valex addition: SEM-PREP allows 'a' as semantic preposition as in 'ELe me convidou ao palco' ".
+
+
+os 	  D * (^ GEND)=masc
+	      (^ NUM)=pl
+	      (^ PERS)=3
+	      (^ SPEC DET PRED)='o'
+	      (^ SPEC DET DET-TYPE)=def;
+	  CL * (^ PRED) = 'pro'
+	 	(^ PERS)=3
+	  	(^ NUM)= pl
+		(^ PRON-FORM)=%stem
+	      	(^ CASE)=acc
+		(^ NTYPE NSYN)=pronoun.
+
+
+
+essa 	  D * (^ GEND)=fem
+	      (^ NUM)=sg
+	      (^ PERS)=3
+	      (^ SPEC DET PRED)='esse'
+	      (^ SPEC DET DET-TYPE)=demon
+	      (^ SPEC DET DEIXIS)=proximal.
+
+muita	  D * (^ GEND)=fem
+	      (^ NUM)=sg
+	      (^ PERS)=3
+	      (^ SPEC DET PRED)='muita'
+	      (^ SPEC DET DET-TYPE)=indef.
+
+comigo 	 D * "(^ PRED) = 'pro'"
+	      (^ PERS)=1
+	      (^ NUM)=sg
+	      (^ PRON-FORM)=%stem
+	      (^ PRON-TYPE)= pers
+	      (^ PFORM) = com
+	      (^ CASE)=obl
+	      (^ NTYPE NSYN)=pronoun.
+
+
+
+
+"Numbers"
+
+
+
+meio	Num * (^ NUM)=c sg
+	      (^ SPEC NUMBER NUMBER-TYPE)=fract.
+
+"mil	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card." "Mil como NOUN?"
+
+setenta	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+
+10	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+
+100	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+
+105	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+
+1	  Num * (^ NUM)=c sg
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+
+2	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+
+3	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+5	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+cem	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+
+cinco	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+
+dez	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+
+dois	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+
+duas	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+
+mil	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card;
+	   N * @(COMMON %stem)
+	      @N-HUM
+	      @(GL thousand).
+
+onze	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+
+quatro	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+
+três	  Num * (^ NUM)=c pl
+		(^ SPEC NUMBER NUMBER-TYPE)=card.
+
+um	  Num * (^ NUM)=c sg
+		(^ SPEC NUMBER NUMBER-TYPE)=card;
+	  D * (^ GEND)=masc
+	      (^ NUM)=sg
+	      (^ PERS)=3
+	      "(^ SPEC DET PRED)='o'"  
+	      (^ SPEC DET DET-TYPE)=indef.
+
+uma	  Num * (^ NUM)=c sg
+		(^ SPEC NUMBER NUMBER-TYPE)=card;
+ 	  D * (^ GEND)=fem
+	      (^ NUM)=sg
+	      (^ PERS)=3
+	      (^ SPEC DET PRED)='um'
+	      (^ SPEC DET DET-TYPE)=indef.
+
+primeiro  Num * (^ NUM)=c sg
+		(^ SPEC NUMBER NUMBER-TYPE)=ord;
+	  A * 	(^ PRED)='primeiro' 
+	 	(^ NUMBER-TYPE)=ord
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+
+
+"Quantifiers"
+
+
+todo 	  Q * @(N-AGR masc sg)
+	       (^ SPEC QUANT QUANT-TYPE)=universal
+	       (^ SPEC QUANT PRED)='todo'.
+
+toda 	  Q * @(N-AGR fem sg)
+	      "(^ PRON-TYPE)=quant"
+	      (^ SPEC QUANT QUANT-TYPE)=universal
+	      (^ SPEC QUANT PRED)='todo'.
+
+
+qualquer  Q * (^ NUM)=c sg
+	      (^ SPEC QUANT PRED)='any'.
+
+alguma 	  Q * @(N-AGR fem sg)
+	      "(^ PRON-TYPE)=quant"
+	      (^ SPEC QUANT PRED)='algum'.
+
+vários    Q * @(N-AGR masc pl)
+	      (^ PRON-TYPE)=quant
+	      (^ SPEC QUANT PRED)='vários'.
+
+várias    Q * @(N-AGR fem pl)
+	      (^ PRON-TYPE)=quant
+	      (^ SPEC QUANT PRED)='vários'.
+
+
+muitas    Q * @(N-AGR fem pl)
+	      (^ PRON-TYPE)=quant
+	      (^ SPEC QUANT PRED)='muitos'.
+
+muitos    Q * @(N-AGR masc pl)
+	      (^ PRON-TYPE)=quant
+	      (^ SPEC QUANT PRED)='muitos'.
+
+
+esse 	  D * (^ GEND)=masc
+	      (^ NUM)=sg
+	      (^ PERS)=3
+	      (^ SPEC DET PRED)='esse'
+	      (^ SPEC DET DET-TYPE)=demon
+	      (^ SPEC DET DEIXIS)=proximal; 
+	  PRON * (^ PRED)='esse' 
+		(^ GEND)=masc
+	      (^ NUM)=sg
+	      (^ PERS)=3
+	      (^ DET-TYPE)=demon
+	      (^ DEIXIS)=proximal.
+
+essas 	  D * (^ GEND)=fem
+	      (^ NUM)=pl
+	      (^ PERS)=3
+	      (^ SPEC DET PRED)='esse'
+	      (^ SPEC DET DET-TYPE)=demon
+	      (^ SPEC DET DEIXIS)=proximal.
+
+esses 	  D * (^ GEND)=masc
+	      (^ NUM)=pl
+	      (^ PERS)=3
+	      (^ SPEC DET PRED)='esse'
+	      (^ SPEC DET DET-TYPE)=demon
+	      (^ SPEC DET DEIXIS)=proximal.
+
+esta 	  D * (^ GEND)=fem
+	      (^ NUM)=sg
+	      (^ PERS)=3
+	      (^ SPEC DET PRED)='este'
+	      (^ SPEC DET DET-TYPE)=demon
+	      (^ SPEC DET DEIXIS)=proximal.
+
+
+
+
+meus 	  Poss * @(N-AGR masc pl)
+		 (^ PERS)=3
+		 (^ SPEC POSS PRED)='pro'
+		 (^ SPEC POSS PERS)=3
+		 (^ SPEC POSS NUM)=pl
+		 (^ SPEC POSS PRON-TYPE)=poss
+		 (^ SPEC POSS PRON-FORM)= %stem
+		 (^ SPEC POSS GLOSS TRANS)=my.
+
+minha 	  Poss * @(N-AGR fem sg)
+		 (^ PERS)=3
+		 (^ SPEC POSS PRED)='pro'
+		 (^ SPEC POSS PERS)=1 
+		 (^ SPEC POSS NUM)=sg
+		 (^ SPEC POSS PRON-TYPE)=poss
+		 (^ SPEC POSS PRON-FORM)= %stem
+		 (^ SPEC POSS GLOSS TRANS)=my.
+
+
+minhas 	  Poss * @(N-AGR fem pl)
+		 (^ PERS)=3
+		 (^ SPEC POSS PRED)='pro'
+		 (^ SPEC POSS PERS)=1 
+		 (^ SPEC POSS NUM)=pl
+		 (^ SPEC POSS PRON-TYPE)=poss
+		 (^ SPEC POSS PRON-FORM)= %stem
+		 (^ SPEC POSS GLOSS TRANS)=my.
+
+
+nossos 	  Poss * @(N-AGR masc pl)
+		 (^ SPEC POSS PERS)=1 
+		 (^ SPEC POSS NUM)=pl
+		 (^ SPEC POSS PRON-TYPE)=poss
+		 (^ SPEC POSS GLOSS TRANS)=our. 
+
+nossas 	  Poss * @(N-AGR fem pl)
+		 (^ SPEC POSS PERS)=1 
+		 (^ SPEC POSS NUM)=pl
+		 (^ SPEC POSS PRON-TYPE)=poss
+		 (^ SPEC POSS GLOSS TRANS)=our. 
+
+seus 	  Poss * @(N-AGR masc pl)
+		 (^ SPEC POSS PRED)='pro'
+		 (^ SPEC POSS PERS)=3 
+		 (^ SPEC POSS PRON-TYPE)=poss
+		 (^ SPEC POSS PRON-FORM)= %stem.
+
+suas 	  Poss * @(N-AGR fem pl)
+		 (^ SPEC POSS PRED)='pro'
+		 (^ SPEC POSS PERS)=3 
+		 (^ SPEC POSS PRON-TYPE)=poss
+		 (^ SPEC POSS PRON-FORM)= seu. 
+
+tuas 	  Poss * @(N-AGR fem pl)
+		 (^ SPEC POSS PRED)='pro'
+		 (^ SPEC POSS PERS)=3 
+		 (^ SPEC POSS PRON-TYPE)=poss
+		 (^ SPEC POSS PRON-FORM)= teu. 
+
+teu 	  Poss * @(N-AGR masc sg)
+		 (^ SPEC POSS PRED)='pro'
+		 (^ SPEC POSS PERS)=3 
+		 (^ SPEC POSS PRON-TYPE)=poss
+		 (^ SPEC POSS PRON-FORM)= teu. 
+
+
+"interrogative pronouns"
+
+o` que 	  PRON * "{ (^ CLAUSE-TYPE)=int | (^ CLAUSE-TYPE)=decl }"
+	      (^ PRED)='o` que' "TODO: activate PRED feature"
+	      @(AGR sg 3)
+	      {(^ PRON-TYPE)=int |
+	      (^ PRON-TYPE)=free} "#Valex addition" 
+	      (^ PRON-FORM)=%stem
+	      (^ NTYPE NSYN)=pronoun
+	      @(GL what).
+
+	
+----

@@ -1,0 +1,102 @@
+VALEXPB PORTUGUESE LEXICON (1.0)
+
+-unknown  N XLE (^ PRED)='%stem'; A XLE @(A-SUBJ-COMPAR %stem).
+
+-token 	  TOKEN * (^ TOKEN)=%stem.
+
++F 	  N_SFX XLE (^ GEND)=fem; A_SFX XLE (^ SUBJ GEND)=fem.
+
++M 	  N_SFX XLE (^ GEND)=masc; A_SFX XLE (^ SUBJ GEND)=masc.
+
++Sg 	  N_SFX XLE (^ NUM)=sg; A_SFX XLE (^ SUBJ NUM)=sg; V_SFX XLE (^ SUBJ NUM)=sg.
+
++Pl 	  N_SFX XLE (^ NUM)=pl; A_SFX XLE (^ SUBJ NUM)=pl; V_SFX XLE (^ SUBJ NUM)=pl.
+  
++Aug 	  N_SFX XLE (^ SPEC QUANT DEGREE)=augmentative; A_SFX XLE (^ SPEC QUANT DEGREE)=augmentative.
+
++Dim 	  N_SFX XLE (^ SPEC QUANT DEGREE)=diminutive; A_SFX XLE (^ SPEC QUANT DEGREE)=diminutive.
+
++Super 	  N_SFX XLE (^ SPEC QUANT DEGREE)=superlative; A_SFX XLE (^ SPEC QUANT DEGREE)=superlative.
+
++N 	  N_SFX XLE (^ NTYPE NSYN)=common.
+
++NPR 	  N_SFX XLE (^ NTYPE NSYN)=proper.
+
++Adj 	  A_SFX XLE.
+
++Ptcp 	  V_SFX XLE @PSTPT. 
+
++V 	  V_SFX XLE.
+
++Aux 	  Aux_SFX XLE.
+
++Grd 	  V_SFX XLE @GERUND.
+
++PrsInd   V_SFX XLE @VPRES @IND @ACT @MAIN.
+
++ImpfInd  V_SFX XLE @VIMPERF @IND @ACT @MAIN.
+
++PerfInd  V_SFX XLE @VPERF @IND @ACT @MAIN.
+
++Inf 	  V_SFX XLE @INF. "Valex addition"
+
++FutInd   V_SFX XLE @VFUT. "Valex addition"
+
+"+PstPrf"
+
++PrsSbjv  V_SFX XLE  @VSBJR. "Valex Addition"
+
++ImpfSbjv V_SFX XLE @VSBJP. "Valex Addition"
+
++FutSbjv V_SFX XLE @VSBJF. "Valex Addition"
+
++Imp V_SFX XLE @IMP.
+ 
++FutPret V_SFX XLE @VFUTPRET.    "Valex Addition"
+
++1 V_SFX XLE (^ SUBJ PERS)=1.
+
++2 V_SFX XLE (^ SUBJ PERS)=2.
+
++3 V_SFX XLE (^ SUBJ PERS)=3.
+
++V_CLse V_SFX XLE 
+	       (^ CL-FORM) = se
+	       (^ SUBJ PERS)= 3
+	       {(^ SUBJ NUM)= sg|
+		(^ SUBJ NUM)= pl}.
+
+
++V_ele_REFL V_SFX XLE 
+               (^ OBJ PRED) = 'pro'
+	       (^ OBJ CL-FORM) = se
+	       (^ OBJ PERS)=3
+	       (^ OBJ PRON-TYPE)=refl
+	       (^ OBJ NTYPE NSYN)=pronoun.
+
+
++V_CL V_SFX XLE 
+	       (^ OBJ PRED) = 'pro'
+	       (^ OBJ PERS)=3
+	       (^ OBJ PRON-TYPE)=refl
+	       (^ OBJ NTYPE NSYN)=pronoun.
+
++V_CL_lhe V_SFX XLE 
+	       {(^ OBL PRED) = 'pro'
+	       (^ OBL PERS)=3
+	       (^ OBL PRON-TYPE)= pers
+	       (^ OBL CASE)= dat
+	       (^ OBL NTYPE NSYN)=pronoun |
+	       (^ OBL1 PRED) = 'pro'
+	       (^ OBL1 PERS)=3
+	       (^ OBL1 PRON-TYPE)= pers
+	       (^ OBL1 CASE)= dat
+	       (^ OBL1 NTYPE NSYN)=pronoun}.
+
+"teste"
++Prep 	  P_BASE XLE.
++Det      D_BASE XLE.
+
+
+
+----

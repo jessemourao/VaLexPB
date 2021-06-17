@@ -1,0 +1,104 @@
+VALEXPB PORTUGUESE LEXICON (1.0)
+
+"Adverbs"
+
+mais 	  Adv * (^ PRED)='%stem'
+		(^ DEGREE) = {comparative superlative}
+		(^ DEG-DIM) = pos
+		(^ ADV-FORM) = mais
+		(^ ADV-TYPE)= degree
+		@(GL more);
+	  D *  (^ SPEC DET PRED)='mais'.
+
+já 	  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=temp
+		@(GL already).
+
+
+longe Adv * {(^ PRED)='%stem'| 
+             	(^ PRED)='%stem<(^OBJ)>'}
+		(^ ADV-TYPE)=loc
+		@(GL far);
+	A * @(A-SUBJ %stem)
+	      {@(A-AGR masc sg) |
+	      @(A-AGR fem sg)}
+	      @(GL far).
+
+
+bem 	  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=manner
+		@(GL well).
+
+aqui 	  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=loc
+		@(GL here).
+
+cedo	Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=time
+		@(GL early).
+
+hoje	Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=time
+		@(GL today).
+
+
+muito     Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=manner
+		@(GL very);
+	  A * (^ PRED)='muito' 
+	        (^ GEND) = masc
+	        (^ NUM) = sg.
+
+ontem	Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=time
+		@(GL yesterday).
+
+sempre 	Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=time
+		@(GL always).
+
+
+adequadamente  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=manner.
+
+ainda  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=time.
+
+de` repente  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=manner.
+
+diariamente  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=time.
+
+eloquentemente  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=manner.
+
+
+lá 	Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=loc
+		@(GL there).
+
+lentamente  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=manner.
+
+mal  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=manner.
+
+normalmente  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=manner.
+
+nunca  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=time.
+
+pouco  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=quant.
+
+rapidamente  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=manner.
+
+tranquilamente  Adv * (^ PRED)='%stem'
+		(^ ADV-TYPE)=manner.
+
+
+
+----

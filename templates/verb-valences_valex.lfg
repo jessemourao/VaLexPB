@@ -1,0 +1,4200 @@
+VALEXPB PORTUGUESE TEMPLATES (1.0)
+
+
+SUBJagt_OBJpat = "D1"
+	
+
+	(^ PRED)= '%stem<(^ SUBJ)(^ OBJ)>' 			
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)>'	
+        (a::^ AGENT) = (^ SUBJ)					
+ 	(a::^ PATIENT) = (^ OBJ)
+	(^ DIAT) = D1.				
+	
+
+SUBJagt = "D2"							
+				
+	(^ PRED)='%stem<(^ SUBJ)>' 		
+	(a::^ REL) = '%stem<(a::^ AGENT)>'
+        (a::^ AGENT) = (^ SUBJ)
+	(^ DIAT) = D2.				
+	
+				
+		
+SUBJpat_CL = "D3" 
+	
+  	(^ PRED)='%stem<(^ SUBJ)>' 
+	(^ CL-FORM) 							
+	(a::^ REL) = '%stem<(a::^ PATIENT)>'
+	(a::^ PATIENT) = (^ SUBJ)
+	(^ DIAT) = D3.
+
+
+SUBJpat = "D4" 
+ 	(^ PRED)='%stem<(^ SUBJ)>'    	    	
+	(a::^ REL) = '%stem<(a::^ PATIENT)>' 	
+        (a::^ PATIENT) = (^ SUBJ)
+	(^ DIAT) = D4.
+
+
+SUBJstat-obj_OBLloc = "D5"
+
+ 	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	{(^ OBL PSEM) =c loc |
+	(^ OBL ADV-TYPE)=loc}		     
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ LOCATION)>'
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)			     
+	(a::^ LOCATION)= (^ OBL)
+	(^ DIAT) = D5. 
+			     	
+
+SUBJstat-obj_PLINKqlity = "D6"
+
+ 	(^ PRED)='%stem<(^ SUBJ)(^ PREDLINK)>'
+	~(^ PREDLINK PSEM) = loc 				
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ QUALITY)>'  	
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)				
+	(a::^ QUALITY) = (^ PREDLINK)
+	"(^ DIAT) = D6".					
+
+SUBJpat_PLINKrsult = "D7"
+
+	
+	(^ PRED)= '%stem<(^ SUBJ)(^ PREDLINK)>' 
+	~(^ PREDLINK PSEM) = loc		
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ RESULT)>' 
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ RESULT) = (^ PREDLINK)
+	(^ DIAT) = D7.
+
+SUBJstat-obj_PLINKmsure = "D8"
+	
+ 	(^ PRED)='%stem<(^ SUBJ)(^ PREDLINK)>'
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ MEASURE)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)				
+	(a::^ MEASURE) = (^ PREDLINK)
+	(^ DIAT) = D8.
+
+SUBJcaus_OBJpat = "D9"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 		 	
+	(a::^ REL) = '%stem<(a::^CAUSE)(a::^ PATIENT)>' 	
+        (a::^ CAUSE) = (^ SUBJ)			 	
+ 	(a::^ PATIENT) = (^ OBJ)
+	(^ DIAT) = D9.
+
+SUBJagt_por-OBLstat-obj = "D10"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c por
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D10.
+ 
+
+SUBJth_OBJgol = "D11"
+
+ 	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 		
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ GOAL)>'	
+        (a::^ THEME) = (^ SUBJ)				
+ 	(a::^ GOAL) = (^ OBJ)
+	(^ DIAT) = D11.
+
+
+SUBJagt_OBJgol = "D11.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 		
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)>'	
+        (a::^ AGENT) = (^ SUBJ)				
+ 	(a::^ GOAL) = (^ OBJ)
+	(^ DIAT) = D11-1.
+
+SUBJagt_OBJpat_em-OBLstat-obj = "D12"
+
+ 	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'  			
+	(^ OBL PFORM)=c em						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ STATIVE_OBJECT)>'	
+        (a::^ AGENT) = (^ SUBJ)
+ 	(a::^ PATIENT) = (^ OBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D12.
+
+
+SUBJagt_OBJexp_de-OBLstat-obj = "D13"
+
+ 	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'  			
+	(^ OBL PFORM)=c de						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'	
+        (a::^ AGENT) = (^ SUBJ)
+ 	(a::^ EXPERIENCER) = (^ OBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D13.
+
+SUBJexp_de-OBLstat-obj = "D14"
+
+ 	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c de					
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'	
+        (a::^ EXPERIENCER) = (^ SUBJ)				
+ 	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D14.	
+
+SUBJth = "D15"
+
+ 	(^ PRED)='%stem<(^ SUBJ)>' 		
+	(a::^ REL) = '%stem<(a::^ THEME)>'	
+       	(a::^ THEME) = (^ SUBJ)
+	(^ DIAT) = D15.		
+
+SUBJ_OBJstat-obj = "D16"
+					
+ 	(^ PRED)='%stem<(^ OBJ)>(^ SUBJ)'
+	~ (^ SUBJ PRED)  "From BrGram"
+	(^ SUBJ PRON-TYPE)=expl_ "From BrGram"
+	(^ SUBJ PRON-FORM)=null  "From BrGram"
+	(^ SUBJ NTYPE NSYN)=pronoun "From BrGram"			
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)>'	       
+      	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D16.
+
+	
+SUBJagt_OBJpat_em-OBLrsult = "D17"
+	
+ 	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c em						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^RESULT)>' 	
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ PATIENT) = (^ OBJ)						
+	(a::^ RESULT) = (^ OBL)
+	(^ DIAT) = D17.
+
+
+SUBJstat-obj_OBJmsure_OBLloc = "D18"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 
+	(^ OBL PSEM) =c loc					
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ MEASURE)(a::^ LOCATION)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ MEASURE) = (^ OBJ)
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D18.
+
+
+SUBJth_CL_com-OBLgol = "D19"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c com
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ GOAL)>'
+	(a::^ THEME) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D19.
+
+SUBJstat-obj_de-OBLqlity = "D20"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ OBL PFORM)=c de
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^QUALITY)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ QUALITY) = (^ OBL)
+	(^ DIAT) = D20.
+
+SUBJstat-obj_como-OBLqlity = "D21"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c como
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ QUALITY)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ QUALITY) = (^ OBL)
+	(^ DIAT) = D21.
+
+SUBJth_por-OBLloc = "D22"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			 	
+	(^ OBL PFORM)=c por
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ LOCATION)>' 
+	(a::^ THEME) = (^ SUBJ)
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D22.
+
+
+SUBJstat-obj_OBJloc = "D23"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 				
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ LOCATION)>' 	
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)					
+	(a::^ LOCATION) = (^ OBJ)
+	(^ DIAT) = D23.
+
+
+
+SUBJstat-obj_a-OBLmner = "D24"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c a						
+	(a::^ REL) = '%stem<(a::^STATIVE_OBJECT)(a::^MANNER)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ MANNER) = (^ OBL)
+	(^ DIAT) = D24.
+
+SUBJagt_OBJpat_de-OBLstat-obj = "D26"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 
+	(^ OBL PFORM)=c de		
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ PATIENT) = (^ OBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D26.
+
+
+SUBJcaus_OBJpat_de-OBLstat-obj = "D26.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 
+	(^ OBL PFORM)=c de		
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ PATIENT)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ CAUSE) = (^ SUBJ)
+	(a::^ PATIENT) = (^ OBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D26-1.
+
+
+
+SUBJagt_OBJth_a-OBLrec = "D29"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c a						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ THEME)(a::^RECIPIENT)>'	
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ THEME) = (^ OBJ)						
+	(a::^ RECIPIENT) = (^ OBL)
+	(^ DIAT) = D29.
+
+SUBJagt_OBJth_a-OBLgol = "D29.1"	
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c a						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ THEME)(a::^ GOAL)>'	
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ THEME) = (^ OBJ)						
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D29-1.			
+
+SUBJrec_OBJth = "D32"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 				
+	(a::^ REL) = '%stem<(a::^ RECIPIENT)(a::^ THEME)>' 	
+	(a::^ RECIPIENT) = (^ SUBJ)					
+	(a::^ THEME) = (^ OBJ)
+	(^ DIAT) = D32.
+
+
+SUBJgol_OBJth = "D32.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 				
+	(a::^ REL) = '%stem<(a::^ GOAL)(a::^ THEME)>' 	
+	(a::^ GOAL) = (^ SUBJ)					
+	(a::^ THEME) = (^ OBJ)
+	(^ DIAT) = D32-1.
+
+
+SUBJpossr_OBJstat-obj = "D33"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 				
+	(a::^ REL) = '%stem<(a::^POSSESSOR)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ POSSESSOR) = (^ SUBJ)					
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D33.
+
+SUBJ_de-OBLth = "D34"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c de					
+	(a::^ REL) = '%stem<(^ THEME)>' 	
+	(a::^ THEME) = (^ OBL)
+	(^ DIAT) = D34.	
+
+
+SUBJ_de-OBLpat = "D34.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c de					
+	(a::^ REL) = '%stem<(^ PATIENT)>' 	
+	(a::^ PATIENT) = (^ OBL)
+	(^ DIAT) = D34-1.
+
+
+SUBJexp_OBJstat-obj_PLINKqlity = "D35"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ PREDLINK)>' 			
+	(a::^ REL) = '%stem<(a::^EXPERIENCER)(a::^ STATIVE_OBJECT)(a::^QUALITY)>'  
+	(a::^ EXPERIENCER) = (^ SUBJ)					
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ QUALITY) = (^ PREDLINK)
+	(^ DIAT) = D35.
+
+SUBJagt_OBJstat-obj_PLINKqlity = "D35.2"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ PREDLINK)>' 			
+	(a::^ REL) = '%stem<(a::^AGENT)(a::^ STATIVE_OBJECT)(a::^QUALITY)>'  
+	(a::^ AGENT) = (^ SUBJ)					
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ QUALITY) = (^ PREDLINK)
+	(^ DIAT) = D35.
+
+
+SUBJagt_OBJpat_por-OBLstat-obj = "D37"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c por						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ PATIENT) = (^ OBJ)
+	(a::^ STATIVE_OBJECT) = GOAL
+	(^ DIAT) = D37.
+
+SUBJagt_OBJth_dat-OBLgol = "D38"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL CASE) =c dat						"TODO: preposição  'para' deve ter caso 'dat'"
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ THEME)(a::^ GOAL)>' 	
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ THEME) = (^ OBJ)						
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D38.
+					
+SUBJagt_OBJth_dat-OBLrec = "D38.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL CASE) =c dat						"TODO: preposição  'para' deve ter caso 'dat'"
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ THEME)(a::^RECIPIENT)>' 	
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ THEME) = (^ OBJ)						
+	(a::^ RECIPIENT) = (^ OBL)
+	(^ DIAT) = D38-1.
+
+
+SUBJexp_OBJstat-obj = "D39"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 			
+	(a::^ REL) = '%stem<(a::^EXPERIENCER)(a::^ STATIVE_OBJECT)>'	
+	(a::^ EXPERIENCER) = (^ SUBJ)					
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D39.		
+
+
+SUBJexp_OBJcaus = "D39.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 					
+	(a::^ REL) = '%stem<(a::^EXPERIENCER)(a::^ CAUSE)>'	
+	(a::^ EXPERIENCER) = (^ SUBJ)					
+	(a::^ CAUSE) = (^ OBJ)
+	(^ DIAT) = D39-1.	
+			
+
+SUBJstat-obj = "D40"
+	
+	(^ PRED)='%stem<(^ SUBJ)>' 			
+      	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)>'	
+      	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(^ DIAT) = D40.			
+							
+SUBJ_OBJpat = "D43"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 			
+      	(a::^ REL) = '%stem<(a::^ PATIENT)>'	
+      	(a::^ PATIENT) = (^ OBJ)
+	(a::^ PATIENT PART-OF) = (^ SUBJ)
+	(^ DIAT) = D43.
+
+SUBJ_OBJth = "D43.1"
+
+	(^ PRED)='%stem<(^ SUBJ)>' 			
+      	(a::^ REL) = '%stem<(a::^ THEME)>'	
+      	(a::^ THEME) = (^ OBJ)
+	(^ DIAT) = D43-1.
+
+SUBJexp_OBJstat-obj_como-PLINKqlity = "D44"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ PREDLINK)>' 			
+	(^ PREDLINK PFORM)=c como					
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)(a::^QUALITY)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)							
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ QUALITY) = (^ PREDLINK)
+	(^ DIAT) = D44.
+
+SUBJagt_OBJstat-obj_como-PLINKqlity = "D44.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ PREDLINK)>' 			
+	(^ PREDLINK PFORM)=c como					
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)(a::^QUALITY)>' 
+	(a::^ AGENT) = (^ SUBJ)							
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ QUALITY) = (^ PREDLINK)
+	(^ DIAT) = D44-1.
+
+SUBJagt_com-OBLpat = "D47"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'				
+	(^ OBL PFORM)=c com					
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)>' 	
+	(a::^ AGENT) = (^ SUBJ)					
+	(a::^ PATIENT) = (^ OBL)
+	(^ DIAT) = D47.				
+								
+SUBJpat_como-OBLrsult = "D48"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'					
+	(^ OBL PFORM)=c como						
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ RESULT)>' 	
+	(a::^ PATIENT) = (^ SUBJ)				
+	(a::^ RESULT) = (^ OBL)
+	(^ DIAT) = D48.
+
+SUBJagt_OBJmsure = "D49"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 			
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ MEASURE)>'  
+	(a::^ AGENT) = (^ SUBJ)				
+	(a::^ MEASURE) = (^ OBJ)
+	(^ DIAT) = D49.		
+
+SUBJth_OBJmsure = "D49.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 			
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ MEASURE)>'  
+	(a::^ THEME) = (^ SUBJ)				
+	(a::^ MEASURE) = (^ OBJ)
+	(^ DIAT) = D49-1.
+
+SUBJexp_em-OBLstat-obj = "D51"		
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'				 
+	(^ OBL PFORM)=c em						 
+	(a::^ REL) = '%stem<(a::^EXPERIENCER)(a::^ STATIVE_OBJECT)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)				 
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D51.
+
+SUBJagt_OBJpat_de-OBLth = "D52"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c de						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ THEME)>' 	
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ PATIENT) = (^ OBJ)
+	(a::^ THEME) = (^ OBL)
+	(^ DIAT) = D52.
+
+SUBJcaus_OBJpat_de-OBLth = "D52.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c de						
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ PATIENT)(a::^ THEME)>' 	
+	(a::^ CAUSE) = (^ SUBJ)						
+	(a::^ PATIENT) = (^ OBJ)
+	(a::^ THEME) = (^ OBL)
+	(^ DIAT) = D52-1.
+	
+	
+
+SUBJagt_OBJpat_PLINKrsult = "D53"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ PREDLINK)>'				 
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ RESULT)>'
+	~{(^ PREDLINK PSEM) | (^ PREDLINK PFORM)= em} 
+	(a::^ AGENT) = (^ SUBJ)						 
+	(a::^ PATIENT) = (^ OBJ)							
+	(a::^ RESULT) = (^ PREDLINK)
+	(^ DIAT) = D53.		
+
+SUBJcaus_OBJpat_PLINKrsult = "D53.2"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ PREDLINK)>'
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ PATIENT)(a::^ RESULT)>' 
+	(a::^ CAUSE) = (^ SUBJ)						 
+	(a::^ PATIENT) = (^ OBJ)							
+	(a::^ RESULT) = (^ PREDLINK)
+	(^ DIAT) = D53-2.		 
+
+
+SUBJstat-obj_para-OBLgoal = "D54"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 						
+	(^ OBL PFORM)=c para							
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ GOAL)>'   				
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D54.
+
+
+SUBJagt_OBJstat-obj = "D56"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 			
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>' 		
+	(a::^ AGENT) = (^ SUBJ)					
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D56.
+
+SUBJcaus_OBJstat-obj = "D56.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 			
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ STATIVE_OBJECT)>' 		
+	(a::^ CAUSE) = (^ SUBJ)					
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D56-1.
+
+
+SUBJpat_de-OBLcaus = "D57"					
+								
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c de					
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ CAUSE)>' 	
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ CAUSE) = (^ OBL)
+	(^ DIAT) = D57.
+
+SUBJagt_de-OBLpat = "D58"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c de					
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)>' 	
+	(a::^ AGENT) = (^ SUBJ)					
+	(a::^ PATIENT) = (^ OBL)
+	(^ DIAT) = D58.	
+
+SUBJagt_OBJth = "D59"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 			
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ THEME)>' 
+	(a::^ AGENT) = (^ SUBJ)				
+	(a::^ THEME) = (^ OBJ)
+	(^ DIAT) = D59.				
+
+SUBJexp_CL_por-OBLstat-obj = "D60"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c por						
+	(a::^ REL) = '%stem<(a::^EXPERIENCER)(a::^STATIVE_OBJECT)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D60.
+
+
+SUBJexp_com-OBLcaus = "D61"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c com						
+	(a::^ REL) = '%stem<(a::^EXPERIENCER)(a::^CAUSE)>' 	
+	(a::^ EXPERIENCER) = (^ SUBJ)					
+	(a::^ CAUSE) = (^ OBL)
+	(^ DIAT) = D61.	
+
+
+SUBJexp_com-OBLstat-obj = "D61.1"	
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ OBL PFORM)=c com						
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ EXPERIENCER) = (^ SUBJ)					
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D61-1.
+
+
+SUBJagt_OBJstat-obj_dat-OBLgol = "D62"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 		"TODO: preposição  'para' deve ter caso 'dat'"		
+	(^ OBL CASE)=c dat						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)(a::^ GOAL)>' 
+	(a::^ AGENT) = (^ SUBJ)														
+	(a::^ STATIVE_OBJECT) = (^ OBJ)						
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D62.					
+									
+
+SUBJagt_OBJpat_dat-OBLgol = "D62.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 		"TODO: preposição  'para' deve ter caso 'dat'"		
+	(^ OBL CASE)=c dat						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ GOAL)>' 
+	(a::^ AGENT) = (^ SUBJ)														
+	(a::^ PATIENT) = (^ OBJ)						
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D62-1.
+
+SUBJagt_com-OBLagt = "D63"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c com					
+	(a::^ REL) = '%stem<(a::^ AGENT1)(a::^ AGENT2)>' 		
+	(a::^ AGENT1) = (^ SUBJ)					
+	(a::^ AGENT2) = (^ OBL)
+	(^ DIAT) = D63.
+
+
+SUBJcaus_com-OBLcaus = "D63.1"	
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c com					
+	(a::^ REL) = '%stem<(a::^ CAUSE1)(a::^ CAUSE2)>' 		
+	(a::^ CAUSE1) = (^ SUBJ)					
+	(a::^ CAUSE2) = (^ OBL)
+	(^ DIAT) = D63-1.
+
+SUBJstat-obj_com-OBLstat-obj = "D63.2"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c com					
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT1)(a::^ STATIVE_OBJECT2)>' 		
+	(a::^ STATIVE_OBJECT1) = (^ SUBJ)					
+	(a::^ STATIVE_OBJECT2) = (^ OBL)
+	(^ DIAT) = D63-2.
+			
+SUBJth_OBJsorc = "D64"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 				
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^SOURCE)>' 
+	(a::^ THEME) = (^ SUBJ)
+	(a::^ SOURCE) = (^ OBJ)
+	(^ DIAT) = D64.
+
+SUBJnull = "D66"
+
+	(^ PRED)='%stem<>(^ SUBJ)' 
+	~ (^ SUBJ PRED)
+	"(^ SUBJ PRON-TYPE)=expl_"
+	(^ SUBJ PRON-FORM)=null
+	(^ SUBJ NTYPE NSYN)=pronoun		
+	(a::^ REL) = '%stem<>'
+	(^ DIAT) = D66.	
+
+
+SUBJagt_CL_a-OBLgol = "D67"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ CL-FORM)
+	(^ OBL PFORM)=c a
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D67.
+
+
+
+SUBJstat-obj_OBJref = "D68"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 				
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ REFERENT)>' 	
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)				
+	(a::^ REFERENT) = (^ OBJ)
+	(^ DIAT) = D68.				
+
+
+SUBJstat-obj_CL-se_a-OBLcaus = "D69"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ CL-FORM) =c se					
+	(^ OBL PFORM)=c a						
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ CAUSE)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ CAUSE) = (^ OBL)
+	(^ DIAT) = D69.	
+ 
+
+SUBJagt_OBJstat-obj_como-PLINKdesig = "D70"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ PREDLINK)>' 				
+	(^ PREDLINK PFORM)=c como						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)(a::^ DESIGNATION)>' 	
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ DESIGNATION) = (^ PREDLINK)
+	(^ DIAT) = D70.
+
+SUBJagt_OBJstat-obj_PLINKdesig = "D70.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ PREDLINK)>' 								
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)(a::^ DESIGNATION)>' 	
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ DESIGNATION) = (^ PREDLINK)
+	(^ DIAT) = D70-1.
+
+
+
+SUBJagt_OBJstat-obj_de-OBLdesig = "D71"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c de						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)(a::^ DESIGNATION)>' 	
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ DESIGNATION) = (^ OBL)
+	(^ DIAT) = D71.
+
+
+SUBJagt_OBJth_OBLloc = "D72"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 
+	(^ OBL PSEM $) =c loc 		     				
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ THEME)(a::^ LOCATION)>' 	
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ THEME) = (^ OBJ)						
+	(a::^ LOCATION) =a:: (^ OBL)
+	(^ DIAT) = D72.
+
+SUBJcaus_OBJth_OBLstat-obj = "D72.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 
+	(^ OBL PSEM) =c loc 		     				
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ THEME)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ CAUSE) = (^ SUBJ)						
+	(a::^ THEME) = (^ OBJ)						
+	(a::^ STATIVE_OBJECT) =a:: (^ OBL)
+	(^ DIAT) = D72-1.
+
+SUBJcaus_OBJemerg_OBLloc = "D72.2"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 
+	(^ OBL PSEM) =c loc 		     				
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ EMERGENT)(a::^ LOCATION)>' 	
+	(a::^ CAUSE) = (^ SUBJ)						
+	(a::^ EMERGENT) = (^ OBJ)						
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D72-2.
+
+
+SUBJcaus_OBJexp = "D73"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 				
+	(a::^ REL) = '%stem<(a::^CAUSE)(a::^EXPERIENCER)>' 
+	(a::^ CAUSE) = (^ SUBJ)				
+	(a::^ EXPERIENCER) = (^ OBJ)
+	(^ DIAT) = D73.	
+
+
+SUBJagt_OBJth_para-OBLgol = "D74"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c para
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ THEME)(a::^ GOAL)>' 
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ THEME) = (^ OBJ)						
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D74.
+				
+
+SUBJagt_OBJth_dat-OBL1gol_por-OBL2stat-obj = "D74.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL1)(^ OBL2)>' 				
+	(^ OBL1 CASE)=c dat
+	(^ OBL2 PFORM)=c por	
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ THEME)(a::^ GOAL) (^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ THEME) = (^ OBJ)	
+	(a::^ GOAL) = (^ OBL1)			
+	(a::^ STATIVE_OBJECT) = (^ OBL2)
+	(^ DIAT) = D74-1.
+
+
+SUBJagt_OBJth_por-OBLstat-obj = "D74.2"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c por
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ THEME)(a::^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ THEME) = (^ OBJ)						
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D74-2.
+
+SUBJagt_OBL1rec_OBJth_por-OBL2stat-obj = "D74.3"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL1)(^ OBJ)(^ OBL2)>' 
+	(^ OBL1 CASE)=c dat
+	(^ OBL2 PFORM)=c por					
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ RECIPIENT)(a::^ THEME)(a::^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)	
+	(a::^ THEME) = (^ OBJ)				
+	(a::^ RECIPIENT) = (^ OBL1)						
+	(a::^ STATIVE_OBJECT) = (^ OBL2)
+	(^ DIAT) = D74-3.
+
+
+SUBJstat-obj_por-OBLmsure = "D75"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c por					
+	(a::^ REL) = '%stem<(^ STATIVE_OBJECT)(^ MEASURE)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ MEASURE) = (^ OBL)
+	(^ DIAT) = D75.
+
+	
+SUBJstat-obj_CL_PLINKqlity = "D76"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ PREDLINK)>' 	
+	(^ CL-FORM)		
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ QUALITY)>' 	
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ QUALITY) = (^ PREDLINK)
+	(^ DIAT) = D76.
+
+SUBJpat_CL_em-OBLrsult = "D77"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ CL-FORM)
+	(^ OBL PFORM)=c em					
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^RESULT)>' 	
+	(a::^ PATIENT) = (^ SUBJ)						
+	(a::^ RESULT) = (^ OBL)
+	(^ DIAT) = D77.
+
+SUBJpat_CL_em-OBLstat-obj = "D77.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 				
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c em					
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ PATIENT) = (^ SUBJ)						
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D77-1.
+
+
+SUBJstat-obj_PLINKdesig = "D78"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ PREDLINK)>' 	
+	@(CAT (^ PREDLINK) NP)				
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ DESIGNATION)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ DESIGNATION) = (^ PREDLINK)
+	(^ DIAT) = D78.
+
+SUBJagt_em-OBLloc = "D79"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c em				
+	(a::^ REL) = '%stem<(^ AGENT)(^ LOCATION)>' 	
+	(a::^ AGENT) = (^ SUBJ)				
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D79.	
+
+
+SUBJagt_em-OBLpat  = "D79.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c em				
+	(a::^ REL) = '%stem<(^ AGENT)(^ PATIENT)>' 	
+	(a::^ AGENT) = (^ SUBJ)				
+	(a::^ PATIENT) = (^ OBL)
+	(^ DIAT) = D79-1.	
+
+SUBJcaus_em-OBLpat  = "D79.2"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c em				
+	(a::^ REL) = '%stem<(^ CAUSE)(^ PATIENT)>' 	
+	(a::^ CAUSE) = (^ SUBJ)				
+	(a::^ PATIENT) = (^ OBL)
+	(^ DIAT) = D79-2.
+
+SUBJagt_OBJstat-obj_OBLgol = "D80"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 					
+	(^ OBL PSEM) =c goal							
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)(a::^ GOAL)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D80.
+
+
+SUBJth_OBLsorc = "D82"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	(^ OBL PSEM) =c source 						
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ SOURCE)>' 
+	(a::^ THEME) = (^ SUBJ)					
+	(a::^ SOURCE) = (^ OBL)
+	(^ DIAT) = D82.
+
+SUBJagt_OBLsorc = "D82.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	(^ OBL PSEM) =c source 						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ SOURCE)>' 
+	(a::^ AGENT) = (^ SUBJ)					
+	(a::^ SOURCE) = (^ OBL)
+	(^ DIAT) = D82-1.
+
+SUBJth_de-OBLcaus = "D82.2"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	(^ OBL PFORM) =c de 						
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ CAUSE)>' 
+	(a::^ THEME) = (^ SUBJ)					
+	(a::^ CAUSE) = (^ OBL)
+	(^ DIAT) = D82-2.
+
+
+SUBJth_OBLloc = "D84"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'	
+	{(^ OBL PSEM $)=c loc|
+	(^ OBL ADV-TYPE) =c loc}
+	(a::^ THEME) = (^ SUBJ)
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D84.
+
+
+SUBJstat-obj_de-OBLloc = "D86"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ OBL PFORM)=c de						
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ LOCATION)>' 	
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D86.
+
+SUBJstat-obj_CL-se_a-OBLref = "D88"		
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	(^ CL-FORM) =c se											
+	(^ OBL PFORM)=c a							
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ REFERENT)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ REFERENT) = (^ OBL)
+	(^ DIAT) = D88.
+
+SUBJagt_OBJth_com-OBLagt = "D89"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 	
+	(^ OBL PFORM)=c com	
+	(a::^ REL) = '%stem<(a::^ AGENT1)(a::^ THEME)(a::^ AGENT2)>' 
+	(a::^ AGENT1) = (^ SUBJ)
+	(a::^ THEME) = (^ OBJ)
+	(a::^ AGENT2) = (^ OBL)
+	(^ DIAT) = D89.
+
+SUBJagt_OBJth_com-OBL1agt_por-OBL2co-th = "D89.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL1)(^ OBL2)>' 	
+	(^ OBL1 PFORM)=c com
+	(^ OBL2 PFORM)=c por
+	(a::^ REL) = '%stem<(a::^ AGENT1)(a::^ THEME)(a::^AGENT2)(a::^CO-THEME)>' 
+	(a::^ AGENT1) = (^ SUBJ)
+	(a::^ THEME) = (^ OBJ)
+	(a::^ AGENT2) = (^ OBL1)
+	(a::^ CO-THEME) = (^ OBL2)
+	(^ DIAT) = D89-1.
+
+SUBJagt_OBJth_por-OBLco-th = "D89.2"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 	
+	(^ OBL PFORM)=c por
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ THEME)(a::^CO-THEME)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ THEME) = (^ OBJ)
+	(a::^ CO-THEME) = (^ OBL)
+	(^ DIAT) = D89-2.
+
+
+SUBJpossr_CL-se_de-OBLstat-obj = "D91"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM) =c se				
+	(^ OBL PFORM)=c de	
+	(a::^ REL) = '%stem<(^ POSSESSOR)(^ STATIVE_OBJECT)>' 
+	(a::^ POSSESSOR) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D91.
+
+SUBJpossr_em-OBLstat-obj = "D91.1"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c em				
+	(a::^ REL) = '%stem<(a::^ POSSESSOR)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ POSSESSOR) = (^ SUBJ)				
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D91-1.
+
+				
+SUBJagt_OBJstat-obj_de-OBLsorc = "D92"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ OBJ)>' 
+	(^ OBL PSEM $)=c source			
+	(a::^ REL) = '%stem<(^ AGENT)(^SOURCE)(^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ SOURCE) = (^ OBL)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D92.
+
+SUBJth_em-OBLgol = "D93"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c em				
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ GOAL)>' 	
+	(a::^ THEME) = (^ SUBJ)				
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D93.	
+
+SUBJth_em-OBLpat = "D93.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c em				
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ PATIENT)>' 	
+	(a::^ THEME) = (^ SUBJ)				
+	(a::^ PATIENT) = (^ OBL)
+	(^ DIAT) = D93-1.				
+
+
+SUBJth_em-OBLloc = "93.2"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c em				
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ LOCATION)>' 	
+	(a::^ THEME) = (^ SUBJ)				
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D93-2.
+
+SUBJagt_OBLmner = "D94"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	{(^ OBL PSEM)=c manner
+	(^ OBL ADV-TYPE)=c manner}	
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^MANNER)>' 	
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ MANNER) = (^ OBL)
+	(^ DIAT) = D94.
+
+SUBJagt_OBJstat-obj_por-OBLco-stat-obj = "D95"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 					
+	(^ OBL PFORM)=c por
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)(a::^ CO-STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ CO-STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D95.
+
+
+SUBJpat_CL_de-OBLcaus = "D96"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c de
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ CAUSE)>' 
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ CAUSE) = (^ OBL)
+	(^ DIAT) = D96.
+
+
+SUBJstat-obj_OBLmner = "D97"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	(^ OBL ADV-TYPE)=c manner						
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ MANNER)>' 	
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)				
+	(a::^ MANNER) = (^ OBL)
+	(^ DIAT) = D97.						
+
+SUBJcaus = "D99"
+
+	(^ PRED)='%stem<(^ SUBJ)>' 			
+	(a::^ REL) = '%stem<(a::^ CAUSE)>' 	
+	(a::^ CAUSE) = (^ SUBJ)
+	(^ DIAT) = D99.			
+
+
+SUBJth_a-OBLgol = "D100"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c a				
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ GOAL)>' 	
+	(a::^ THEME) = (^ SUBJ)				
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D100.
+
+
+SUBJagt_a-OBLgol = "D100.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c a				
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)>' 	
+	(a::^ AGENT) = (^ SUBJ)				
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D100-1.
+
+			
+SUBJth_a-OBLloc = "D100.2"	
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c a				
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ LOCATION)>' 	
+	(a::^ THEME) = (^ SUBJ)				
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D100-2.
+
+
+SUBJstat-obj_para-OBLgol = "D101"	
+
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ OBL PSEM $)=c goal
+	(^ TENSE)=c pres	
+	~(^ OBL VFORM)= infinitive						
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ GOAL)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D101.
+
+SUBJpossr_de-OBLstat-obj = "102"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ OBL PFORM)=c de						
+	(a::^ REL) = '%stem<(a::^POSSESSOR)(a::^ STATIVE_OBJECT)>' 
+	(a::^ POSSESSOR) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D102.
+
+
+SUBJstat-obj_CL_em-OBLloc = "D103"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	(^ CL-FORM) 										
+	(^ OBL PSEM)=c loc										
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ LOCATION)>' 	
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)					
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D103.
+
+
+SUBJstat-obj_CL_entre-OBLloc = "D103.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	(^ CL-FORM) 
+	(^ OBL PFORM)=c entre				
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ LOCATION)>' 	
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)					
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D103-1.
+
+SUBJth_para-OBLgol = "D105"			
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+ 	(^ OBL PSEM $)=c goal			
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ GOAL)>' 	
+	(a::^ THEME) = (^ SUBJ)				
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D105.				
+
+SUBJagt_CL = "D108"
+
+	(^ PRED)='%stem<(^ SUBJ)>'
+        (^ CL-FORM) 							
+	(a::^ REL) = '%stem<(a::^ AGENT)>' 			
+	(a::^ AGENT) = (^ SUBJ)
+	(^ DIAT) = D108.		
+	
+
+SUBJagt_CL_por-OBLstat-obj = "D108.2"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	(^ CL-FORM)			
+	(^ OBL PFORM)=c por				
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ THEME) = (^ SUBJ)				
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D108-2.					
+								
+SUBJstat-obj_CL-se = "D111"
+
+	(^ PRED)='%stem<(^ SUBJ)>'  				
+	(^ CL-FORM) =c se					
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)>' 	
+	(a::^ AGENT) = (^ SUBJ)
+	(^ DIAT) = D111.
+
+
+V_OBJemerg = "D112"
+	
+	(^ PRED)='%stem<(^ OBJ)>(^ SUBJ)'
+	~ (^ SUBJ PRED)  "From BrGram"
+	(^ SUBJ PRON-TYPE)=expl_ "From BrGram"
+	(^ SUBJ PRON-FORM)=null  "From BrGram"
+	(^ SUBJ NTYPE NSYN)=pronoun "From BrGram"			
+	(a::^ REL) = '%stem<(^ EMERGENT)>'	
+        (a::^ EMERGENT) = (^ OBJ)
+	(^ DIAT) = D112.		
+							
+
+SUBJloc_OBJstat-obj = "D113"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 					
+	(a::^ REL) = '%stem<(a::^ LOCATION)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ LOCATION) = (^ SUBJ)					
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D113.	
+
+
+SUBJemerg_com-OBLpat = "D114"				
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c com					
+	(a::^ REL) = '%stem<(a::^ EMERGENT)(a::^ PATIENT)>' 
+	(a::^ EMERGENT) = (^ SUBJ)
+	(a::^ PATIENT) = (^ OBL)
+	(^ DIAT) = D114.
+
+
+SUBJagt_de-OBLstat-obj = "D115"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ OBL PFORM)=c de						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D115.
+
+
+SUBJemerg_a-OBLgol = "D116"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ OBL PFORM)=c a					
+	(a::^ REL) = '%stem<(a::^ EMERGENT)(a::^ GOAL)>' 
+	(a::^ EMERGENT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D116.
+
+SUBJstat-obj_de-OBLref = "D117"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c de					
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ REFERENT)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ REFERENT) = (^ OBL)
+	(^ DIAT) = D117.
+
+
+SUBJexp_OBJstat-obj_do-que-OBLco-stat-obj = "D120"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c de` que					
+	(a::^ REL) = '%stem<(^ EXPERIENCER)(^ STATIVE_OBJECT)(^ CO-STATIVE_OBJECT)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ CO-STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D120.
+
+
+SUBJexp_OBJstat-obj_a-OBLco-stat-obj = "D120.1"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c a				
+	(a::^ REL) = '%stem<(^ EXPERIENCER)(^ STATIVE_OBJECT)(^ CO-STATIVE_OBJECT)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ CO-STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D120-1.
+
+
+
+SUBJth_CL_de-OBLstat-obj = "D124"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	(^ CL-FORM) 			
+	(^ OBL PFORM)=c de					
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ THEME) = (^ SUBJ)				
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D124.
+
+
+
+SUBJagt_OBJth_de-OBLstat-obj = "D125"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c de			
+	(a::^ REL) = '%stem<(^ AGENT)(^ THEME)(^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ THEME) = (^ OBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D125.
+
+
+SUBJagt_CL_de-OBLstat-obj = "D128"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	(^ CL-FORM) 			
+	(^ OBL PFORM)=c de					
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ AGENT) = (^ SUBJ)				
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D128.
+
+
+SUBJexp	= "D131"
+
+	(^ PRED)='%stem<(^ SUBJ)>' 		
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)>'
+        (a::^ EXPERIENCER) = (^ SUBJ)
+	(^ DIAT) = D131.
+
+SUBJstat-obj_por-OBLdesig = "D134"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ OBL PFORM)=c por					
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ DESIGNATION)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ DESIGNATION) = (^ OBL)
+	(^ DIAT) = D134.
+
+
+SUBJagt_a-OBLstat-obj = "D135"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ OBL PFORM)=c a					
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D135.
+
+
+SUBJagt_OBJstat-obj_para-OBLgol = "D137"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c para			
+	(a::^ REL) = '%stem<(^ AGENT)(^ STATIVE_OBJECT)(^ GOAL)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D137.
+
+
+SUBJstat-obj_a-OBLgol = "D138"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM)=c a
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ GOAL)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D138.
+
+
+SUBJagt_OBJpat_a-OBLgol = "D140"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c a			
+	(a::^ REL) = '%stem<(^ AGENT)(^ PATIENT)(^ GOAL)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ PATIENT) = (^ OBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D140.
+
+SUBJcaus_OBJth_a-OBLgol = "D140.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c a			
+	(a::^ REL) = '%stem<(^ CAUSE)(^ THEME)(^ GOAL)>' 
+	(a::^ CAUSE) = (^ SUBJ)
+	(a::^ THEME) = (^ OBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D140-1.
+
+
+SUBJagt_OBJrec = "D146"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 					
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ RECIPIENT)>' 	
+	(a::^ AGENT) = (^ SUBJ)					
+	(a::^ RECIPIENT) = (^ OBJ)
+	(^ DIAT) = D146.
+
+
+SUBJth_OBJstat-obj = "D147"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 					
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ THEME) = (^ SUBJ)					
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D147.
+
+
+SUBJco-pat_OBJpat_PLINKrsult = "D152"  
+
+	(^ PRED)='%stem<(^ SUBJ)(^ PREDLINK)>(^ OBJ)'
+	(a::^ REL) = '%stem<(^ PATIENT)(^ CO-PATIENT)(^RESULT)>' 
+	(a::^ CO-PATIENT) = (^ SUBJ)
+	(a::^ PATIENT) = (^ OBJ)
+	(a::^ RESULT) = (^ PREDLINK)
+	(^ DIAT) = D152.
+
+
+SUBJagt_OBJ-CL-stat-obj_PLINKqlity = "D154"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ PREDLINK)>'
+	@(CAT (^ OBJ) CL)
+	(^ OBJ NUM) = (^ SUBJ NUM)
+	(^ OBJ PERS) = (^ OBJ PERS)
+	(a::^ REL) = '%stem<(^ AGENT)(^ STATIVE_OBJECT)(^ QUALITY)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ QUALITY) = (^ PREDLINK)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D154.
+
+
+SUBJth_CL_OBLgol = "D155"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM) 			
+	(^ OBL PSEM) =c goal			
+	(a::^ REL) = '%stem<(^ THEME)(^ GOAL)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D155.
+
+
+SUBJth_CL_a-OBLloc = "D155.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM)			
+	(^ OBL PFORM) =c a		
+	(a::^ REL) = '%stem<(^ THEME)(^ LOCATION)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D155-1.
+
+
+SUBJth_CL_em-OBLloc = "D155.2"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM)			
+	(^ OBL PSEM) =c loc		
+	(a::^ REL) = '%stem<(^ THEME)(^ LOCATION)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D155-2.
+
+
+SUBJstat-obj_CL-se_a-OBLgol = "D155.3"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM) =c se 			
+	(^ OBL PFORM) =c a		
+	(a::^ REL) = '%stem<(^ STATIVE_OBJECT)(^ GOAL)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D155-3.
+
+
+SUBJagt_contra-OBLgol = "D155.4"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM) =c contra		
+	(a::^ REL) = '%stem<(^ AGENT)(^ GOAL)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D155-4.
+
+
+
+SUBJagt_OBJth_de-OBLsorc = "D159"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PSEM $) =c source		
+	(a::^ REL) = '%stem<(^ AGENT)(^ THEME)(^ SOURCE)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ THEME) = (^ OBJ)
+	(a::^ SOURCE) = (^ OBL)
+	(^ DIAT) = D159.
+
+SUBJth_CL-se = "D159.1"
+
+	(^ PRED)='%stem<(^ SUBJ)>' 
+	(^ CL-FORM) =c se						
+	(a::^ REL) = '%stem<(a::^ THEME)>'
+	(a::^ THEME) = (^ SUBJ)
+	(^ DIAT) = D159-1.
+
+
+SUBJemerg_CL-se = "D159.2"
+
+	(^ PRED)='%stem<(^ SUBJ)>' 
+	(^ CL-FORM)=c se							
+	(a::^ REL) = '%stem<(a::^ EMERGENT)>'
+	(a::^ EMERGENT) = (^ SUBJ)
+	(^ DIAT) = D159-2.
+
+
+SUBJagt_CL_com-OBLstat-obj = "D161"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM)  			
+	(^ OBL PFORM) =c com		
+	(a::^ REL) = '%stem<(^ AGENT)(^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D161.
+
+
+SUBJagt_OBJexp_com-OBLstat-obj = "D162"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM) =c com		
+	(a::^ REL) = '%stem<(^ AGENT)(^ EXPERIENCER)(^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ EXPERIENCER) = (^ OBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D162.
+
+
+SUBJagt_OBJexp_a-OBLstat-obj = "D163"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM) =c a		
+	(a::^ REL) = '%stem<(^ AGENT)(^ EXPERIENCER)(^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ EXPERIENCER) = (^ OBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D163.
+
+
+SUBJexp_CL_com-OBLcaus = "D164"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM)
+	(^ OBL PFORM) =c com
+	(a::^ REL) = '%stem<(^ EXPERIENCER)(^ CAUSE)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)
+	(a::^ CAUSE) = (^ OBL)
+	(^ DIAT) = D164.
+
+
+SUBJexp_CL_com-OBLstat-obj = "D164.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+        (^ CL-FORM)
+	(^ OBL PFORM) =c com
+	(a::^ REL) = '%stem<(^ EXPERIENCER)(^ STATIVE_OBJECT)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D164-1.
+
+
+SUBJexp_CL_a-OBLstat-obj = "D164.2"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM)
+	(^ OBL PFORM) =c a
+	(a::^ REL) = '%stem<(^ EXPERIENCER)(^ STATIVE_OBJECT)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D164-2.
+
+
+SUBJagt_OBJrec_de-OBLth = "D166"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c de			
+	(a::^ REL) = '%stem<(^ AGENT)(^ RECIPIENT)(^ THEME)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ RECIPIENT) = (^ OBJ)
+	(a::^ THEME) = (^ OBL)
+	(^ DIAT) = D166.
+
+
+SUBJagt_em-OBLstat-obj = "D168"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM) =c em		
+	(a::^ REL) = '%stem<(^ AGENT)(^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D168.
+
+
+SUBJagt_OBJstat-obj_a-OBLgol = "D174"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c a			
+	(a::^ REL) = '%stem<(^ AGENT)(^ STATIVE_OBJECT)(^ GOAL)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D174.
+
+	
+SUBJexp_por-OBLstat-obj = "D181"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM) =c por	
+	(a::^ REL) = '%stem<(^ EXPERIENCER)(^ STATIVE_OBJECT)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D181.
+
+
+SUBJpossr_com-OBLstat-obj = "D183"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM) =c com	
+	(a::^ REL) = '%stem<(^ POSSESSOR)(^ STATIVE_OBJECT)>' 
+	(a::^ POSSESSOR) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D183.
+
+
+SUBJstat-obj_CL_PLINKdesig = "D186"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ PREDLINK)>'
+	(^ CL-FORM)
+	@(CAT (^ PREDLINK) NP)
+	(a::^ REL) = '%stem<(^ STATIVE_OBJECT)(^ DESIGNATION)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ DESIGNATION) = (^ PREDLINK)
+	(^ DIAT) = D186.
+
+
+SUBJagt_com-OBLth = "D187"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM) =c com	
+	(a::^ REL) = '%stem<(^ AGENT)(^ THEME)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ THEME) = (^ OBL)
+	(^ DIAT) = D187.
+
+
+SUBJagt_de-OBLinst = "D188"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM) =c de
+	(a::^ REL) = '%stem<(^ AGENT)(^ INSTRUMENT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ INSTRUMENT) = (^ OBL)
+	(^ DIAT) = D188.
+
+
+SUBJpat_em-OBLstat-obj = "D189"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM) =c em
+	(a::^ REL) = '%stem<(^ PATIENT)(^ STATIVE_OBJECT)>' 
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D189.
+
+
+SUBJagt_OBJpat_de-OBLco-pat = "D192"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c de			
+	(a::^ REL) = '%stem<(^ AGENT)(^ PATIENT)(^ CO-PATIENT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ PATIENT) = (^ OBJ)
+	(a::^ CO-PATIENT) = (^ OBL)
+	(^ DIAT) = D192.
+
+
+V_se-SUBJagt_de-OBLstat-obj = "D193"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'  "Sentence with indeterminate subject"
+	@(CAT (^ SUBJ) CL)	
+	(^ SUBJ PRON-FORM) =c se
+	(^ OBL PFORM) =c de					
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D193.
+
+
+SUBJagt_com-OBLstat-obj = "195"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM) =c com
+	(a::^ REL) = '%stem<(^ AGENT)(^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D195.
+
+
+SUBJagt_OBJpat_contra-OBLstat-obj = "D197"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c contra		
+	(a::^ REL) = '%stem<(^ AGENT)(^ PATIENT)(^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ PATIENT) = (^ OBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D197.
+
+SUBJcaus_OBJpat_contra-OBLstat-obj = "D197.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c contra		
+	(a::^ REL) = '%stem<(^ CAUSE)(^ PATIENT)(^ STATIVE_OBJECT)>' 
+	(a::^ CAUSE) = (^ SUBJ)
+	(a::^ PATIENT) = (^ OBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D197-1.
+
+
+SUBJagt_OBJstat-obj_em-OBLloc = "D198"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c em		
+	(a::^ REL) = '%stem<(^ AGENT)(^ STATIVE_OBJECT)(^ LOCATION)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D198.
+
+
+SUBJpossr_OBJstat-obj_em-OBLloc = "D198.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 
+	(^ OBL PSEM $)=c loc			
+	(a::^ REL) = '%stem<(^ POSSESSOR)(^ STATIVE_OBJECT)(^ LOCATION)>' 
+	(a::^ POSSESSOR) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D198-1.
+
+
+SUBJrec = "D201"
+
+	(^ PRED)='%stem<(^ SUBJ)>' 		
+	(a::^ REL) = '%stem<(a::^ RECIPIENT)>'
+        (a::^ RECIPIENT) = (^ SUBJ)
+	(^ DIAT) = D201.
+
+
+SUBJagt_OBJstat-obj_como-OBLqlity = "D202"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c como	
+	(a::^ REL) = '%stem<(^ AGENT)(^ STATIVE_OBJECT)(^ QUALITY)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ QUALITY) = (^ OBL)
+	(^ DIAT) = D202.
+
+
+SUBJcaus_OBLexp_OBJstat-obj = "D203"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ OBJ)>'
+ 	(^ OBL PRON-TYPE)=c pers
+	(^ OBL CASE)=c dat 
+	(a::^ REL) = '%stem<(^ CAUSE)(^ EXPERIENCER)(^ STATIVE_OBJECT)>' 
+	(a::^ CAUSE) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ EXPERIENCER) = (^ OBL)
+	(^ DIAT) = D203.
+
+
+
+SUBJstat-obj_CL_com-OBLstat-obj = "D204" 
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM)
+	(^ OBL PFORM)=c com
+	(a::^ REL) = '%stem<(^ STATIVE_OBJECT1)(^ STATIVE_OBJECT2)>' 
+	(a::^ STATIVE_OBJECT1) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT2) = (^ OBL)
+	(^ DIAT) = D204.
+
+
+SUBJagt_para-OBLgol = "D206"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM) =c para 		     
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)>'
+	(a::^ AGENT) = (^ SUBJ)			     
+	(a::^ GOAL)= (^ OBL)
+	(^ DIAT) = D206.
+
+
+
+
+SUBJexp_CL_de-OBLstat-obj = "D208"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM)
+	(^ OBL PFORM)=c de
+	(a::^ REL) = '%stem<(^ EXPERIENCER)(^ STATIVE_OBJECT)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D208.
+
+
+SUBJth_a-OBLsorc = "D209"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM)=c a
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ SOURCE)>'
+	(a::^ THEME) = (^ SUBJ)			     
+	(a::^ SOURCE)= (^ OBL)
+	(^ DIAT) = D209.
+
+
+
+
+SUBJstat-obj_OBJmsure_a-OBLgol = "D210"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c a	
+	(a::^ REL) = '%stem<(^ STATIVE_OBJECT)(^ MEASURE)(^ GOAL)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ MEASURE) = (^ OBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D210.
+
+
+SUBJagt_CL_com-OBLagt = "D211"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM)
+	(^ OBL PFORM)=c com
+	(a::^ REL) = '%stem<(^ AGENT1)(^ AGENT2)>' 
+	(a::^ AGENT1) = (^ SUBJ)
+	(a::^ AGENT2) = (^ OBL)
+	(^ DIAT) = D211.
+
+
+SUBJagt_OBJloc = "D212"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 					
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ LOCATION)>' 	
+	(a::^ AGENT) = (^ SUBJ)					
+	(a::^ LOCATION) = (^ OBJ)
+	(^ DIAT) = D212.
+
+
+SUBJth_de-OBLstat-obj = "D216"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM)=c de
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ STATIVE_OBJECT)>'
+	(a::^ THEME) = (^ SUBJ)			     
+	(a::^ STATIVE_OBJECT)= (^ OBL)
+	(^ DIAT) = D216.
+
+
+SUBJsorc_OBJth = "D217"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 					
+	(a::^ REL) = '%stem<(a::^ SOURCE)(a::^ THEME)>' 	
+	(a::^ SOURCE) = (^ SUBJ)					
+	(a::^ THEME) = (^ OBJ)
+	(^ DIAT) = D217.
+
+
+SUBJexp_em-OBLloc_OBJstat-obj = "D220"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c em	
+	(a::^ REL) = '%stem<(^ EXPERIENCER)(^ LOCATION)(^ STATIVE_OBJECT)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D220.
+
+SUBJexp_OBJstat-obj_em-OBLloc = "D222"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c em	
+	(a::^ REL) = '%stem<(^ EXPERIENCER)(^ STATIVE_OBJECT)(^ LOCATION)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D222.
+
+
+SUBJagt_a-OBL1pat_com-OBL2stat-obj = "D223"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL1)(^ OBL2)>' 			
+	(^ OBL1 PFORM) =c a
+	(^ OBL1 PFORM) =c com	
+	(a::^ REL) = '%stem<(^ AGENT)(^ PATIENT)(^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ PATIENT) = (^ OBL1)
+	(a::^ STATIVE_OBJECT) = (^ OBL2)
+	(^ DIAT) = D223.
+
+
+SUBJagt_OBJstat-obj_por-OBLqlity = "D224"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	(^ OBL PFORM) =c por	
+	(a::^ REL) = '%stem<(^ AGENT)(^ STATIVE_OBJECT)(^ QUALITY)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ QUALITY) = (^ OBL)
+	(^ DIAT) = D224.
+
+
+SUBJdep_de-OBLstat-obj = "D225"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM)=c de
+	(a::^ REL) = '%stem<(a::^ DEPENDENT)(a::^ STATIVE_OBJECT)>'
+	(a::^ DEPENDENT) = (^ SUBJ)			     
+	(a::^ STATIVE_OBJECT)= (^ OBL)
+	(^ DIAT) = D225.
+
+
+SUBJstat-obj_OBJmsure_OBLmner = "D229"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ MEASURE)(a::^ MANNER)>'
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ MEASURE)= (^ OBJ)		     
+	(a::^ MANNER)= (^ OBL)
+	(^ DIAT) = D229.
+
+SUBJth_OBLmner = "D230"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ MANNER)>'
+	(a::^ THEME) = (^ SUBJ)			     
+	(a::^ MANNER)= (^ OBL)
+	(^ DIAT) = D230.
+
+SUBJagt_OBJpat_com-OBLstat-obj = "D231"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM)=c com
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ STATIVE_OBJECT)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ PATIENT)= (^ OBJ)		     
+	(a::^ STATIVE_OBJECT)= (^ OBL)
+	(^ DIAT) = D231.
+
+
+SUBJstat-obj_CL_de-OBLref = "D232"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM)
+	(^ OBL PFORM)=c de
+	(a::^ REL) = '%stem<(^ STATIVE_OBJECT)(^ REFERENT)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ REFERENT) = (^ OBL)
+	(^ DIAT) = D232.
+
+SUBJdep_OBJstat-obj = "D233"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 					
+	(a::^ REL) = '%stem<(a::^ DEPENDENT)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ DEPENDENT) = (^ SUBJ)					
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D233.
+
+
+SUBJstat-obj_OBJco-stat-obj = "D233.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 					
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ CO-STATIVE_OBJECT)>' 	
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)					
+	(a::^ C0-STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D233-1.
+
+
+SUBJcaus_OBJrsult = "D234"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 					
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ RESULT)>' 	
+	(a::^ CAUSE) = (^ SUBJ)					
+	(a::^ RESULT) = (^ OBJ)
+	(^ DIAT) = D234.
+
+
+SUBJcaus_em-OBLrsult = "D235"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 	
+	(^ OBL PFORM)=c em			
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ RESULT)>' 	
+	(a::^ CAUSE) = (^ SUBJ)					
+	(a::^ RESULT) = (^ OBL)
+	(^ DIAT) = D235.
+
+
+
+SUBJcaus_OBJstat-obj_a-pro-OBLrec = "D236"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	{(^ OBL CASE) =c dat|		
+	(^ OBL PRON-TYPE)=c pers}				
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ STATIVE_OBJECT)(a::^ RECIPIENT)>' 	
+	(a::^ CAUSE) = (^ SUBJ)						
+	(a::^ STATIVE_OBJECT) = (^ OBJ)						
+	(a::^ RECIPIENT) = (^ OBL)
+	(^ DIAT) = D236.
+
+
+
+SUBJstat-obj_a-pro-OBLpossr = "D237"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL CASE) =c dat
+	~(^ OBL PFORM) = para	"TODO: necessário apenas se o 'para' também tiver um traço dat"					
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ POSSESSOR)>' 	
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)						
+	(a::^ POSSESSOR) = (^ OBL)
+	(^ DIAT) = D237.
+
+
+SUBJagt_CL_OBLmner = "D239"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM)
+	(^ OBL ADV-TYPE)=c manner
+	(a::^ REL) = '%stem<(^ AGENT)(^ MANNER)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ MANNER) = (^ OBL)
+	(^ DIAT) = D239.
+
+
+SUBJemerg = "D241"
+
+	(^ PRED)='%stem<(^ SUBJ)>'
+	(a::^ REL) = '%stem<(a::^ EMERGENT)>'
+	(a::^ EMERGENT) = (^ SUBJ)
+	(^ DIAT) = D241.
+
+
+SUBJexp_CL = "D242"
+
+	(^ PRED)='%stem<(^ SUBJ)>' 
+	(^ CL-FORM)						
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)>'
+	(a::^ EXPERIENCER) = (^ SUBJ)
+	(^ DIAT) = D242.
+
+
+SUBJstat-obj_CL_a-OBLco-stat-obj = "D243"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM)	
+	(^ OBL PFORM)=c a
+	(a::^ REL) = '%stem<(^ STATIVE_OBJECT)(^ CO-STATIVE_OBJECT)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ CO-STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D243.
+
+
+SUBJth_com-OBLstat-obj = "D245"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 	
+	(^ OBL PFORM)=c com		
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ THEME) = (^ SUBJ)					
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D245.
+
+
+SUBJagt_de-OBLmner = "D246"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 	
+	(^ OBL PFORM)=c de		
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ MANNER)>' 	
+	(a::^ AGENT) = (^ SUBJ)					
+	(a::^ MANNER) = (^ OBL)
+	(^ DIAT) = D246.
+
+
+SUBJagt_CL_por-OBLqlity = "D252"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM)
+	(^ OBL PFORM)=c por
+	(a::^ REL) = '%stem<(^ AGENT)(^ QUALITY)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ QUALITY) = (^ OBL)
+	(^ DIAT) = D252.
+
+
+
+SUBJpat_a-OBLcaus = "D254"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM)=c a
+	(a::^ REL) = '%stem<(^ PATIENT)(^ CAUSE)>' 
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ CAUSE) = (^ OBL)
+	(^ DIAT) = D254.
+
+
+SUBJstat-obj_OBJth_em-OBLgol = "D255"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM)=c em
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ THEME)(a::^ GOAL)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ THEME)= (^ OBJ)		     
+	(a::^ GOAL)= (^ OBL)
+	(^ DIAT) = D255.
+
+
+SUBJexp_para-OBLstat-obj = "D256"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM)=c para
+	(a::^ REL) = '%stem<(^ EXPERIENCER)(^ STATIVE_OBJECT)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D256.
+
+
+
+
+SUBJagt_a-pro-OBLgol = "D257"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL CASE) =c dat
+	(^ OBL PFORM) ~= para	"TODO: necessário apenas se o 'para' também tiver um traço dat"
+	(a::^ REL) = '%stem<(^ AGENT)(^ GOAL)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D257.
+
+
+SUBJagt_de-OBLpat_OBJrsult = "D257.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ OBJ)>'
+	(^ OBL PFORM)=c de
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ RESULT)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ RESULT)= (^ OBJ)		     
+	(a::^ PATIENT)= (^ OBL)
+	(^ DIAT) = D257-1.
+
+
+
+SUBJagt_OBJpat_a-OBLstat-obj = "D259"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM)=c a
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ STATIVE_OBJECT)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ PATIENT)= (^ OBJ)		     
+	(a::^ STATIVE_OBJECT)= (^ OBL)
+	(^ DIAT) = D259.
+
+SUBJstat-obj_pro-OBLexp_PLINKqlity = "D261"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ PREDLINK)>'
+	(^ OBL CASE)=c dat 
+	(a::^ REL) = '%stem<(^ STATIVE_OBJECT)(^ EXPERIENCER)(^ QUALITY)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ EXPERIENCER) = (^ OBL)
+	(a::^ QUALITY) = (^ PREDLINK)
+	(^ DIAT) = D261.
+
+SUBJexp_CL_em-OBLstat-obj = "D265"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ CL-FORM)
+	(^ OBL PFORM)=c em
+	(a::^ REL) = '%stem<(^ EXPERIENCER)(^ STATIVE_OBJECT)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D265.
+
+SUBJstat-obj_a-pron-OBLexp = "D266"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL CASE) =c dat
+	(^ OBL PFORM) ~= para	"TODO: necessário apenas se o 'para' também tiver um traço dat"
+	(a::^ REL) = '%stem<(^ STATIVE_OBJECT)(^ EXPERIENCER)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ EXPERIENCER) = (^ OBL)
+	(^ DIAT) = D266.
+
+
+SUBJ_XCOMPREDrsult = "D270"
+	
+	(^ PRED)= '%stem<(^ XCOMP-PRED)>(^ SUBJ)'
+	(^ SUBJ) = (^ XCOMP-PRED SUBJ)
+	(a::^ REL) = '%stem<(a::^ RESULT)>' 
+	(a::^ RESULT) =a:: (^ XCOMP-PRED)
+	(^ DIAT) = D270.
+
+
+SUBJstat-obj_de-OBLpossr = "D271"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM) = de
+	(a::^ REL) = '%stem<(^ STATIVE_OBJECT)(^ POSSESSOR)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ POSSESSOR) = (^ OBL)
+	(^ DIAT) = D271.
+
+SUBJstat-obj_de-OBLmner = "D273"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM) = de
+	(a::^ REL) = '%stem<(^ STATIVE_OBJECT)(^ MANNER)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ MANNER) = (^ OBL)
+	(^ DIAT) = D273.
+
+
+SUBJcaus_OBJexp_a-OBLstat-obj = "D275"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM) =c a					
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ CAUSE) = (^ SUBJ)	
+	(a::^ EXPERIENCER) = (^ OBJ)					
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D275.
+
+
+
+SUBJagt_OBJpat_a-OBLloc = "D275.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM) =c a					
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ LOCATION)>' 	
+	(a::^ AGENT) = (^ SUBJ)	
+	(a::^ PATIENT) = (^ OBJ)					
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D275-1.
+
+
+
+
+SUBJagt_CL_sobre-OBLstat-obj = "D281"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM)					
+	(^ OBL PSEM $)=c cont
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D281.
+
+
+SUBJagt_sobre-OBLstat-obj = "D282"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PSEM $)=c cont
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D282.
+
+
+SUBJagt_OBJpat_por-OBLqlity = "D284"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM) = por					
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ QUALITY)>' 	
+	(a::^ AGENT) = (^ SUBJ)	
+	(a::^ PATIENT) = (^ OBJ)					
+	(a::^ QUALITY) = (^ OBL)
+	(^ DIAT) = D284.
+
+
+SUBJpl-stat-obj_OBJ-CL = "D288"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 
+	@(CAT (^ OBJ) CL)
+	(^ SUBJ NUM)=c pl					
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)>'
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(^ DIAT) = D288.
+
+
+SUBJstat-obj_CL = "D288.1"
+
+	(^ PRED)='%stem<(^ SUBJ)>' 
+	(^ CL-FORM)
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)>'
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(^ DIAT) = D288-1.
+	
+
+
+SUBJth_CL_com-OBLth = "D290.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c com
+	(a::^ REL) = '%stem<(a::^ THEME1)(a::^ THEME2)>'
+	(a::^ THEME1) = (^ SUBJ)
+	(a::^ THEME2) = (^ OBL)
+	(^ DIAT) = D290-1.
+
+SUBJagt_OBJpat_com-OBLpat = "D291"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM) = com					
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT1)(a::^ PATIENT2)>' 
+	(a::^ AGENT) = (^ SUBJ)	
+	(a::^ PATIENT1) = (^ OBJ)					
+	(a::^ PATIENT2) = (^ OBL)
+	(^ DIAT) = D291.
+
+
+
+SUBJstat-obj_CL_até-OBLgol = "D293"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c até
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ GOAL)>'
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D293.
+
+SUBJstat-obj_até-OBLgol = "D293.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c até
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ GOAL)>'
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D293-1.
+
+
+SUBJpat_OBL1mner_OBL2loc = "D294"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL1)(^ OBL2)>' 			
+	(^ OBL1 ADV-TYPE)=c manner
+	(^ OBL1 PFORM) =c em	
+	(a::^ REL) = '%stem<(^ PATIENT)(^ MANNER)(^ LOCATION)>' 
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ MANNER) = (^ OBL1)
+	(a::^ LOCATION) = (^ OBL2)
+	(^ DIAT) = D294.
+
+
+SUBJpat_com-OBLcaus = "D298"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c com						
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ CAUSE)>' 
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ CAUSE) = (^ OBL)
+	(^ DIAT) = D298.
+
+
+SUBJagt_contra-OBLstat-obj = "D299"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ OBL PFORM)=c contra						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D299.
+
+SUBJcaus_contra-OBLstat-obj = "D299.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ OBL PFORM)=c contra						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D299-1.
+
+
+SUBJagt_CL-OBJpat = "D300"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 
+	(^ OBJ CL-FORM)
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ PATIENT) = (^ OBJ)
+	(^ DIAT) = D300.
+
+
+SUBJpat_de-OBLth = "D301"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ OBL PFORM)=c de						
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ THEME)>' 
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ THEME) = (^ OBL)
+	(^ DIAT) = D301.
+
+
+
+
+SUBJagt_CL_de-OBLpat = "D304"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c de
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ PATIENT) = (^ OBL)
+	(^ DIAT) = D304.
+
+
+SUBJagt_OBJpat_a-para-OBLrsult = "D305"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	{(^ OBL PFORM)=c a |
+	(^ OBL PFORM)=c para}						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ RESULT)>' 	
+	(a::^ AGENT) = (^ SUBJ)	
+	(a::^ PATIENT) = (^ OBJ)					
+	(a::^ RESULT) = (^ OBL)
+	(^ DIAT) = D305.
+
+
+SUBJpat_CL_a-OBLgol = "D306"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c a
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ GOAL)>'
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D306.
+
+
+SUBJpat_CL_a-OBLrsult = "D306.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c a
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ RESULT)>'
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ RESULT) = (^ OBL)
+	(^ DIAT) = D306-1.
+
+
+SUBJagt_CL_de-OBLmner = "D309"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c de
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ MANNER)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ MANNER) = (^ OBL)
+	(^ DIAT) = D309.
+
+
+SUBJagt_OBJpat_de-OBLqlity = "D309.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM) = de					
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ QUALITY)>' 	
+	(a::^ AGENT) = (^ SUBJ)	
+	(a::^ PATIENT) = (^ OBJ)					
+	(a::^ QUALITY) = (^ OBL)
+	(^ DIAT) = D309-1.
+
+
+SUBJpat_CL_PLINKrsult = "D310"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ PREDLINK)>' 			
+	(^ CL-FORM)					
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ RESULT)>'
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ RESULT) = (^ PREDLINK)
+	(^ DIAT) = D310.
+
+
+SUBJagt_OBJstat-obj_em-OBLmsure = "D318"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM)=c em
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)(a::^ MEASURE)>' 	
+	(a::^ AGENT) = (^ SUBJ)	
+	(a::^ STATIVE_OBJECT) = (^ OBJ)					
+	(a::^ MEASURE) = (^ OBL)
+	(^ DIAT) = D318.
+
+
+SUBJth_OBJstat-obj_em-OBLco-stat-obj = "D322"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM)=c em
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ STATIVE_OBJECT)(a::^ CO-STATIVE_OBJECT)>' 	
+	(a::^ THEME) = (^ SUBJ)	
+	(a::^ STATIVE_OBJECT) = (^ OBJ)					
+	(a::^ CO-STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D322.
+
+
+SUBJagt_CL_de-OBLsta-obj = "D325"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c de
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D325.
+
+
+SUBJagt_S-XCOMPstat-obj = "D331"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+       	(a::^  AGENT) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D331.
+
+
+SUBJagt_que-S-XCOMPstat-obj = "D331.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP COMP-FORM) = que
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+       	(a::^  AGENT) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D331-1.
+
+
+SUBJagt_COMPstat-obj = "D332"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ COMP)>'
+	(^ COMP COMP-FORM)=c que
+	"~(^ COMP SUBJ PRED)= 'PRO' This blocks sentences with null subjects xcomps as 'O réu afirma que é inocente'"
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+       	(a::^  AGENT) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ COMP)
+	(^ DIAT) = D332.
+
+
+SUBJexp_COMPstat-obj = "D333"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ COMP)>'
+	(^ COMP COMP-FORM)=c que
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+       	(a::^  EXPERIENCER) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ COMP)
+	(^ DIAT) = D333.
+
+
+SUBJagt_de-S-XCOMPsta-obj = "D334"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c de
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+       	(a::^  AGENT) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D334.
+
+
+SUBJagt_OBJexp_a-O-XCOMPstat-obj = "D337"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ OBJ)
+	(^ XCOMP PFORM) =c a
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+       	(a::^  AGENT) = (^ SUBJ)
+  	(a::^  EXPERIENCER) = (^ OBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D337.
+
+
+SUBJexp_CL_a-S-XCOMPstat-obj = "D337.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ CL-FORM)					
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP COMP-FORM) = a   "TODO: COMP-FORM ou PFORM?"
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+  	(a::^  EXPERIENCER) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D337-1.
+
+
+
+SUBJexp_CL_COMPstat-obj = "D338"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ COMP)>'
+	(^ CL-FORM)					
+	(^ COMP COMP-FORM)=c que
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+       	(a::^  EXPERIENCER) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ COMP)
+	(^ DIAT) = D338.
+
+
+SUBJagt_OBJpat_de-O-XCOMPstat-obj = "D339"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ OBJ)
+	(^ XCOMP PFORM) =c de
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ STATIVE_OBJECT)>'
+       	(a::^  AGENT) = (^ SUBJ)
+  	(a::^  PATIENT) = (^ OBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D339.
+
+
+SUBJcaus_OBJpat_de-O-XCOMPstat-obj = "D339.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ OBJ)
+	(^ XCOMP PFORM) =c de
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ PATIENT)(a::^ STATIVE_OBJECT)>'
+       	(a::^  CAUSE) = (^ SUBJ)
+  	(a::^  PATIENT) = (^ OBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D339-1.
+
+
+
+
+SUBJexp_S-XCOMPstat-obj = "D341"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP VFORM)=infinitive
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+       	(a::^  EXPERIENCER) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D341.
+
+
+
+
+
+SUBJstat-obj_OBJgol = "D342"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 		 	
+	(a::^ REL) = '%stem<(a::^STATIVE_OBJECT)(a::^ GOAL)>' 	
+        (a::^ STATIVE_OBJECT) = (^ SUBJ)			 	
+ 	(a::^ GOAL) = (^ OBJ)
+	(^ DIAT) = D342.
+
+
+
+SUBJexp_a-OBLstat-obj = "D343"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 					
+	(^ OBL PFORM)=c a
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>' 
+	(a::^ EXPERIENCER) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D343.
+
+
+SUBJexp_a-S-XCOMPstat-obj = "D351"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c a
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+       	(a::^  EXPERIENCER) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D351.
+
+
+
+SUBJexp_CL_de-S-XCOMPstat-obj = "D352"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ CL-FORM)					
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c de
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+  	(a::^  EXPERIENCER) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D352.
+
+
+SUBJexp_de-S-XCOMPstat-obj = "D352.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c de
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+  	(a::^  EXPERIENCER) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D352-1.
+
+
+
+SUBJagt_dat-OBL1gol_de-sobre-OBL2stat-obj = "D358"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL1)(^ OBL2)>'
+	(^ OBL1 CASE) =c dat	
+	{(^ OBL2 PFORM) =c sobre|
+	(^ OBL2 PFORM) =c de}			
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ GOAL) = (^ OBL1)						
+	(a::^ STATIVE_OBJECT) = (^ OBL2)
+	(^ DIAT) = D358.
+
+
+V_pro-XCOMPstat-obj = "D360"
+
+
+	(^ PRED)='%stem<(^ XCOMP)>(^SUBJ)'
+	(^ SUBJ PRON-TYPE)=expl_ "From BrGram"
+	(^ SUBJ PRON-FORM)=null  "From BrGram"
+	(^ SUBJ NTYPE NSYN)=pronoun "From BrGram"
+	(^ XCOMP SUBJ PRED) = 'pro'
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)>'	       
+      	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D360.
+
+
+SUBJagt_CL_a-S-XCOMPstat-obj = "D363"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ CL-FORM)					
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c a
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+  	(a::^  AGENT) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D363.
+
+
+
+SUBJagt_OBJpat_a-O-XCOMPstat-obj = "D363.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ OBJ)
+	(^ XCOMP PFORM) =c a
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ STATIVE_OBJECT)>'
+       	(a::^  AGENT) = (^ SUBJ)
+  	(a::^  PATIENT) = (^ OBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D363-1.
+
+
+SUBJagt_OBJth_para-O-XCOMPgol = "D367"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ OBJ)
+	(^ XCOMP PFORM) =c para
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ THEME)(a::^ GOAL)>'
+       	(a::^  AGENT) = (^ SUBJ)
+  	(a::^  THEME) = (^ OBJ)
+ 	(a::^  GOAL) =a:: (^ XCOMP)
+	(^ DIAT) = D367.
+
+
+
+SUBJagt_de-S-XCOMPmner = "D368"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c de
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ MANNER)>'
+  	(a::^  AGENT) = (^ SUBJ)
+ 	(a::^  MANNER) =a:: (^ XCOMP)
+	(^ DIAT) = D368.
+
+
+V_a-OBLpossr_Obl-XCOMPstat-obj = "D371"
+
+	(^ PRED)='%stem<(^ OBL) (^ XCOMP)>(^ SUBJ)'
+	~ (^ SUBJ PRED)  "From BrGram"
+	(^ SUBJ PRON-TYPE)=expl_ "From BrGram"
+	(^ SUBJ PRON-FORM)=null  "From BrGram"
+	(^ SUBJ NTYPE NSYN)=pronoun "From BrGram"
+	(^ XCOMP SUBJ) = (^ OBL)
+	(^ OBL PFORM) =c a
+	(a::^ REL) = '%stem<(a::^ POSSESSOR)(a::^ STATIVE_OBJECT)>'	
+     	(a::^ POSSESSOR) = (^ OBL)
+      	(a::^ STATIVE_OBJECT) = (^ XCOMP)
+	(^ DIAT) = D371.
+
+
+Pro-XCOMPcaus = "D372"  "#Diátese desnecessária: Pensar cansa -> é a diátese D99"
+
+	(^ PRED)='%stem<(^ XCOMP)>(^ SUBJ)'
+	~ (^ SUBJ PRED)  "From BrGram"
+	(^ SUBJ PRON-TYPE)=expl_ "From BrGram"
+	(^ SUBJ PRON-FORM)=null  "From BrGram"
+	(^ SUBJ NTYPE NSYN)=pronoun "From BrGram"
+	(^ XCOMP VFORM)=infinitive
+	(^ XCOMP SUBJ PRED) = 'PRO'
+	(a::^ REL) = '%stem<(a::^ CAUSE)>'	
+      	(a::^ CAUSE) = (^ XCOMP)
+	(^ DIAT) = D372.
+
+
+
+SUBJpat_de-S-XCOMPcaus = "D373"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c de
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ CAUSE)>'
+  	(a::^  PATIENT) = (^ SUBJ)
+ 	(a::^  CAUSE) =a:: (^ XCOMP)
+	(^ DIAT) = D373.
+
+SUBJth_a-S-XCOMPgol = "D375"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c a
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ GOAL)>'
+  	(a::^  THEME) = (^ SUBJ)
+ 	(a::^  GOAL) =a:: (^ XCOMP)
+	(^ DIAT) = D375.
+
+V_de-COMPstat-obj = "D379"
+
+	(^ PRED)='%stem<(^ COMP)>(^ SUBJ)'
+	"~ (^ SUBJ PRED)"  "From BrGram"
+	(^ SUBJ PRON-TYPE)=expl_ "From BrGram"
+	(^ SUBJ PRON-FORM)=null  "From BrGram"
+	(^ SUBJ NTYPE NSYN)=pronoun "From BrGram"
+	(^ COMP COMP-FORM)=c de
+	(^ COMP VFORM)=infinitive
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)>'
+ 	(a::^  STATIVE_OBJECT) =a:: (^ COMP)
+	(^ DIAT) = D379.
+
+
+
+SUBJ_a-S-XCOMPemerg = "D384"
+
+	(^ PRED)='%stem<(^ XCOMP)>(^ SUBJ)'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c a
+	(a::^ REL) = '%stem<(a::^ EMERGENT)>'
+ 	(a::^ EMERGENT) =a:: (^ XCOMP)
+	(^ DIAT) = D384.
+
+
+SUBJcaus_OBJemerg = "D387"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 		 	
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ EMERGENT)>' 	
+        (a::^ CAUSE) = (^ SUBJ)			 	
+ 	(a::^ EMERGENT) = (^ OBJ)
+	(^ DIAT) = D387.
+
+
+SUBJagt_OBJth_pro-para-OBLgol = "D388"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	{(^ OBL PRON-TYPE)=c pers |
+	(^ OBL PFORM)=c para}	
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ THEME)(a::^ GOAL)>' 	
+	(a::^ AGENT) = (^ SUBJ)	
+	(a::^ THEME) = (^ OBJ)					
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D388. 
+
+
+SUBJexp_em-S-XCOMPstat-obj = "D390"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c em
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+  	(a::^  EXPERIENCER) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D390.
+
+SUBJ_S-XCOMPstat-obj = "D392"
+
+	(^ PRED)='%stem<(^ XCOMP)>(^ SUBJ)'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)>'
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D392.
+
+
+SUBJcaus_para-S-XCOMPrsult = "D393"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c para
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ RESULT)>'
+  	(a::^  CAUSE) = (^ SUBJ)
+ 	(a::^  RESULT) =a:: (^ XCOMP)
+	(^ DIAT) = D392.
+
+
+SUBJagt_OBJexp_de-que-COMPstat-obj = "D395"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ COMP)>'
+	(^ COMP COMP-FORM)=c de` que
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+       	(a::^ AGENT) = (^ SUBJ)
+	(a::^ EXPERIENCER) = (^ OBJ)	
+ 	(a::^ STATIVE_OBJECT) =a:: (^ COMP)
+	(^ DIAT) = D395.
+
+
+SUBJagt_OBJstat-obj_para-pro-XCOMPgol = "D396"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ PRED) = 'PRO'
+	(^ XCOMP PFORM) =c para
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)(a::^ GOAL)>'
+       	(a::^  AGENT) = (^ SUBJ)
+  	(a::^  STATIVE_OBJECT) = (^ OBJ)
+ 	(a::^  GOAL) =a:: (^ XCOMP)
+	(^ DIAT) = D396.
+
+
+SUBJagt_OBJpat_por-pro-XCOMPstat-obj = "D398"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ PRED) = 'PRO'
+	(^ XCOMP PFORM) =c por
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ STATIVE_OBJECT)>'
+       	(a::^  AGENT) = (^ SUBJ)
+  	(a::^  PATIENT) = (^ OBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D398.
+
+
+SUBJagt_CL_entre-OBLstat-obj = "D402"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c entre
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D402.
+
+
+SUBJagt_entre-OBLstat-obj = "D403"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	(^ OBL PSEM) =c loc				
+	"(^ OBL PFORM)=c entre"
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D403.
+
+
+SUBJagt_OBJstat-obj_OBLloc = "D404"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PSEM) =c loc
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)(a::^ LOCATION)>' 	
+	(a::^ AGENT) = (^ SUBJ)	
+	(a::^ STATIVE_OBJECT) = (^ OBJ)					
+	(a::^ LOCATION) = (^ OBL)
+	(^ DIAT) = D404. 
+
+
+SUBJagt_dat-OBLgol = "D408"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL CASE) =c dat
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D408.
+
+
+SUBJagt_OBJstat-obj_com-OBLagt = "D409"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM) =c com
+	(a::^ REL) = '%stem<(a::^ AGENT1)(a::^ STATIVE_OBJECT)(a::^ AGENT2)>' 	
+	(a::^ AGENT1) = (^ SUBJ)	
+	(a::^ STATIVE_OBJECT) = (^ OBJ)					
+	(a::^ AGENT2) = (^ OBL)
+	(^ DIAT) = D409. 
+
+SUBJstat-obj_sobre-acerca-OBLref = "D410"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PSEM $) =c cont
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ REFERENT)>' 	
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)					
+	(a::^ REFERENT) = (^ OBL)
+	(^ DIAT) = D410. 
+
+
+SUBJcaus_pro-OBLexp_OBJloc = "D411"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ OBJ)>'
+	(^ OBL PRON-TYPE)=c pers
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ EXPERIENCER)(a::^ LOCATION)>' 	
+	(a::^ CAUSE) = (^ SUBJ)	
+	(a::^ EXPERIENCER) = (^ OBL)					
+	(a::^ LOCATION) = (^ OBJ)
+	(^ DIAT) = D411. 
+
+
+SUBJcaus_pro-OBLexp = "D412"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PRON-TYPE)=c pers
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ EXPERIENCER)>' 	
+	(a::^ CAUSE) = (^ SUBJ)	
+	(a::^ EXPERIENCER) = (^ OBL)
+	(^ DIAT) = D412. 
+
+
+
+SUBJloc_de-com-OBLcaus = "D413"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	{(^ OBL PFORM) =c de|
+	(^ OBL PFORM) =c com}
+	(a::^ REL) = '%stem<(a::^ LOCATION)(a::^ CAUSE)>' 	
+	(a::^ LOCATION) = (^ SUBJ)	
+	(a::^ CAUSE) = (^ OBL)
+	(^ DIAT) = D413. 
+
+
+
+SUBJrec_OBJstat_de-OBLsorc = "D417"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM) =c de
+	(a::^ REL) = '%stem<(a::^ RECIPIENT)(a::^ STATIVE_OBJECT)(a::^ SOURCE)>' 	
+	(a::^ RECIPIENT) = (^ SUBJ)	
+	(a::^ STATIVE_OBJECT) = (^ OBJ)					
+	(a::^ SOURCE) = (^ OBL)
+	(^ DIAT) = D417. 
+
+
+SUBJpat_CL_de-OBLth = "D418"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c de
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ THEME)>'
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ THEME) = (^ OBL)
+	(^ DIAT) = D418.
+
+
+
+SUBJstat-obj_pro-OBLexp = "D419"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PRON-TYPE)=c pers
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ EXPERIENCER)>' 	
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)	
+	(a::^ EXPERIENCER) = (^ OBL)
+	(^ DIAT) = D419.
+
+
+SUBJstat-obj_por-OBLgol = "D421"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PFORM)=c por
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ GOAL)>'
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D421.
+
+SUBJth_CL_por-OBLstat-obj = "D424"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c por
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ STATIVE_OBJECT)>'
+	(a::^ THEME) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D424.
+
+
+
+SUBJdep_pro-OBLgol_OBJstat-obj = "D426"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ OBJ)>'
+	(^ OBL PRON-TYPE)=c pers
+	(a::^ REL) = '%stem<(a::^ DEPENDENT)(a::^ SOURCE)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ DEPENDENT) = (^ SUBJ)	
+	(a::^ SOURCE) = (^ OBL)					
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D426. 
+
+SUBJagt_pro-OBLsorc_OBJstat-obj = "D427"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ OBJ)>'
+	(^ OBL PRON-TYPE)=c pers
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ SOURCE)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ AGENT) = (^ SUBJ)	
+	(a::^ SOURCE) = (^ OBL)					
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D427. 
+
+SUBJrson_OBJstat-obj = "D428"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 			
+	(a::^ REL) = '%stem<(a::^ REASON)(a::^ STATIVE_OBJECT)>'
+	(a::^ REASON) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D428.
+
+
+SUBJagt_pro-OBLsorc_OBJth = "D429"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ OBJ)>'
+	(^ OBL PRON-TYPE)=c pers
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ SOURCE)(a::^ THEME)>' 	
+	(a::^ AGENT) = (^ SUBJ)	
+	(a::^ SOURCE) = (^ OBL)					
+	(a::^ THEME) = (^ OBJ)
+	(^ DIAT) = D429. 
+
+
+SUBJstat-obj_pro-OBLpossr = "D434"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	(^ OBL PRON-TYPE)=c pers			
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ POSSESSOR)>'
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ POSSESSOR) = (^ OBL)
+	(^ DIAT) = D434.
+
+
+SUBJth_pro-OBLsorc = "D435"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	(^ OBL PRON-TYPE)=c pers			
+	(a::^ REL) = '%stem<(a::^ THEME)(a::^ SOURCE)>'
+	(a::^ THEME) = (^ SUBJ)
+	(a::^ SOURCE) = (^ OBL)
+	(^ DIAT) = D435.
+
+
+
+SUBJcaus_pro-OBLco-pat_OBJpat = "D436"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ OBJ)>'
+	(^ OBL PRON-TYPE)=c pers
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ PATIENT)(a::^ CO-PATIENT)>' 	
+	(a::^ CAUSE) = (^ SUBJ)	
+	(a::^ CO-PATIENT) = (^ OBL)					
+	(a::^ PATIENT) = (^ OBJ)
+	(^ DIAT) = D436. 
+
+
+SUBJagt_pro-OBLco-pat_OBJpat = "D436.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ OBJ)>'
+	(^ OBL PRON-TYPE)=c pers
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ CO-PATIENT)>' 	
+	(a::^ AGENT) = (^ SUBJ)	
+	(a::^ CO-PATIENT) = (^ OBL)					
+	(a::^ PATIENT) = (^ OBJ)
+	(^ DIAT) = D436-1. 
+
+
+
+SUBJagt_OBJstat-obj_contra-OBLgol = "D437"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'
+	(^ OBL PFORM) =c contra
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)(a::^ GOAL)>' 	
+	(a::^ AGENT) = (^ SUBJ)	
+	(a::^ STATIVE_OBJECT) = (^ OBJ)					
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D437. 
+
+
+SUBJpat_CL_por-OBLcaus = "D439"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c por
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ CAUSE)>'
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ CAUSE) = (^ OBL)
+	(^ DIAT) = D438.
+
+
+
+SUBJagt_com-OBL1gol_com-sobre-OBL2stat-obj = "D440"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL1)(^ OBL2)>' 				
+	(^ OBL1 PFORM)=c com
+	{(^ OBL2 PFORM)=c sobre|
+	(^ OBL2 PFORM)=c em}		
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL) (^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ GOAL) = (^ OBL1)			
+	(a::^ STATIVE_OBJECT) = (^ OBL2)
+	(^ DIAT) = D440.
+
+
+SUBJstat-obj_dat-OBLgol = "D442"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL CASE) =c dat
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ GOAL)>'
+       	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D442.
+
+
+SUBJagt_CL_contra-OBLstat-obj = "D443"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM)					
+	(^ OBL PFORM)=c contra
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D443.
+
+
+SUBJstat-obj_CL_para-OBLgol = "D447"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ CL-FORM)					
+	(^ OBL PSEM)=c goal		
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ GOAL)>'
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D447.
+
+
+
+SUBJagt_pro-OBL1gol_de-sobre-OBL2stat-obj = "D450"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL1)(^ OBL2)>' 
+	(^ OBL1 PRON-TYPE)=c pers
+	{(^ OBL2 PFORM)=c de|
+	(^ OBL2 PFORM)=c sobre}
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)(a::^ STATIVE_OBJECT)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL1)
+	(a::^ STATIVE_OBJECT) = (^ OBL2)
+	(^ DIAT) = D450.
+
+
+
+SUBJagt_a-pro-OBLrec_OBJstat-obj = "D452"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ OBJ)>'
+	(^ OBL CASE) =c dat
+	(^ OBL PFORM) ~= para	"TODO: necessário apenas se o 'para' também tiver um traço dat"					
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ RECIPIENT)(a::^ STATIVE_OBJECT)>' 	
+	(a::^ AGENT) = (^ SUBJ)						
+	(a::^ RECIPIENT) = (^ OBL)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D452.
+
+
+
+SUBJstat-obj_OBLgol = "D457"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 			
+	(^ OBL PSEM)=c goal
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ GOAL)>'
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D457.
+
+
+SUBJstat-obj_pro-OBL1gol_de-OBL2qlity = "D461"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL1)(^ OBL2)>' 
+	(^ OBL1 PRON-TYPE)=c pers
+	(^ OBL2 PFORM)=c de
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ GOAL)(a::^ QUALITY)>'
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL1)
+	(a::^ QUALITY) = (^ OBL2)
+	(^ DIAT) = D461.
+
+
+
+SUBJcaus_OBJth_a-OBLsorc = "D462"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'  			
+	(^ OBL PFORM)=c a						
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ THEME)(a::^ SOURCE)>'	
+        (a::^ CAUSE) = (^ SUBJ)
+ 	(a::^ THEME) = (^ OBJ)
+	(a::^ SOURCE) = (^ OBL)
+	(^ DIAT) = D462.
+
+
+
+SUBJagt_dat-OBLgol_COMPstat-obj = "D463"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ COMP)>'
+	(^ OBL CASE)=c dat
+	(^ COMP COMP-FORM)=c que
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)(a::^ STATIVE_OBJECT)>'
+       	(a::^ AGENT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)	
+ 	(a::^ STATIVE_OBJECT) =a:: (^ COMP)
+	(^ DIAT) = D463.
+
+
+SUBJagt_de-S-XCOMPpat = "D464"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c de
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)>'
+  	(a::^  AGENT) = (^ SUBJ)
+ 	(a::^  PATIENT) =a:: (^ XCOMP)
+	(^ DIAT) = D464.
+
+
+
+SUBJagt_OBJ_O-XCOMPstat-obj = "D466"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>(^ OBJ)'
+	(^ XCOMP SUBJ) = (^ OBJ)
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+       	(a::^  AGENT) = (^ SUBJ)
+	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D466.
+
+
+
+SUBJ_a-para-S-XCOMPstat-obj = "D467"
+
+	(^ PRED)='%stem<(^ XCOMP)>(^ SUBJ)'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	{(^ XCOMP PFORM) =c a |
+	(^ XCOMP PFORM) =c para}
+	(^ XCOMP CASE) =c obl
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)>'
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D467.
+
+
+
+SUBJagt_CL_a-para-S-XCOMPstat-obj = "D468"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ CL-FORM)					
+	{(^ XCOMP PFORM) =c a |
+	(^ XCOMP PFORM) =c para}
+	(^ XCOMP CASE) =c obl
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+	(a::^ AGENT) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D468.
+
+
+V_para-COMPstat-obj = "D469"
+
+	(^ PRED)='%stem<(^ COMP)>(^ SUBJ)'
+	~ (^ SUBJ PRED)  "From BrGram"
+	(^ SUBJ PRON-TYPE)=expl_ "From BrGram"
+	(^ SUBJ PRON-FORM)=null  "From BrGram"
+	(^ SUBJ NTYPE NSYN)=pronoun "From BrGram"
+	(^ COMP COMP-FORM)= para
+	(^ COMP VFORM)=infinitive
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)>'
+ 	(a::^ STATIVE_OBJECT) =a:: (^ COMP)
+	(^ DIAT) = D469.
+
+
+SUBJexp_de-que-COMPstat-obj = "D471"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ COMP)>'
+	(^ COMP COMP-FORM)= de` que
+	(a::^ REL) = '%stem<(a::^EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+       	(a::^ EXPERIENCER) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ COMP)
+	(^ DIAT) = D471.
+
+
+SUBJexp_CL_de-que-COMPstat-obj = "D471.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ COMP)>'
+	(^ CL-FORM)					
+	(^ COMP COMP-FORM)= de` que
+	(a::^ REL) = '%stem<(a::^EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+       	(a::^ EXPERIENCER) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ COMP)
+	(^ DIAT) = D471-1. 
+
+
+
+SUBJstat-obj_CL-se_a-S-XCOMPgol = "D472"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ CL-FORM) =c se					
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c a
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ GOAL)>'
+  	(a::^  STATIVE_OBJECT) = (^ SUBJ)
+ 	(a::^  GOAL) =a:: (^ XCOMP)
+	(^ DIAT) = D472.
+
+
+SUBJagt_OBJrec_a-O-XCOMPstat-obj = "D475"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ OBJ)
+	(^ XCOMP PFORM) =c a
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ RECIPIENT)(a::^ STATIVE_OBJECT)>'
+       	(a::^ AGENT) = (^ SUBJ)
+       	(a::^ RECIPIENT) = (^ OBJ)
+	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D475.
+
+
+SUBJpat_CL_em-S-XCOMPstat-obj = "D477"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ CL-FORM)					
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c  em
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ STATIVE_OBJECT)>'
+  	(a::^ PATIENT) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D477.
+
+
+SUBJagt_em-S-XCOMPstat-obj = "D480"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c  em
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+  	(a::^ AGENT) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D480.
+
+
+
+SUBJagt_pro-OBLgol_em-S-XCOMPstat-obj = "D480.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ XCOMP)>'
+	(^ OBL PRON-TYPE)=c pers
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c  em
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ GOAL)(a::^ STATIVE_OBJECT)>'
+  	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ GOAL) = (^ OBL)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D480-1.
+
+
+SUBJagt_para-pro-XCOMPstat-obj = "D481"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ PRED) = 'PRO'
+	(^ XCOMP PFORM) =c para
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+  	(a::^ AGENT) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D481.
+
+
+SUBJagt_a-pro-OBLgol_para-Obl-XCOMPstat-obj = "D481.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ OBL)
+	(^ OBL CASE) =c dat
+	(^ OBL PFORM) ~= para	"TODO: necessário apenas se o 'para' também tiver um traço dat"	
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)(a::^ STATIVE_OBJECT)>'
+       	(a::^ AGENT) = (^ SUBJ)
+       	(a::^ GOAL) = (^ OBL)
+	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D481-1.
+
+
+
+SUBJagt_para-OBLgol_Obl-XCOMPstat-obj = "D481.2"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ OBL)
+	(^ OBL PFORM) =c dat
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)(a::^ STATIVE_OBJECT)>'
+       	(a::^ AGENT) = (^ SUBJ)
+       	(a::^ GOAL) = (^ OBL)
+	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D481-2.
+
+
+
+SUBJagt_pro-OBLgol_de-S-XCOMPstat-obj = "D483"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ OBL PRON-TYPE)=c pers
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)(a::^ STATIVE_OBJECT)>'
+       	(a::^ AGENT) = (^ SUBJ)
+       	(a::^ GOAL) = (^ OBL)
+	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D483.
+
+
+
+V_pro-OBLpossr_Obl-XCOMPstat-obj = "D484"
+
+	(^ PRED)='%stem<(^ OBL)(^ XCOMP)>(^ SUBJ)'
+	(^ XCOMP SUBJ) = (^ OBL)
+	(^ OBL PRON-TYPE)=c pers
+	~ (^ SUBJ PRED)  "From BrGram"
+	(^ SUBJ PRON-TYPE)=expl_ "From BrGram"
+	(^ SUBJ PRON-FORM)=null  "From BrGram"
+	(^ SUBJ NTYPE NSYN)=pronoun "From BrGram"
+	(a::^ REL) = '%stem<(a::^ POSSESSOR)(a::^ STATIVE_OBJECT)>'
+       	(a::^ POSSESSOR) = (^ OBL)
+	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D484.
+
+	
+
+SUBJexp_CL_em-S-XCOMPstat-obj = "D485"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ CL-FORM)					
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c em
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+  	(a::^ EXPERIENCER) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D485.
+
+
+
+SUBJagt_OBJpat_a-O-XCOMPgol = "D486"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ OBJ)
+	(^ XCOMP PFORM) =c a
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ GOAL)>'
+  	(a::^ AGENT) = (^ SUBJ)
+  	(a::^ PATIENT) = (^ OBJ)
+ 	(a::^ GOAL) =a:: (^ XCOMP)
+	(^ DIAT) = D486.
+
+
+SUBJcaus_OBJth_a-O-XCOMPgol = "D486.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ OBJ)
+	(^ XCOMP PFORM) =c a
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ THEME)(a::^ GOAL)>'
+  	(a::^ CAUSE) = (^ SUBJ)
+  	(a::^ THEME) = (^ OBJ)
+ 	(a::^ GOAL) =a:: (^ XCOMP)
+	(^ DIAT) = D486-1.
+
+SUBJagt_para-S-XCOMPgol = "D487"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c para
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)>'
+  	(a::^ AGENT) = (^ SUBJ)
+ 	(a::^ GOAL) =a:: (^ XCOMP)
+	(^ DIAT) = D487.
+
+
+
+SUBJexp_CL_por-S-XCOMPstat-obj = "D490"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ CL-FORM)					
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c por
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+  	(a::^ EXPERIENCER) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D490.
+
+
+
+SUBJexp_PLINKstat-obj = "D491"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ PREDLINK)>'
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+  	(a::^ EXPERIENCER) = (^ SUBJ)
+  	(a::^ STATIVE_OBJECT) = (^ PREDLINK)
+	(^ DIAT) = D491.
+
+	"(^ PRED)='%stem<(^ SUBJ)(^ XCOMP-PRED)>'
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+  	(a::^ EXPERIENCER) = (^ SUBJ)
+  	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP-PRED)
+	(^ DIAT) = D491."
+
+
+SUBJagt_OBJexp_de-O-XCOMPstat-obj = "D492"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ OBJ)
+	(^ XCOMP PFORM) =c de
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+       	(a::^ AGENT) = (^ SUBJ)
+       	(a::^ EXPERIENCER) = (^ OBJ)
+	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D492.
+
+
+
+SUBJagt_a-pro-OBLexp_COMPstat-obj = "D493"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ COMP)>'
+	(^ COMP COMP-FORM)=c que
+	(^ OBL CASE) =c dat
+	(^ OBL PFORM) ~= para	"TODO: necessário apenas se o 'para' também tiver um traço dat"	
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+       	(a::^ AGENT) = (^ SUBJ)
+       	(a::^ EXPERIENCER) = (^ OBL)
+	(a::^ STATIVE_OBJECT) =a:: (^ COMP)
+	(^ DIAT) = D493.
+
+
+
+
+SUBJagt_OBJgol_O-XCOMPstat-obj = "D494"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ OBJ)
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)(a::^ STATIVE_OBJECT)>'
+  	(a::^ AGENT) = (^ SUBJ)
+  	(a::^ GOAL) = (^ OBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D494.
+
+
+
+SUBJagt_pro-XCOMPstat-obj = "D495"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ PRED) = 'PRO'
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+  	(a::^ AGENT) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D495.
+
+
+SUBJgol_S-XCOMPstat-obj = "D496"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(a::^ REL) = '%stem<(a::^ GOAL)(a::^ STATIVE_OBJECT)>'
+  	(a::^ GOAL) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D496.
+
+SUBJagt_CL_de-em-S-XCOMPstat-obj = "D499"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ CL-FORM)					
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	{(^ XCOMP PFORM) =c  em|
+	(^ XCOMP PFORM) =c de}
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+  	(a::^ AGENT) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D499.
+
+
+
+SUBJexp_OBJ_O-XCOMPstat-obj = "D501"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>(^ OBJ)'
+	(^ XCOMP SUBJ) = (^ OBJ)
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+  	(a::^ EXPERIENCER) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D501.
+
+
+
+SUBJexp_OBJ_Inf-O-XCOMPstat-obj = "D501.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>(^ OBJ)'
+	(^ XCOMP SUBJ) = (^ OBJ)
+	(^ XCOMP TNS-ASP PROG)=c +_
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+  	(a::^ EXPERIENCER) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D501.
+
+
+
+
+V_de-pro-XCOMPpat = "D502"
+
+	(^ PRED)='%stem<(^ XCOMP)>(^ SUBJ)'
+	(^ XCOMP SUBJ PRED) = 'PRO'
+	(^ XCOMP PFORM) =c de
+	~ (^ SUBJ PRED)  "From BrGram"
+	(^ SUBJ PRON-TYPE)=expl_ "From BrGram"
+	(^ SUBJ PRON-FORM)=null  "From BrGram"
+	(^ SUBJ NTYPE NSYN)=pronoun "From BrGram"
+	(a::^ REL) = '%stem<(a::^ PATIENT)>'
+	(a::^ PATIENT) =a:: (^ XCOMP)
+	(^ DIAT) = D502.
+
+
+
+SUBJagt_para-S-XCOMPstat-obj = "D504"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c para
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+  	(a::^ AGENT) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D504.
+
+
+
+SUBJagt_a-pro-OBLgol_para-pro-XCOMPstat-obj = "D505"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ XCOMP)>'
+	(^ XCOMP SUBJ PRED) = 'PRO'
+	(^ XCOMP PFORM) =c para
+	(^ OBL CASE) =c dat
+	~(^ OBL PFORM) = para	"TODO: necessário apenas se o 'para' também tiver um traço dat"	
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)(a::^ STATIVE_OBJECT)>'
+       	(a::^ AGENT) = (^ SUBJ)
+       	(a::^ GOAL) = (^ OBL)
+	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D505.
+
+
+
+SUBJagt_OBJgol_para-pro-XCOMPstat-obj = "D506"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ PRED) = 'PRO'
+	(^ XCOMP PFORM) =c para
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)(a::^ STATIVE_OBJECT)>'
+       	(a::^ AGENT) = (^ SUBJ)
+       	(a::^ GOAL) = (^ OBJ)
+	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D506.
+
+
+SUBJagt_se-COMPstat-obj = "D507"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ COMP)>'
+	(^ COMP COMP-FORM)=c se
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+       	(a::^  AGENT) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ COMP)
+	(^ DIAT) = D507.
+
+
+
+SUBJagt_a-pro-OBLgol_COMPstat-obj = "D508"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ COMP)>'
+	(^ COMP COMP-FORM) =c que
+	(^ OBL CASE) =c dat
+	(^ OBL PFORM) ~= para	"TODO: necessário apenas se o 'para' também tiver um traço dat"	
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)(a::^ STATIVE_OBJECT)>'
+       	(a::^ AGENT) = (^ SUBJ)
+       	(a::^ GOAL) = (^ OBL)
+	(a::^ STATIVE_OBJECT) =a:: (^ COMP)
+	(^ DIAT) = D508.
+
+
+
+SUBJagt_a-pro-OBLgol_Obl-XCOMPstat-obj = "D509"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ OBL)
+	{(^ OBL CASE) =c dat  |
+	(^ OBL PRON-TYPE)= refl}
+	(^ OBL PFORM) ~= para	"TODO: necessário apenas se o 'para' também tiver um traço dat"	
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)(a::^ STATIVE_OBJECT)>'
+       	(a::^ AGENT) = (^ SUBJ)
+       	(a::^ GOAL) = (^ OBL)	
+	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D509.
+
+
+SUBJexp_S-XCOMP1stat-obj_a-doque-S-XCOMP2co-stat-obj = "D510"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP1)(^ XCOMP2)>'
+	(^ XCOMP1 SUBJ) = (^ SUBJ)
+	(^ XCOMP2 SUBJ) = (^ SUBJ)
+	{(^ XCOMP2 PFORM) =c a|
+	(^ XCOMP2 PFORM) =c de` que}
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)(a::^ CO-STATIVE_OBJECT)>'
+       	(a::^ EXPERIENCER) = (^ SUBJ)
+       	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP1)
+	(a::^ CO-STATIVE_OBJECT) =a:: (^ XCOMP2)
+	(^ DIAT) = D510.
+
+
+
+SUBJstat-obj_para-S-XCOMPgol = "D511"
+
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	~(^ CL-FORM)
+	(^ XCOMP PFORM)=c para	
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ GOAL)>'
+  	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+ 	(a::^ GOAL) =a:: (^ XCOMP)
+	(^ DIAT) = D511.
+
+
+
+SUBJstat-obj_CL-se_a-para-S-XCOMPgol = "D511.1"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ CL-FORM) =c se					
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	{(^ XCOMP PFORM)=c a |
+	(^ XCOMP PFORM)=c para}
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ GOAL)>'
+  	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+ 	(a::^ GOAL) =a:: (^ XCOMP)
+	(^ DIAT) = D511-1.
+
+
+SUBJagt_a-pro-OBLgol_pro-XCOMPstat-obj = "D514"
+
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)(^ XCOMP)>'
+	(^ XCOMP SUBJ PRED) = 'PRO'
+	(^ OBL CASE) =c dat
+	~(^ OBL PFORM) = para	"TODO: necessário apenas se o 'para' também tiver um traço dat"	
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ GOAL)(a::^ STATIVE_OBJECT)>'
+       	(a::^ AGENT) = (^ SUBJ)
+       	(a::^ GOAL) = (^ OBL)
+	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D514.
+
+SUBJagt_de-S-XCOMPstat-obj = "D515"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c de
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)>'
+  	(a::^  AGENT) = (^ SUBJ)
+ 	(a::^  STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D515.
+
+
+
+SUBJexp_como-S-XCOMPstat-obj = "D517"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) = como
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+  	(a::^ EXPERIENCER) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D517.
+
+
+SUBJstat-obj_COMPref = "D518"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ COMP)>'
+	(^ COMP COMP-FORM)=c que
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ REFERENT)>'
+       	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+ 	(a::^ REFERENT) =a:: (^ COMP)
+	(^ DIAT) = D518.
+
+SUBJ_S-XCOMPemerg = "D520"
+
+	(^ PRED)='%stem<(^ XCOMP)>(^ SUBJ)'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP TNS-ASP PROG)=c +_
+	(a::^ REL) = '%stem<(a::^ EMERGENT)>'
+ 	(a::^ EMERGENT) =a:: (^ XCOMP)
+	(^ DIAT) = D520.
+
+
+
+SUBJpat_CL_de-XCOMPcaus = "D522"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ XCOMP)>'
+	(^ CL-FORM)					
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c de
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ CAUSE)>'
+  	(a::^ PATIENT) = (^ SUBJ)
+ 	(a::^ CAUSE) =a:: (^ XCOMP)
+	(^ DIAT) = D522.
+
+
+SUBJexp_como-COMPstat-obj = "D523"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ COMP)>'
+	(^ COMP COMP-FORM)=c como
+	(a::^ REL) = '%stem<(a::^ EXPERIENCER)(a::^ STATIVE_OBJECT)>'
+       	(a::^ EXPERIENCER) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ COMP)
+	(^ DIAT) = D523.
+
+
+SUBJ_a-XCOMPstat-obj = "D524"
+
+	(^ PRED)='%stem<(^ XCOMP)>(^ SUBJ)'
+	(^ XCOMP SUBJ) = (^ SUBJ)
+	(^ XCOMP PFORM) =c a
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)>'
+ 	(a::^ STATIVE_OBJECT) =a:: (^ XCOMP)
+	(^ DIAT) = D524.
+
+
+
+SUBJpat_em-OBLrsult = "D526"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM) =c em
+	(a::^ REL) = '%stem<(^ PATIENT)(^ RESULT)>' 
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ RESULT) = (^ OBL)
+	(^ DIAT) = D526.
+
+
+
+SUBJstat-obj_em-OBLmner = "D527"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM) =c em
+	(a::^ REL) = '%stem<(^ STATIVE_OBJECT)(^ MANNER)>' 
+	(a::^ STATIVE_OBJECT) = (^ SUBJ)
+	(a::^ MANNER) = (^ OBL)
+	(^ DIAT) = D527.
+
+
+SUBJemerg_PLINKemerg = "D529"
+
+	(^ PRED)='%stem<(^ PREDLINK)>(^ SUBJ)'		
+	(a::^ REL) = '%stem<(a::^ EMERGENT)>' 			
+	(a::^ EMERGENT STATIVE-OBJECT) = (^ SUBJ)
+	(a::^ EMERGENT QUALITY) = (^ PREDLINK)
+	(^ DIAT) = D529.
+
+SUBJstat-obj_PLINKstat-obj = "D530"
+
+	(^ PRED)= '%stem<(^ SUBJ)(^ PREDLINK)>' 			
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT1)(a::^ STATIVE_OBJECT2)>'
+       	(a::^ STATIVE_OBJECT1) =a:: (^ SUBJ)
+	(a::^ STATIVE_OBJECT2) =a:: (^ PREDLINK)
+	(^ DIAT) = D530.
+
+
+SUBJcaus_OBJth_a-OBLth = "D531"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'  			
+	(^ OBL PFORM)=c a						
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ THEME1)(a::^ THEME2)>'	
+        (a::^ CAUSE) = (^ SUBJ)
+ 	(a::^ THEME1) = (^ OBJ)
+	(a::^ THEME2) = (^ OBL)
+	(^ DIAT) = D531.
+
+
+
+SUBJagt_OBJsorc = "D532"
+
+	(^ PRED)= '%stem<(^ SUBJ)(^ OBJ)>' 			
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ SOURCE)>'	
+        (a::^ AGENT) = (^ SUBJ)					
+ 	(a::^ SOURCE) = (^ OBJ)
+	(^ DIAT) = D532.
+
+
+
+SUBJagt_de-OBLth = "D533"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>'
+	(^ OBL PFORM) =c de
+	(a::^ REL) = '%stem<(^ AGENT)(^ THEME)>' 
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ THEME) = (^ OBL)
+	(^ DIAT) = D533.
+
+
+SUBJagt_OBJth_sobre-OBLgol = "D534"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'  			
+	(^ OBL PFORM)=c sobre						
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ THEME)(a::^ GOAL)>'	
+        (a::^ AGENT) = (^ SUBJ)
+ 	(a::^ THEME) = (^ OBJ)
+	(a::^ GOAL) = (^ OBL)
+	(^ DIAT) = D534.
+
+
+
+SUBJcaus_OBJth = "D535"
+
+	(^ PRED)= '%stem<(^ SUBJ)(^ OBJ)>' 			
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ THEME)>'	
+        (a::^ CAUSE) = (^ SUBJ)					
+ 	(a::^ THEME) = (^ OBJ)
+	(^ DIAT) = D535.
+
+
+
+SUBJagt_OBJstat-obj_de-OBL1source_por-OBL2co-stat-obj = "D536"
+
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL1)(^ OBL2)>' 
+	(^ OBL1 PFORM)=c de
+	(^ OBL2 PFORM)=c por
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)(a::^ SOURCE)(a::^ CO-STATIVE_OBJECT)>'
+	(a::^ AGENT) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ SOURCE) = (^ OBL1)
+	(a::^ CO-STATIVE_OBJECT) = (^ OBL2)
+	(^ DIAT) = D536.
+
+SUBJagt_OBJstat-obj_com-OBLth = "D537"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>'  			
+	(^ OBL PSEM $)=c inst				
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ STATIVE_OBJECT)(a::^ CO-STATIVE_OBJECT)>'	
+        (a::^ AGENT) = (^ SUBJ)
+ 	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(a::^ CO-STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D537.
+
+
+SUBJstat-obj_OBLth = "D538"
+
+	(^ PRED)= '%stem<(^ SUBJ)(^ OBL)>' 			
+	(a::^ REL) = '%stem<(a::^ STATIVE_OBJECT)(a::^ THEME)>'	
+        (a::^ STATIVE_OBJECT) = (^ SUBJ)					
+ 	(a::^ THEME) = (^ OBJ)
+	(^ DIAT) = D538.
+
+
+
+SUBJloc_OBJpat_de-contra-OBLstat-obj = "D539"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 			
+	{(^ OBL PFORM) =c contra |	
+	(^ OBL PFORM) =c de}	
+	(a::^ REL) = '%stem<(^ LOCATION)(^ PATIENT)(^ STATIVE_OBJECT)>' 
+	(a::^ LOCATION) = (^ SUBJ)
+	(a::^ PATIENT) = (^ OBJ)
+	(a::^ STATIVE_OBJECT) = (^ OBL)
+	(^ DIAT) = D539.
+
+SUBJpat_OBJrsult = "D540"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 									
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ RESULT)>'   				
+	(a::^ PATIENT) = (^ SUBJ)
+	(a::^ RESULT) = (^ OBJ)
+	(^ DIAT) = D540.
+
+
+SUBJcaus_para-OBLemerg = "D541"
+	
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 						
+	(^ OBL PFORM)=c para							
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ EMERGENT)>'   				
+	(a::^ CAUSE) = (^ SUBJ)
+	(a::^ EMERGENT) = (^ OBL)
+	(^ DIAT) = D541.
+
+
+SUBJcaus_OBJstat-obj_com-OBLstat-obj = "D543"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 					
+	(^ OBL PFORM)=c com
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ STATIVE_OBJECT1)(a::^ STATIVE_OBJECT2)>' 
+	(a::^ CAUSE) = (^ SUBJ)
+	(a::^ STATIVE_OBJECT1) = (^ OBJ)
+	(a::^ STATIVE_OBJECT2) = (^ OBL)
+	(^ DIAT) = D543.
+
+
+SUBJemerg_pro-OBLexp = "D545"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 
+	(^ OBL PRON-TYPE)=c pers
+	(^ OBL CASE)=c dat 						
+	(a::^ REL) = '%stem<(^ EMERGENT)(^ EXPERIENCER)>' 
+	(a::^ EMERGENT) = (^ SUBJ)
+	(a::^ EXPERIENCER) = (^ OBL)
+	(^ DIAT) = D545.
+
+
+SUBJagt_pro-OBL1rec_por-OBL2stat-obj = "D546"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL1)(^ OBL2)>' 			
+	(^ OBL1 PRON-TYPE)=c pers
+	(^ OBL1 CASE)=c dat 
+	(^ OBL2 PFORM)=c por 	
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ RECIPIENT) (^ STATIVE_OBJECT)>' 
+	(a::^ AGENT) = (^ SUBJ)							
+	(a::^ RECIPIENT) = (^ OBL1)			
+	(a::^ STATIVE_OBJECT) = (^ OBL2)
+	(^ DIAT) = D546.
+
+
+SUBJagt_pro-OBLrec = "D547"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBL)>' 				
+	(^ OBL PRON-TYPE)=c pers
+	(^ OBL CASE)=c dat 	
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ RECIPIENT)>' 
+	(a::^ AGENT) = (^ SUBJ)							
+	(a::^ RECIPIENT) = (^ OBL)
+	(^ DIAT) = D547.
+
+SUBJpat_OBJstat-obj = "D548"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 				
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ STATIVE_OBJECT)>' 
+	(a::^ PATIENT) = (^ SUBJ)							
+	(a::^ STATIVE_OBJECT) = (^ OBJ)
+	(^ DIAT) = D548.
+
+
+
+SUBJagt_OBJ-CLpat_a-OBLstat-obj = "D549"
+
+	(^ PRED)='%stem<(^ SUBJ)(^OBJ)(^ OBL)>'
+	@(CAT (^ OBJ) CL)				
+	(^ OBL PFORM) =c a
+	(a::^ REL) = '%stem<(a::^ AGENT)(a::^ PATIENT)(a::^ STATIVE_OBJECT)>'
+  	(a::^ AGENT) = (^ SUBJ)
+	(a::^ PATIENT) = (^ OBJ)
+ 	(a::^ STATIVE_OBJECT) =a:: (^ OBL)
+	(^ DIAT) = D549.
+
+
+
+
+SUBJloc_OBJemerg = "D550"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 				
+	(a::^ REL) = '%stem<(a::^ LOCATION)(a::^ EMERGENT)>' 
+	(a::^ LOCATION) = (^ SUBJ)							
+	(a::^ EMERGENT) = (^ OBJ)
+	(^ DIAT) = D550.
+
+
+SUBJpat_OBJcaus = "D551"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)>' 				
+	(a::^ REL) = '%stem<(a::^ PATIENT)(a::^ CAUSE)>' 
+	(a::^ PATIENT) = (^ SUBJ)							
+	(a::^ CAUSE) = (^ OBJ)
+	(^ DIAT) = D551.
+
+
+
+SUBJcaus_OBJth_para-OBLrec = "D552"
+
+	(^ PRED)='%stem<(^ SUBJ)(^ OBJ)(^ OBL)>' 				
+	(^ OBL PFORM)=c para
+	(a::^ REL) = '%stem<(a::^ CAUSE)(a::^ THEME)(a::^ RECIPIENT)>' 
+	(a::^ CAUSE) = (^ SUBJ)						
+	(a::^ THEME) = (^ OBJ)						
+	(a::^ RECIPIENT) = (^ OBL)
+	(^ DIAT) = D552.
+
+
+----

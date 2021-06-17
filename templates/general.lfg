@@ -1,0 +1,77 @@
+VALEXPB PORTUGUESE TEMPLATES (1.0)
+
+"tense, mood, aspect, verb type, and voice"
+
+"general templates"
+   TNS(T) = (^ TNS-ASP TENSE) = T.
+
+"mood"
+   IND = (^ TNS-ASP MOOD)=indicative.
+   IMP = (^ TNS-ASP MOOD)=imperative.
+   SUB = (^ TNS-ASP MOOD)=subjunctive.
+
+"voice"
+   PASS = (^ PASSIVE) = +.
+   ACT = (^ PASSIVE) = -.
+
+
+"tense-aspect feature requirements of I"
+   PERF = (^ TNS-ASP PERF)=c +_.
+   PROG = (^ TNS-ASP PROG)=c +_.
+
+"non finite forms"
+"gerund and infinitive"
+   GERUND = (^ TNS-ASP PROG)= +_.
+   INF = (^ VFORM)=infinitive.
+"past participle"
+   PTPST = (^ TNS-ASP PERF)= +_ 
+	  @ACT.
+"passive participle"
+   PTPASS = @PASS.
+
+"features of both V and I"
+   VPRES = @(TNS pres) @IND. "include @ACT?" 
+   VPERF = @(TNS perf) @IND.
+   VPLPERF = @(TNS plperf) @IND.
+   VIMPERF = @(TNS imperf) @IND.
+   VFUT = @(TNS fut) @IND.
+   VFUTPRET = @(TNS futpret) @IND.
+   VCOND = @(TNS cond) @IND.
+   VSBJF = @(TNS fut) @SUB.
+   VSBJP = @(TNS imperf) @SUB.
+   VSBJR = @(TNS pres) @SUB.
+
+"verb type"
+   MAIN = (^ VTYPE) = main.
+   COP = (^ VTYPE) = copular.
+
+
+
+"gender and number agreement features of adjectives"
+
+   NUM-A-AGR(N) = (^ SUBJ NUM)=N.
+
+
+
+"gender and number agreement features of nouns"
+   NUM-N-AGR(N) = (^ NUM)=N.
+
+"PREPOSITIONS"
+
+"semantic prepositions"
+   SEM-PREP(P S) = (^ PRED)='P<(^ OBJ)>'
+	  @OBL
+	  (^ PTYPE)=sem
+	  (^ PSEM)=S.
+
+
+
+"Inherent reflexive verbs"
+
+   inh_refl = (^ VTYPE)= reflexive
+              (^ REFL)= -
+              (^ VMORPH)=c cl.
+	     
+
+
+----

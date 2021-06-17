@@ -1,0 +1,8 @@
+VALEXPB   PORTUGUESE   RULES (1.0)
+
+   AdvP --> Advbar.
+
+   Advbar --> 	Adv
+		 (PP). "#Valex addition"
+
+   ----

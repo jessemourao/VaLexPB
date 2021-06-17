@@ -1,0 +1,86 @@
+VALEXPB PORTUGUESE LEXICON (1.0)
+
+mim 	 CL * (^ PRED) = 'pro'
+	      (^ PERS)=1
+	      (^ NUM)=sg
+	      (^ PRON-FORM)=%stem
+	      (^ CASE)=obl
+	      (^ NTYPE NSYN)=pronoun.
+
+"me	  CL * (^ PRED) = 'pro'
+	 	(^ PERS)=1
+	  	(^ NUM)=sg
+		(^ PRON-FORM)=%stem
+	      	(^ CASE)=acc
+	        (^ PRON-TYPE)=refl
+		(^ NTYPE NSYN)=pronoun."
+
+"me	  CL * 	(^ VMORPH)= cl. 
+		(^ PRON-TYPE)= refl
+	        (^ VTYPE)=c reflexive."
+
+
+me	  CL * {(^ PRED) = 'pro'
+	 	(^ PERS)=1
+	  	(^ NUM)=sg
+		(^ PRON-FORM)=%stem
+	      	{(^ CASE)=acc | (^ CASE)=dat} "#Valex addition: allowing 'me' as an acusative or dative object -> Ele me enviou para Londres/ Ele me enviou flores'"
+	        (^ PRON-TYPE)= pers
+	    |  (^ SUBJ PERS)=1
+ 	       (^ SUBJ NUM)=sg
+ 	       (^ CL-FORM) = me}.
+
+
+se	  CL * {(^ PRED) = 'pro'
+	 	(^ PERS)=3
+	  	(^ NUM)=sg
+		(^ PRON-FORM)=%stem
+	      	(^ CASE)=acc
+	        (^ PRON-TYPE)= refl |
+	        (^ SUBJ PERS)= 3
+		{(^ SUBJ NUM)= sg|
+		(^ SUBJ NUM)= pl}
+	        (^ CL-FORM) = se};
+	  C * (^ COMP-FORM)=se
+   	      (^ CLAUSE-TYPE)=int.
+	
+"se 	  CL * (^ PRED) = 'pro'
+	       (^ PERS)=3
+	       (^ PRON-TYPE)=refl
+	       (^ NTYPE NSYN)=pronoun; TODO: include these features in the other entries for pronouns
+ 	C * (^ COMP-FORM)=se
+   	  (^ CLAUSE-TYPE)=int."
+
+si 	CL * (^ PRED) = 'pro'
+	      (^ PERS)=3
+	      (^ NUM)=sg
+	      (^ PRON-TYPE)=refl
+	      (^ PRON-FORM)=%stem
+	      {(^ CASE)=obl|(^ CASE)=dat}
+	      (^ NTYPE NSYN)=pronoun.
+
+lhes 	  CL * (^ PRED) = 'pro'
+	       (^ PERS)=3
+	       (^ NUM)=pl
+	       (^ PRON-TYPE)=perssss
+	       (^ CASE)=dat
+	       (^ NTYPE NSYN)=pronoun.
+
+
+"nos 	  CL * (^ PRED) = 'pro'
+	       (^ PERS)=1
+	       (^ NUM)=pl."
+
+
+nos	  CL * {(^ PRED) = 'pro'
+	 	(^ PERS)=1
+	  	(^ NUM)=pl
+		(^ PRON-FORM)=%stem
+	      	(^ CASE)=acc
+	        (^ PRON-TYPE)= pers
+	    |  (^ SUBJ PERS)=1
+ 	       (^ SUBJ NUM)=pl
+ 	       (^ CL-FORM) = nos}.
+
+----
+

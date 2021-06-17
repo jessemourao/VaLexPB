@@ -1,0 +1,3132 @@
+VALEXPB PORTUGUESE LEXICON (1.0)
+
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+"Nouns"
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+
+agências	N * @(NFPL).
+
+aldeias	N * @(NFPL).
+
+amostras	N * @(NFPL).
+
+análises	N * @(NFPL).
+
+aparências	N * @(NFPL).
+
+aposentadorias	N * @(NFPL).
+
+áreas	N * @(NFPL).
+
+armas	N * @(NFPL).
+
+artérias	N * @(NFPL).
+
+associações	N * @(NFPL).
+
+aulas	N * @(NFPL).
+
+australianas	N * @(NFPL).
+
+bandas	N * @(NFPL).
+
+caixas	N * @(NFPL).
+
+calças	N * @(NFPL).
+
+cartas	N * @(NFPL).
+
+cartolinas	N * @(NFPL).
+
+classificações	N * @(NFPL).
+
+coleções	N * @(NFPL).
+
+colunas	N * @(NFPL).
+
+configurações	N * @(NFPL).
+
+conquistas	N * @(NFPL).
+
+construtoras	N * @(NFPL).
+
+consultas	N * @(NFPL).
+
+contestações	N * @(NFPL).
+
+convenções	N * @(NFPL).
+
+cotações	N * @(NFPL).
+
+cubanas	N * @(NFPL).
+
+cultivares	N * @(NFPL).
+
+curvas	N * @(NFPL).
+
+decisões	N * @(NFPL).
+
+desculpas	N * @(NFPL).
+
+determinações	N * @(NFPL).
+
+diferenças	N * @(NFPL).
+
+disputas	N * @(NFPL).
+
+ditaduras	N * @(NFPL).
+
+divisas	N * @(NFPL).
+
+doutrinas	N * @(NFPL).
+
+encostas	N * @(NFPL).
+
+escutas	N * @(NFPL).
+
+esferas	N * @(NFPL).
+
+espécies	N * @(NFPL).
+
+estacas	N * @(NFPL).
+
+estatísticas	N * @(NFPL).
+
+estrias	N * @(NFPL).
+
+excursões	N * @(NFPL).
+
+explicações	N * @(NFPL).
+
+facas	N * @(NFPL).
+
+faltas	N * @(NFPL).
+
+farc	N * @(NFPL).
+
+filas	N * @(NFPL).
+
+fileiras	N * @(NFPL).
+
+florestas	N * @(NFPL).
+
+fontes	N * @(NFPL).
+
+formas	N * @(NFPL).
+
+funções	N * @(NFPL).
+
+garantias	N * @(NFPL).
+
+gatas	N * @(NFPL).
+
+generalizações	N * @(NFPL).
+
+gotas	N * @(NFPL).
+
+habilidades	N * @(NFPL).
+
+heranças	N * @(NFPL).
+
+ideologias	N * @(NFPL).
+
+igrejas	N * @(NFPL).
+
+imitações	N * @(NFPL).
+
+indefinições	N * @(NFPL).
+
+indenizações	N * @(NFPL).
+
+iniciativas	N * @(NFPL).
+
+injustiças	N * @(NFPL).
+
+instituições	N * @(NFPL).
+
+instruções	N * @(NFPL).
+
+intervenções	N * @(NFPL).
+
+investigações	N * @(NFPL).
+
+joias	N * @(NFPL).
+
+lagos	N * @(NFPL).
+
+lágrimas	N * @(NFPL).
+
+lavas	N * @(NFPL).
+
+lesões	N * @(NFPL).
+
+liminares	N * @(NFPL).
+
+limites	N * @(NMPL).
+
+localidades	N * @(NFPL).
+
+lutas	N * @(NFPL).
+
+malhas	N * @(NFPL).
+
+máquinas	N * @(NFPL).
+
+massas	N * @(NFPL).
+
+matérias	N * @(NFPL).
+
+melhorias	N * @(NFPL).
+
+mensagens	N * @(NFPL).
+
+metades	N * @(NFPL).
+
+mineradoras	N * @(NFPL);
+		A * @(AFP).
+
+mortes	N * @(NFPL).
+
+multidões	N * @(NFPL).
+
+músicas	N * @(NFPL).
+
+negociações	N * @(NFPL).
+
+notas	N * @(NFPL).
+
+novidades	N * @(NFPL).
+
+ondas	N * @(NFPL).
+
+opiniões	N * @(NFPL).
+
+orelhas	N * @(NFPL).
+
+origens	N * @(NFPL).
+
+ovelhas	N * @(NFPL).
+
+padarias	N * @(NFPL).
+
+paredes	N * @(NFPL).
+
+pernas	N * @(NFPL).
+
+perversões	N * @(NFPL).
+
+placas	N * @(NFPL).
+
+posições	N * @(NFPL).
+
+práticas	N * @(NFPL).
+
+preocupações	N * @(NFPL).
+
+privações	N * @(NFPL).
+
+privatizações	N * @(NFPL).
+
+propriedades	N * @(NFPL).
+
+psicoterapias	N * @(NFPL).
+
+publicações	N * @(NFPL).
+
+reações	N * @(NFPL).
+
+regiões	N * @(NFPL).
+
+respostas	N * @(NFPL).
+
+restrições	N * @(NFPL).
+
+revendedoras	N * @(NFPL).
+
+roupas	N * @(NFPL).
+
+sensações	N * @(NFPL).
+
+separatistas	N * @(NMPL).
+
+sessões	N * @(NFPL).
+
+setores	N * @(NMPL).
+
+sociedades	N * @(NFPL).
+
+substâncias	N * @(NFPL).
+
+sugestões	N * @(NFPL).
+
+tecnologias	N * @(NFPL).
+
+tendências	N * @(NFPL).
+
+tensões	N * @(NFPL).
+
+teorias	N * @(NFPL).
+
+terapias	N * @(NFPL).
+
+toneladas	N * @(NFPL).
+
+transferências	N * @(NFPL).
+
+transformações	N * @(NFPL).
+
+unidades	N * @(NFPL).
+
+universidades	N * @(NFPL).
+
+vagas	N * @(NFPL).
+
+vantagens	N * @(NFPL).
+
+variações	N * @(NFPL).
+
+variantes	N * @(NFPL).
+
+versões	N * @(NFPL).
+
+vivências	N * @(NFPL).
+
+vozes	N * @(NFPL).
+
+
+abertura	N * @(NFSG).
+
+abordagem	N * @(NFSG).
+
+aceitação	N * @(NFSG).
+
+acolhida	N * @(NFSG).
+
+acomodação	N * @(NFSG).
+
+adaptação	N * @(NFSG).
+
+administração	N * @(NFSG).
+
+adolescência	N * @(NFSG).
+
+aeronáutica	N * @(NFSG).
+
+agar	N * @(NFSG).
+
+agenda	N * @(NFSG).
+
+agressão	N * @(NFSG).
+
+agricultura	N * @(NFSG).
+
+agropecuária	N * @(NFSG).
+
+alegria	N * @(NFSG).
+
+alta	N * @(NFSG).
+
+angústia	N * @(NFSG).
+
+aplicação	N * @(NFSG).
+
+aprendizagem	N * @(NFSG).
+
+aqüicultura	N * @(NFSG).
+
+articulação	N * @(NFSG).
+
+assessoria	N * @(NFSG).
+
+assinatura	N * @(NFSG).
+
+associação	N * @(NFSG).
+
+astúcia	N * @(NFSG).
+
+atitude	N * @(NFSG).
+
+audiência	N * @(NFSG).
+
+auditoria	N * @(NFSG).
+
+autoria	N * @(NFSG).
+
+autorização	N * @(NFSG).
+
+avaliação	N * @(NFSG).
+
+baixa	N * @(NFSG).
+
+banana	N * @(NFSG).
+
+banca	N * @(NFSG).
+
+banha	N * @(NFSG).
+
+barragem	N * @(NFSG).
+
+barriga	N * @(NFSG).
+
+bateria	N * @(NFSG).
+
+biologia	N * @(NFSG).
+
+bunda	N * @(NFSG).
+
+burocracia	N * @(NFSG).
+
+canetinha	N * @(NFSG).
+
+carga	N * @(NFSG).
+
+cena	N * @(NFSG).
+
+certeza	N * @(NFSG).
+
+cerveja	N * @(NFSG).
+
+chance	N * @(NFSG).
+
+chibata	N * @(NFSG).
+
+citocinas	N * @(NFPL).
+
+classe	N * @(NFSG).
+
+cocaína	N * @(NFSG).
+
+cola	N * @(NFSG).
+
+colágeno	N * @(NFSG).
+
+coleira	N * @(NFSG).
+
+colônia	N * @(NFSG).
+
+combinação	N * @(NFSG).
+
+companhia	N * @(NFSG).
+
+composição	N * @(NFSG).
+
+concentração	N * @(NFSG).
+
+conclusão	N * @(NFSG).
+
+concorrência	N * @(NFSG).
+
+condição	N * @(NFSG).
+
+confiança	N * @(NFSG).
+
+consulta	N * @(NFSG).
+
+contribuição	N * @(NFSG).
+
+convenção	N * @(NFSG).
+
+convivência	N * @(NFSG).
+
+convocação	N * @(NFSG).
+
+cooperação	N * @(NFSG).
+
+corrente	N * @(NFSG).
+
+cpi	N * @(NFSG).
+
+cultura	N * @(NFSG).
+
+cura	N * @(NFSG).
+
+data	N * @(NFSG).
+
+defesa	N * @(NFSG).
+
+delegada	N * @(NFSG).
+
+dengue	N * @(NFSG).
+
+descoberta	N * @(NFSG).
+
+desconfiança	N * @(NFSG).
+
+desonestidade	N * @(NFSG).
+
+despesa	N * @(NFSG).
+
+destruição	N * @(NFSG).
+
+desvalorização	N * @(NFSG).
+
+diagonalização	N * @(NFSG).
+
+diária	N * @(NFSG).
+
+diferença	N * @(NFSG).
+
+dinâmica	N * @(NFSG).
+
+diplomacia	N * @(NFSG).
+
+disseminação	N * @(NFSG).
+
+dominação	N * @(NFSG).
+
+dose	N * @(NFSG).
+
+duna	N * @(NFSG).
+
+dupla	N * @(NFSG).
+
+edição	N * @(NFSG).
+
+eficácia	N * @(NFSG).
+
+elegância	N * @(NFSG).
+
+eleição	N * @(NFSG).
+
+emenda	N * @(NFSG).
+
+entidade	N * @(NFSG).
+
+entrevista	N * @(NFSG).
+
+esfinge	N * @(NFSG).
+
+espionagem	N * @(NFSG).
+
+essência	N * @(NFSG).
+
+estabilidade	N * @(NFSG).
+
+estabilização	N * @(NFSG).
+
+estenose	N * @(NFSG).
+
+estrela	N * @(NFSG).
+
+evidência	N * @(NFSG).
+
+exposição	N * @(NFSG).
+
+expressão	N * @(NFSG).
+
+face	N * @(NFSG).
+
+fase	N * @(NFSG).
+
+favela	N * @(NFSG).
+
+feminismo	N * @(NMSG).
+
+finalidade	N * @(NFSG).
+
+fiscalização	N * @(NFSG).
+
+flexibilidade	N * @(NFSG).
+
+fogueira	N * @(NFSG).
+
+formação	N * @(NFSG).
+
+fortaleza	N * @(NFSG).
+
+frase	N * @(NFSG).
+
+fruta	N * @(NFSG).
+
+fundação	N * @(NFSG).
+
+garrafa	N * @(NFSG).
+
+gestão	N * @(NFSG).
+
+gordura	N * @(NFSG).
+
+grama	N * @(NFSG).
+
+gratidão	N * @(NFSG).
+
+guerra	N * @(NFSG).
+
+harmonia	N * @(NFSG).
+
+hidrovia	N * @(NFSG).
+
+hiperatividade	N * @(NFSG).
+
+homenagem	N * @(NFSG).
+
+hora	N * @(NFSG).
+
+ideologia	N * @(NFSG).
+
+ilegalidade	N * @(NFSG).
+
+ilha	N * @(NFSG).
+
+imaginação	N * @(NFSG).
+
+imobilidade	N * @(NFSG).
+
+inclusão	N * @(NFSG).
+
+incompetência	N * @(NFSG).
+
+indenização	N * @(NFSG).
+
+indeterminação	N * @(NFSG).
+
+individualidade	N * @(NFSG).
+
+indução	N * @(NFSG).
+
+indústria	N * @(NFSG).
+
+infância	N * @(NFSG).
+
+infeção	N * @(NFSG).
+
+influenza	N * @(NFSG).
+
+infusão	N * @(NFSG).
+
+iniciativa	N * @(NFSG).
+
+maldade	N * @(NFSG).
+
+invasão	N * @(NFSG).
+
+investigado	N * @(NFSG).
+
+largada	N * @(NFSG).
+
+legitimidade	N * @(NFSG).
+
+letra	N * @(NFSG).
+
+liberalização	N * @(NFSG).
+
+ligação	N * @(NFSG).
+
+liminar	N * @(NFSG).
+
+literatura	N * @(NFSG).
+
+lógica	N * @(NFSG).
+
+lucidez	N * @(NFSG).
+
+máfia	N * @(NFSG).
+
+maneira	N * @(NFSG).
+
+manga	N * @(NFSG).
+
+manutenção	N * @(NFSG).
+
+maturidade	N * @(NFSG).
+
+média	N * @(NFSG).
+
+mediana	N * @(NFSG).
+
+medicação	N * @(NFSG).
+
+medula	N * @(NFSG).
+
+meia	N * @(NFSG).
+
+melancolia	N * @(NFSG).
+
+memória	N * @(NFSG).
+
+metafísica	N * @(NFSG).
+
+mídia	N * @(NFSG).
+
+modernização	N * @(NFSG).
+
+moeda	N * @(NFSG).
+
+moléculas	N * @(NFPL).
+
+montagem	N * @(NFSG).
+
+mortalidade	N * @(NFSG).
+
+motivação	N * @(NFSG).
+
+nacionalização	N * @(NFSG).
+
+narrativa	N * @(NFSG).
+
+natureza	N * @(NFSG).
+
+nomenclatura	N * @(NFSG).
+
+norma	N * @(NFSG).
+
+novidade	N * @(NFSG).
+
+obesidade	N * @(NFSG).
+
+obrigação	N * @(NFSG).
+
+obrigatoriedade	N * @(NFSG).
+
+obscuridade	N * @(NFSG).
+
+observação	N * @(NFSG).
+
+ocupação	N * @(NFSG).
+
+opção	N * @(NFSG).
+
+operação	N * @(NFSG).
+
+opinião	N * @(NFSG).
+
+organização	N * @(NFSG).
+
+origem	N * @(NFSG).
+
+orla	N * @(NFSG).
+
+oxigenação	N * @(NFSG).
+
+paradigma	N * @(NFSG).
+
+paralisia	N * @(NFSG).
+
+partícula	N * @(NFSG).
+
+partida	N * @(NFSG).
+
+patrícia	N * @(NFSG).
+
+pepsina	N * @(NFSG).
+
+percepção	N * @(NFSG).
+
+personalidade	N * @(NFSG).
+
+pobreza	N * @(NFSG).
+
+poeira	N * @(NFSG).
+
+poetisa	N * @(NFSG).
+
+portaria	N * @(NFSG).
+
+preferência	N * @(NFSG).
+
+previsão	N * @(NFSG).
+
+profissão	N * @(NFSG).
+
+propriedade	N * @(NFSG).
+
+proteção	N * @(NFSG).
+
+provocação	N * @(NFSG).
+
+psicanálise	N * @(NFSG).
+
+pujança	N * @(NFSG).
+
+qualidade	N * @(NFSG).
+
+queda	N * @(NFSG).
+
+rã	N * @(NFSG).
+
+raimundo	N * @(NFSG).
+
+realização	N * @(NFSG).
+
+recessão	N * @(NFSG).
+
+recompensa	N * @(NFSG).
+
+reedição	N * @(NFSG).
+
+referência	N * @(NFSG).
+
+regra	N * @(NFSG).
+
+relatora	N * @(NFSG).
+
+religião	N * @(NFSG).
+
+reposição	N * @(NFSG).
+
+residência	N * @(NFSG).
+
+resolução	N * @(NFSG).
+
+revanche	N * @(NFSG).
+
+revelação	N * @(NFSG).
+
+revolução	N * @(NFSG).
+
+rigidez	N * @(NFSG).
+
+riqueza	N * @(NFSG).
+
+santificação	N * @(NFSG).
+
+saturação	N * @(NFSG).
+
+semana	N * @(NFSG).
+
+sensação	N * @(NFSG).
+
+sentimento	N * @(NMSG).
+
+sereia	N * @(NFSG).
+
+serpente	N * @(NFSG).
+
+sessão	N * @(NFSG).
+
+sinceridade	N * @(NFSG).
+
+sintaxe	N * @(NFSG).
+
+soberania	N * @(NFSG).
+
+sociologia	N * @(NFSG).
+
+sonegação	N * @(NFSG).
+
+subida	N * @(NFSG).
+
+subversão	N * @(NFSG).
+
+sugestão	N * @(NFSG).
+
+sustentabilidade	N * @(NFSG).
+
+tecnologia	N * @(NFSG).
+
+tendência	N * @(NFSG).
+
+tensão	N * @(NFSG).
+
+terça-feira	N * @(NFSG).
+
+terceirização	N * @(NFSG).
+
+testemunha	N * @(NFSG).
+
+tipologia	N * @(NFSG).
+
+tomografia	N * @(NFSG).
+
+tradição	N * @(NFSG).
+
+transação	N * @(NFSG).
+
+transformação	N * @(NFSG).
+
+tribuna	N * @(NFSG).
+
+tributação	N * @(NFSG).
+
+tromba	N * @(NFSG).
+
+união	N * @(NFSG).
+
+unidade	N * @(NFSG).
+
+valorização	N * @(NFSG).
+
+vantagem	N * @(NFSG).
+
+vegetação	N * @(NFSG).
+
+vela	N * @(NFSG).
+
+velhice	N * @(NFSG).
+
+vista	N * @(NFSG).
+
+vitória	N * @(NFSG).
+
+vivacidade	N * @(NFSG).
+
+volatilidade	N * @(NFSG).
+
+vulnerabilidade	N * @(NFSG).
+
+
+acampados	N * @(NMPL).
+
+acampamentos	N * @(NMPL).
+
+aditivos	N * @(NMPL).
+
+administradores	N * @(NMPL).
+
+adultos	N * @(NMPL);
+	A * @(AMP).
+
+afastamentos	N * @(NMPL).
+
+aliados	N * @(NMPL).
+
+aluguéis	N * @(NMPL).
+
+analfabetos	N * @(NMPL).
+
+andarilhos	N * @(NMPL).
+
+apóstolos	N * @(NMPL).
+
+aspectos	N * @(NMPL).
+
+assassinatos	N * @(NMPL).
+
+assentamentos	N * @(NMPL).
+
+átomos	N * @(NMPL).
+
+atores	N * @(NMPL).
+
+balcões	N * @(NMPL).
+
+banhistas	N * @(NMPL).
+
+bastões	N * @(NMPL).
+
+bebês	N * @(NMPL).
+
+benefícios	N * @(NMPL).
+
+bilhões	N * @(NMPL).
+
+borrachudos	N * @(NMPL).
+
+britânicos	N * @(NMPL).
+
+brotos	N * @(NMPL).
+
+campos	N * @(NMPL).
+
+candidatos	N * @(NMPL).
+
+cargos	N * @(NMPL).
+
+chineses	N * @(NMPL).
+
+cigarros	N * @(NMPL).
+
+colaboradores	N * @(NMPL).
+
+competências	N * @(NFPL).
+
+computadores	N * @(NMPL).
+
+comunicados	N * @(NMPL).
+
+conteúdos	N * @(NMPL).
+
+contos	N * @(NMPL).
+
+termos	N * @(NMPL).
+
+contribuintes	N * @(NMPL).
+
+corredores	N * @(NMPL).
+
+costumes	N * @(NMPL).
+
+cozinheiros	N * @(NMPL).
+
+critérios	N * @(NMPL).
+
+cursinhos	N * @(NMPL).
+
+déficits	N * @(NMPL).
+
+delegados	N * @(NMPL).
+
+delinquentes	N * @(NMPL).
+
+medicamentos	N * @(NMPL).
+
+desequilíbrios	N * @(NMPL).
+
+desníveis	N * @(NMPL).
+
+detentos	N * @(NMPL).
+
+deveres	N * @(NMPL).
+
+dias	N * @(NMPL).
+
+distribuidores	N * @(NMPL).
+
+docentes	N * @(NMPL).
+
+doentes	N * @(NMPL).
+
+empresários	N * @(NMPL).
+
+equipamentos	N * @(NMPL).
+
+espectadores	N * @(NMPL).
+
+espermatozóides	N * @(NMPL).
+
+espiões	N * @(NMPL).
+
+espumantes	N * @(NMPL).
+
+estábulos	N * @(NMPL).
+
+estômatos	N * @(NMPL).
+
+estrangeiros	N * @(NMPL).
+
+exemplares	N * @(NMPL).
+
+exemplos	N * @(NMPL).
+
+extratos	N * @(NMPL).
+
+fiscais	N * @(NMPL).
+
+fornecedores	N * @(NMPL).
+
+fumantes	N * @(NMPL).
+
+fundamentos	N * @(NMPL).
+
+fundos	N * @(NMPL).
+
+garotos	N * @(NMPL).
+
+gols	N * @(NMPL).
+
+grupos	N * @(NMPL).
+
+guardas	N * @(NMPL).
+
+hackers	N * @(NMPL).
+
+idosos	N * @(NMPL).
+
+imigrantes	N * @(NMPL).
+
+imóveis	N * @(NMPL).
+
+impostos	N * @(NMPL).
+
+indicadores	N * @(NMPL).
+
+insetos	N * @(NMPL).
+
+interesses	N * @(NMPL).
+
+investimentos	N * @(NMPL).
+
+jamaicanos	N * @(NMPL).
+
+jardins	N * @(NMPL).
+
+judeus	N * @(NMPL).
+
+juízes	N * @(NMPL).
+
+juros	N * @(NMPL).
+
+leitores	N * @(NMPL).
+
+leitos	N * @(NMPL).
+
+locais	N * @(NMPL).
+
+logaritmos	N * @(NMPL).
+
+lotes	N * @(NMPL).
+
+mecanismos	N * @(NMPL).
+
+meios	N * @(NMPL).
+
+minutos	N * @(NMPL).
+
+minuto	N * @(NMSG).
+
+modos	N * @(NMPL).
+
+módulos	N * @(NMPL).
+
+momentos	N * @(NMPL).
+
+movimentos	N * @(NMPL).
+
+muros	N * @(NMPL).
+
+musicais	N * @(NMPL).
+
+narrativas	N * @(NMPL);
+		A * @(AFP).
+
+negócios	N * @(NMPL).
+
+óbices	N * @(NMPL).
+
+objetivos	N * @(NMPL).
+
+padrões	N * @(NMPL).
+
+panfletos	N * @(NMPL).
+
+paramédicos	N * @(NMPL).
+
+pares	N * @(NMPL).
+
+patrocinadores	N * @(NMPL).
+
+pecados	N * @(NMPL).
+
+peixes	N * @(NMPL).
+
+pesos	N * @(NMPL).
+
+pilotos	N * @(NMPL).
+
+pinheiros	N * @(NMPL).
+
+pinos	N * @(NMPL).
+
+plebiscitos	N * @(NMPL).
+
+políticas	N * @(NFPL).
+
+posseiros	N * @(NMPL).
+
+postos	N * @(NMPL).
+
+prazeres	N * @(NMPL).
+
+preceitos	N * @(NMPL).
+
+preços	N * @(NMPL).
+
+prejuízos	N * @(NMPL).
+
+prêmios	N * @(NMPL).
+
+pressupostos	N * @(NMPL).
+
+princípios	N * @(NMPL).
+
+proprietários	N * @(NMPL).
+
+provadores	N * @(NMPL).
+
+psicólogos	N * @(NMPL).
+
+rádios	N * @(NNEUTPL).
+
+rebelados	N * @(NMPL).
+
+reis	N * @(NMPL).
+
+remédios	N * @(NMPL).
+
+retratos	N * @(NMPL).
+
+risos	N * @(NMPL).
+
+romeiros	N * @(NMPL).
+
+rumos	N * @(NMPL).
+
+sacerdotes	N * @(NMPL).
+
+sacoleiros	N * @(NMPL).
+
+seguros	N * @(NMPL).
+
+seios	N * @(NMPL).
+
+senhores	N * @(NMPL).
+
+sinais	N * @(NMPL).
+
+sinos	N * @(NMPL).
+
+sites	N * @(NMPL).
+
+sociólogos	N * @(NMPL).
+
+soldados	N * @(NMPL).
+
+sozinhos	N * @(NMPL).
+
+sucessos	N * @(NMPL).
+
+suplentes	N * @(NMPL).
+
+suspiros	N * @(NMPL).
+
+tecnocratas	N * @(NMPL).
+
+telefonemas	N * @(NMPL).
+
+telespectadores	N * @(NMPL).
+
+termômetros	N * @(NMPL).
+
+times	N * @(NMPL).
+
+torcedores	N * @(NMPL).
+
+torresmos	N * @(NMPL).
+
+traidores	N * @(NMPL).
+
+transplants	N * @(NMPL).
+
+tributos	N * @(NMPL).
+
+usuários	N * @(NMPL).
+
+vagões	N * @(NMPL).
+
+vegetais	N * @(NMPL).
+
+vencedores	N * @(NMPL).
+
+ventos	N * @(NMPL).
+
+vestibulandos	N * @(NMPL).
+
+voluntários	N * @(NMPL).
+
+vôos	N * @(NMPL).
+
+vulcões	N * @(NMPL).
+
+milhares	N * @(NMPL).
+
+
+
+abatimento	N * @(NMSG).
+
+abuso	N * @(NMSG).
+
+acaso	N * @(NMSG).
+
+acúmulo	N * @(NMSG).
+
+administrador	N * @(NMSG).
+
+agito	N * @(NMSG).
+
+agravante	N * @(NMSG).
+
+alargamento	N * @(NMSG).
+
+alcance	N * @(NMSG).
+
+alemão	N * @(NMSG).
+
+alfanje	N * @(NMSG).
+
+alvo	N * @(NMSG).
+
+analista	N * @(NMSG).
+
+anúncio	N * @(NMSG).
+
+apelido	N * @(NMSG).
+
+aprendizado	N * @(NMSG).
+
+ar	N * @(NMSG).
+
+artifício	N * @(NMSG).
+
+aspecto	N * @(NMSG).
+
+assentamento	N * @(NMSG).
+
+ataque	N * @(NMSG).
+
+atentado	N * @(NMSG).
+
+ativo	N * @(NMSG).
+
+ato	N * @(NMSG).
+
+auge	N * @(NMSG).
+
+autógrafo	N * @(NMSG).
+
+bairro	N * @(NMSG).
+
+balé	N * @(NMSG).
+
+grito	N * @(NMSG).
+
+barão	N * @(NMSG).
+
+barco	N * @(NMSG).
+
+bebedouro	N * @(NMSG).
+
+sim	N * @(NMSG).
+
+bilhão	N * @(NMSG).
+
+bolso	N * @(NMSG).
+
+bombeiro	N * @(NMSG).
+
+boneco	N * @(NMSG).
+
+cabo	N * @(NMSG).
+
+calendário	N * @(NMSG).
+
+câmbio	N * @(NMSG).
+
+camelo	N * @(NMSG).
+
+canalha	N * @(NMSG).
+
+capitão	N * @(NMSG).
+
+cassino	N * @(NMSG).
+
+catálogo	N * @(NMSG).
+
+chip	N * @(NMSG).
+
+cidadão	N * @(NMSG).
+
+clérigo	N * @(NMSG).
+
+código	N * @(NMSG).
+
+colonizador	N * @(NMSG).
+
+comício	N * @(NMSG).
+
+companheiro	N * @(NMSG).
+
+compasso	N * @(NMSG).
+
+comunismo	N * @(NMSG).
+
+concerto	N * @(NMSG).
+
+conde	N * @(NMSG).
+
+consenso	N * @(NMSG).
+
+contrato	N * @(NMSG).
+
+convencimento	N * @(NMSG).
+
+convênio	N * @(NMSG).
+
+coordenador	N * @(NMSG).
+
+cordão	N * @(NMSG).
+
+coro	N * @(NMSG).
+
+corredor	N * @(NMSG).
+
+corretor	N * @(NMSG).
+
+critério	N * @(NMSG).
+
+débito	N * @(NMSG).
+
+declínio	N * @(NMSG).
+
+decodificador	N * @(NMSG).
+
+déficit	N * @(NMSG).
+
+degradê	N * @(NMSG).
+
+desbloqueio	N * @(NMSG).
+
+desconhecido	N * @(NMSG).
+
+desequilíbrio	N * @(NMSG).
+
+deserto	N * @(NMSG).
+
+desespero	N * @(NMSG).
+
+desfecho	N * @(NMSG).
+
+desfile	N * @(NMSG).
+
+desprendimento	N * @(NMSG).
+
+destino	N * @(NMSG).
+
+diagnóstico	N * @(NMSG).
+
+diagrama	N * @(NMSG).
+
+diálogo	N * @(NMSG).
+
+dispositivo	N * @(NMSG).
+
+dogma	N * @(NMSG).
+
+duelo	N * @(NMSG).
+
+editor	N * @(NMSG).
+
+eleitorado	N * @(NMSG).
+
+embate	N * @(NMSG).
+
+empreiteiro	N * @(NMSG).
+
+encanto	N * @(NMSG).
+
+endereço	N * @(NMSG).
+
+enlace	N * @(NMSG).
+
+ensino	N * @(NMSG).
+
+enxerto	N * @(NMSG).
+
+equipamento	N * @(NMSG).
+
+erro	N * @(NMSG).
+
+estágio	N * @(NMSG).
+
+estatuto	N * @(NMSG).
+
+estigma	N * @(NMSG).
+
+estilo	N * @(NMSG).
+
+estúdio	N * @(NMSG).
+
+etnólogo	N * @(NMSG).
+
+expediente	N * @(NMSG).
+
+exterior	N * @(NMSG).
+
+fenômeno	N * @(NMSG).
+
+ferreiro	N * @(NMSG).
+
+festival	N * @(NMSG).
+
+financiamento	N * @(NMSG).
+
+fio	N * @(NMSG).
+
+fmi	N * @(NMSG).
+
+fomento	N * @(NMSG).
+
+freio	N * @(NMSG).
+
+gado	N * @(NMSG).
+
+ganhador	N * @(NMSG).
+
+garotão	N * @(NMSG).
+
+garoto	N * @(NMSG).
+
+gaúcho	N * @(NMSG).
+
+general	N * @(NMSG).
+
+guerreiro	N * @(NMSG).
+
+hino	N * @(NMSG).
+
+horóscopo	N * @(NMSG).
+
+hotel	N * @(NMSG).
+
+impacto	N * @(NMSG).
+
+impeachment	N * @(NMSG).
+
+imperador	N * @(NMSG).
+
+implante	N * @(NMSG).
+
+imposto	N * @(NMSG).
+
+investigador	N * @(NMSG).
+
+investimento	N * @(NMSG).
+
+italiano	N * @(NMSG).
+
+item	N * @(NMSG).
+
+javali	N * @(NMSG).
+
+joelho	N * @(NMSG).
+
+judiciário	N * @(NMSG).
+
+junho	N * @(NMSG).
+
+júri	N * @(NMSG).
+
+juriti	N * @(NNEUTSG).
+
+leilão	N * @(NMSG).
+
+lenho	N * @(NMSG).
+
+líquido	N * @(NMSG).
+
+lobista	N * @(NMSG).
+
+lutador	N * @(NMSG).
+
+macaco	N * @(NMSG).
+
+magnésio	N * @(NMSG).
+
+magnetismo	N * @(NMSG).
+
+manuscrito	N * @(NMSG).
+
+mapeamento	N * @(NMSG).
+
+mascote	N * @(NMSG).
+
+material	N * @(NMSG).
+
+maternal	N * @(NMSG).
+
+medo	N * @(NMSG).
+
+melhoramento	N * @(NMSG).
+
+melodrama	N * @(NMSG).
+
+moço	N * @(NMSG).
+
+modo	N * @(NMSG).
+
+moleque	N * @(NMSG).
+
+monopólio	N * @(NMSG).
+
+montevidéu	N * @(NMSG).
+
+músculo	N * @(NMSG).
+
+museu	N * @(NMSG).
+
+nacionalismo	N * @(NMSG).
+
+namorado	N * @(NMSG).
+
+nariz	N * @(NMSG).
+
+natal	N * @(NMSG).
+
+navegador	N * @(NMSG).
+
+nível	N * @(NMSG).
+
+noroeste	N * @(NMSG).
+
+norte	N * @(NMSG).
+
+noticiário	N * @(NMSG).
+
+novembro	N * @(NMSG).
+
+objetivo	N * @(NMSG).
+
+oboé	N * @(NMSG).
+
+observatório	N * @(NMSG).
+
+óbvio	N * @(NMSG).
+
+"olhar	N * @(NMSG)."
+
+orador	N * @(NMSG).
+
+órgão	N * @(NMSG).
+
+otimismo	N * @(NMSG).
+
+ouro	N * @(NMSG).
+
+pagode	N * @(NMSG).
+
+palanque	N * @(NMSG).
+
+parreira	N * @(NMSG).
+
+particularismo	N * @(NMSG).
+
+passado	N * @(NMSG).
+
+patrulhamento	N * @(NMSG).
+
+pavilhão	N * @(NMSG).
+
+pedido	N * @(NMSG).
+
+penico	N * @(NMSG).
+
+pensamento	N * @(NMSG).
+
+pereira	N * @(NMSG).
+
+perfil	N * @(NMSG).
+
+perito	N * @(NMSG).
+
+peso	N * @(NMSG).
+
+pib	N * @(NMSG).
+
+pinheiro	N * @(NMSG).
+
+pino	N * @(NMSG).
+
+piscina	N * @(NMSG).
+
+pistoleiro	N * @(NMSG).
+
+planejamento	N * @(NMSG).
+
+pmdb	N * @(NMSG).
+
+polinômio	N * @(NMSG).
+
+político	N * @(NMSG).
+
+ponto	N * @(NMSG).
+
+pôr-do-sol	N * @(NMSG).
+
+potássio	N * @(NMSG).
+
+pretexto	N * @(NMSG).
+
+princípio	N * @(NMSG).
+
+prisioneiro	N * @(NMSG).
+
+procedimento	N * @(NMSG).
+
+propósito	N * @(NMSG).
+
+protesto	N * @(NMSG).
+
+proveito	N * @(NMSG).
+
+quadro	N * @(NMSG).
+
+ratos	N * @(NMSG).
+
+recalque	N * @(NMSG).
+
+regimento	N * @(NMSG).
+
+rendimento	N * @(NMSG).
+
+representante	N * @(NMSG).
+
+requerimento	N * @(NMSG).
+
+retrato	N * @(NMSG).
+
+rincão	N * @(NMSG).
+
+ritmo	N * @(NMSG).
+
+rock	N * @(NMSG).
+
+rodízio	N * @(NMSG).
+
+rolamento	N * @(NMSG).
+
+roteiro	N * @(NMSG).
+
+rótulo	N * @(NMSG).
+
+russo	N * @(NMSG).
+
+sábado	N * @(NMSG).
+
+sachê	N * @(NMSG).
+
+salgadinho	N * @(NMSG).
+
+salto	N * @(NMSG).
+
+sanduíche	N * @(NMSG).
+
+senhor	N * @(NMSG).
+
+sertanejo	N * @(NMSG).
+
+sertão	N * @(NMSG).
+
+sistemas	N * @(NMPL).
+
+sítio	N * @(NMSG).
+
+soberano	N * @(NMSG).
+
+sobrenome	N * @(NMSG).
+
+som	N * @(NMSG).
+
+sonho	N * @(NMSG).
+
+sorriso	N * @(NMSG).
+
+substituto	N * @(NMSG).
+
+sueco	N * @(NMSG).
+
+sujeito	N * @(NMSG).
+
+tabuleiro	N * @(NMSG).
+
+tatu	N * @(NMSG).
+
+telefonema	N * @(NMSG).
+
+teorema	N * @(NMSG).
+
+terapeuta	N * @(NMSG).
+
+território	N * @(NMSG).
+
+terror	N * @(NMSG).
+
+terrorista	N * @(NMSG).
+
+tesouro	N * @(NMSG).
+
+tipo	N * @(NMSG).
+
+titular	N * @(NMSG).
+
+título	N * @(NMSG).
+
+torneio	N * @(NMSG).
+
+trauma	N * @(NMSG).
+
+travesseiro	N * @(NMSG).
+
+tributo	N * @(NMSG).
+
+trigo	N * @(NMSG).
+
+tumor	N * @(NMSG).
+
+turismo	N * @(NMSG).
+
+uísque	N * @(NMSG).
+
+universo	N * @(NMSG).
+
+verão	N * @(NMSG).
+
+vestibular	N * @(NMSG).
+
+vice	N * @(NMSG).
+
+vice-presidente	N * @(NMSG).
+
+viés	N * @(NMSG).
+
+vigilante	N * @(NMSG).
+
+vigor	N * @(NMSG).
+
+vinagre	N * @(NMSG).
+
+vínculo	N * @(NMSG).
+
+visual	N * @(NMSG).
+
+vôo	N * @(NMSG).
+
+voto	N * @(NMSG).
+
+vulcão	N * @(NMSG).
+
+zagueiro	N * @(NMSG).
+
+
+bermudas  N * @(NFPLPRP).
+
+
+Alagoas	N * @(NFSGPRP).
+
+Alice	N * @(NFSGPRP).
+
+andréa	N * @(NFSGPRP).
+
+anvisa	N * @(NFSGPRP).
+
+Ásia	N * @(NFSGPRP).
+
+bauru	N * @(NMSGPRP).
+
+benjamin	N * @(NMSGPRP).
+
+bovespa	N * @(NFSGPRP).
+
+bruna	N * @(NFSGPRP).
+
+burma	N * @(NFSGPRP).
+
+cimetidina	N * @(NFSGPRP).
+
+clarissa	N * @(NFSGPRP).
+
+diana	N * @(NFSGPRP).
+
+embratel	N * @(NFSGPRP).
+
+forbes	N * @(NFSGPRP).
+
+frança	N * @(NFSGPRP).
+
+hiroshima	N * @(NFSGPRP).
+
+intelig	N * @(NFSGPRP).
+
+ipea	N * @(NMSGPRP).
+
+jane	N * @(NFSGPRP).
+
+julianna	N * @(NFSGPRP).
+
+macabéa	N * @(NFSGPRP).
+
+mesopotâmia	N * @(NFSGPRP).
+
+petrobrás	N * @(NFSGPRP).
+
+phoebe	N * @(NFSGPRP).
+
+roma	N * @(NFSGPRP).
+
+sueli	N * @(NFSGPRP).
+
+vivian	N * @(NFSGPRP).
+
+
+
+beatles	N * @(NMPLPRP).
+
+
+belthazor	N * @(NMSGPRP).
+
+berdinazi	N * @(NMSGPRP).
+
+borges	N * @(NMSGPRP).
+
+bozo	N * @(NMSGPRP).
+
+bush	N * @(NMSGPRP).
+
+cacá	N * @(NMSGPRP).
+
+chagas	N * @(NMSGPRP).
+
+chico	N * @(NMSGPRP).
+
+chile	N * @(NMSGPRP).
+
+constantino	N * @(NMSGPRP).
+
+corinthians	N * @(NMSGPRP).
+
+cosimo	N * @(NMSGPRP).
+
+costa	N * @(NMSGPRP).
+
+cruzeiro	N * @(NMSGPRP).
+
+cuba	N * @(NMSGPRP).
+
+dalton	N * @(NMSGPRP).
+
+darwin	N * @(NMSGPRP).
+
+emerson	N * @(NMSGPRP).
+
+fábio	N * @(NMSGPRP).
+
+feijó	N * @(NMSGPRP).
+
+fernando	N * @(NMSGPRP).
+
+fiat	N * @(NFSGPRP).
+
+fini	N * @(NMSGPRP).
+
+flávio	N * @(NMSGPRP).
+
+francesco	N * @(NMSGPRP).
+
+gérson	N * @(NMSGPRP).
+
+getúlio	N * @(NMSGPRP).
+
+glauber	N * @(NMSGPRP).
+
+golota	N * @(NMSGPRP).
+
+gore	N * @(NMSGPRP).
+
+guarani	N * @(NMSGPRP).
+
+gustavo	N * @(NMSGPRP).
+
+irã	N * @(NMSGPRP).
+
+iraque	N * @(NMSGPRP).
+
+israel	N * @(NMSGPRP).
+
+itu	N * @(NMSGPRP).
+
+jackson	N * @(NMSGPRP).
+
+japão	N * @(NMSGPRP).
+
+jardel	N * @(NMSGPRP).
+
+joaquim	N * @(NMSGPRP).
+
+josé	N * @(NMSGPRP).
+
+kazuke	N * @(NMSGPRP).
+
+khouri	N * @(NMSGPRP).
+
+leonardo	N * @(NMSGPRP).
+
+lopes	N * @(NMSGPRP).
+
+luiz	N * @(NMSGPRP).
+
+luizão	N * @(NMSGPRP).
+
+maciel	N * @(NMSGPRP).
+
+mack	N * @(NMSGPRP).
+
+maluf	N * @(NMSGPRP).
+
+marcelinho	N * @(NMSGPRP).
+
+méxico	N * @(NMSGPRP).
+
+mohammed	N * @(NMSGPRP).
+
+nasrudin	N * @(NMSGPRP).
+
+newton	N * @(NMSGPRP).
+
+osama	N * @(NMSGPRP).
+
+pilatos	N * @(NMSGPRP).
+
+portugal	N * @(NMSGPRP).
+
+rodrigo	N * @(NMSGPRP).
+
+suzano	N * @(NMSGPRP).
+
+tadeu	N * @(NMSGPRP).
+
+tarzan	N * @(NMSGPRP).
+
+vasco	N * @(NMSGPRP).
+
+vygotsky	N * @(NMSGPRP).
+
+wolfram	N * @(NMSGPRP).
+
+
+
+cientistas	N * @(NNEUTPL).
+
+comerciantes	N * @(NNEUTPL).
+
+intelectuais	N * @(NNEUTPL).
+
+personagens	N * @(NNEUTPL).
+
+	
+dentista	N * @(NNEUTSG).
+
+despachante	N * @(NNEUTSG).
+
+estudante	N * @(NNEUTSG).
+
+mundial		N * @(NNEUTSG).
+
+
+acesso  N * @(NMSG).
+
+acontecimentos  N * @(NMPL).
+
+ingleses  N * @(NMPL).
+
+adversário  N * @(NMSG).
+
+agência  N * @(NFSG).
+
+alagoas  N * @(NFPLPRP).
+
+álbum  N * @(NMSG).
+
+álcool  N * @(NMSG).
+
+ambiente  N * @(NMSG).
+
+américa  N * @(NFSGPRP).
+
+antonio  N * @(NMSGPRP).
+
+área  N * @(NFSG).
+
+arte  N * @(NFSG).
+
+astronautas  N * @(NNEUTPL).
+
+ataques  N * @(NMPL).
+
+atividades  N * @(NFPL).
+
+ator  N * @(NMSG).
+
+autonomia  N * @(NFSG).
+
+autores  N * @(NMPL).
+
+bactéria  N * @(NFSG).
+
+barreira  N * @(NFSG).
+
+barreiras  N * @(NFPL).
+
+boca  N * @(NFSG).
+
+bois  N * @(NMSGPRP).
+
+brasileiros  N * @(NMPL).
+
+cadeira  N * @(NFSG).
+
+cálculo  N * @(NMSG).
+
+câmara  N * @(NFSG).
+
+campeão  N * @(NMSG).
+
+campeonato  N * @(NMSG).
+
+candidatura  N * @(NFSG).
+
+canoa  N * @(NFSG).
+
+característica  N * @(NFSG).
+
+caráter  N * @(NMSG).
+
+carreira  N * @(NFSG).
+
+casas  N * @(NFPL).
+
+casos  N * @(NMPL).
+
+células  N * @(NFPL).
+
+cenas  N * @(NFPL).
+
+centímetros  N * @(NMPL).
+
+champanhe  N * @(NFSG).
+
+chão  N * @(NMSG).
+
+cidades  N * @(NFPL).
+
+clima  N * @(NMSG).
+
+coeficiente  N * @(NMSG).
+
+coisas  N * @(NFPL).
+
+colômbia  N * @(NFSGPRP).
+
+comunicação  N * @(NFSG).
+
+conceito  N * @(NMSG).
+
+concepção  N * @(NFSG).
+
+concurso  N * @(NMSG).
+
+condições  N * @(NFPL).
+
+congresso  N * @(NMSG).
+
+conhecimento  N * @(NMSG).
+
+conselheiro  N * @(NMSG).
+
+conselho  N * @(NMSG).
+
+contato  N * @(NMSG).
+
+controle  N * @(NMSG).
+
+cores  N * @(NFPL).
+
+cotidiano  N * @(NMSG).
+
+covas  N * @(NMSGPRP).
+
+cristo  N * @(NMSGPRP).
+
+culpa  N * @(NFSG).
+
+currículo  N * @(NMSG).
+
+declaração  N * @(NFSG).
+
+depoimento  N * @(NMSG).
+
+desafio  N * @(NMSG).
+
+desigualdades  N * @(NFPL).
+
+determinação  N * @(NFSG).
+
+disciplinas  N * @(NFPL).
+
+disposição  N * @(NFSG).
+
+diversidade  N * @(NFSG).
+
+dívida  N * @(NFSG).
+
+documento  N * @(NMSG).
+
+dólar  N * @(NMSG).
+
+economia  N * @(NFSG).
+
+edmundo  N * @(NMSGPRP).
+
+efeito  N * @(NMSG).
+
+elementos  N * @(NMPL).
+
+elites  N * @(NFPL).
+
+emissora  N * @(NFSG).
+
+erros  N * @(NMPL).
+
+esboço  N * @(NMSG).
+
+escolas  N * @(NFPL).
+
+escritor  N * @(NMSG).
+
+esforço  N * @(NMSG).
+
+espaço  N * @(NMSG).
+
+estabelecimento  N * @(NMSG).
+
+estacionamento  N * @(NMSG).
+
+estados  N * @(NMPL).
+
+estratégia  N * @(NFSG).
+
+estrutura  N * @(NFSG).
+
+exame  N * @(NMSG).
+
+executivo  N * @(NMSG).
+
+expectativas  N * @(NFPL).
+
+experiência  N * @(NFSG).
+
+experiências  N * @(NFPL).
+
+fatores  N * @(NMPL).
+
+federação  N * @(NFSG).
+
+flor  N * @(NFSG).
+
+fluxo  N * @(NMSG).
+
+forma  N * @(NFSG).
+
+frente  N * @(NFSG).
+
+freud  N * @(NMSGPRP).
+
+fronteiras  N * @(NFPL).
+
+gosto  N * @(NMSG).
+
+graus  N * @(NMPL).
+
+grupo  N * @(NMSG).
+
+identidade  N * @(NFSG).
+
+identificação  N * @(NFSG).
+
+ímã  N * @(NMSG).
+
+importações  N * @(NFPL).
+
+importância  N * @(NFSG).
+
+imprecisão  N * @(NFSG).
+
+impressão  N * @(NFSG).
+
+índice  N * @(NMSG).
+
+índices  N * @(NMPL).
+
+indivíduo  N * @(NMSG).
+
+influência  N * @(NFSG).
+
+início  N * @(NMSG).
+
+inquérito  N * @(NMSG).
+
+instituto  N * @(NMSG).
+
+instrumento  N * @(NMSG).
+
+intenções  N * @(NFPL).
+
+interesse  N * @(NMSG).
+
+investigação  N * @(NFSG).
+
+jogadores  N * @(NNEUTPL).
+
+justiça  N * @(NFSG).
+
+laços  N * @(NMPL).
+
+lado  N * @(NMSG).
+
+legenda  N * @(NFSG).
+
+legislação  N * @(NFSG).
+
+liberdade  N * @(NFSG).
+
+liderança  N * @(NFSG).
+
+líderes  N * @(NMPL).
+
+linguagem  N * @(NFSG).
+
+linha  N * @(NFSG).
+
+linhas  N * @(NFPL).
+
+lista  N * @(NFSG).
+
+local  N * @(NMSG).
+
+malan  N * @(NMSGPRP).
+
+manifestações  N * @(NFPL).
+
+marca  N * @(NFSG).
+
+marcha  N * @(NFSG).
+
+mec  N * @(NMSG).
+
+mecanismo  N * @(NMSG).
+
+medicamento  N * @(NMSG).
+
+medida  N * @(NFSG).
+
+mendes  N * @(NMSGPRP).
+
+mendonça  N * @(NMSGPRP).
+
+mercado  N * @(NMSG).
+
+método  N * @(NMSG).
+
+métodos  N * @(NMPL).
+
+ministério  N * @(NMSG).
+
+ministros  N * @(NMPL).
+
+modelo  N * @(NMSG).
+
+modificações  N * @(NFPL).
+
+motivos  N * @(NMPL).
+
+motoristas  N * @(NNEUTPL).
+
+município  N * @(NMSG).
+
+municípios  N * @(NMPL).
+
+nação  N * @(NFSG).
+
+novela  N * @(NFSG).
+
+números  N * @(NMPL).
+
+ocorrência  N * @(NFSG).
+
+oposição  N * @(NFSG).
+
+organizações  N * @(NFPL).
+
+órgãos  N * @(NMPL).
+
+orientações  N * @(NFPL).
+
+pacientes  N * @(NNEUTPL).
+
+palmeiras  N * @(NMSG).
+
+parâmetros  N * @(NMPL).
+
+parceiro  N * @(NMSG).
+
+parlamentares  N * @(NMPL).
+
+parlamentar  N * @(NMSG).
+
+participação  N * @(NFSG).
+
+partidos  N * @(NMPL).
+
+passagem  N * @(NFSG).
+
+patamar  N * @(NMSG).
+
+pauta  N * @(NFSG).
+
+pena  N * @(NFSG).
+
+pênalti  N * @(NMSG).
+
+perda  N * @(NFSG).
+
+perspectiva  N * @(NFSG).
+
+pesquisa  N * @(NFSG).
+
+pesquisadores  N * @(NMPL).
+
+piloto  N * @(NMSG).
+
+placa  N * @(NFSG).
+
+poder  N * @(NMSG).
+
+pontos  N * @(NMPL).
+
+possibilidade  N * @(NFSG).
+
+possibilidades  N * @(NFPL).
+
+prática  N * @(NFSG).
+
+prédio  N * @(NMSG).
+
+presidência  N * @(NFSG).
+
+processos  N * @(NMPL).
+
+produtores  N * @(NMPL).
+
+profissionais  N * @(NNEUTPL).
+
+programa  N * @(NMSG).
+
+programas  N * @(NMPL).
+
+projetos  N * @(NMPL).
+
+providências  N * @(NFPL).
+
+quantidade  N * @(NFSG).
+
+questões  N * @(NFPL).
+
+razão  N * @(NFSG).
+
+real  N * @(NMSG).
+
+recomendações  N * @(NFPL).
+
+recorde  N * @(NMSG).
+
+regime  N * @(NMSG).
+
+registro  N * @(NMSG).
+
+regulamentação  N * @(NFSG).
+
+relação  N * @(NFSG).
+
+relações  N * @(NFPL).
+
+resposta  N * @(NFSG).
+
+retorno  N * @(NMSG).
+
+revisão  N * @(NFSG).
+
+revista  N * @(NFSG).
+
+risco  N * @(NMSG).
+
+rua  N * @(NFSG).
+
+ruas  N * @(NFPL).
+
+salários  N * @(NMPL).
+
+salas  N * @(NFPL).
+
+sede  N * @(NFSG).
+
+segurança  N * @(NFSG).
+
+seleção  N * @(NFSG).
+
+seminário  N * @(NMSG).
+
+setor  N * @(NMSG).
+
+sindicatos  N * @(NMPL).
+
+sistema  N * @(NMSG).
+
+situações  N * @(NFPL).
+
+soluções  N * @(NFPL).
+
+sujeitos  N * @(NMPL).
+
+surgimento  N * @(NMSG).
+
+taxa  N * @(NFSG).
+
+taxas  N * @(NFPL).
+
+técnica  N * @(NFSG);
+	 A * @(AFS).
+
+tema  N * @(NMSG).
+
+terras  N * @(NFPL).
+
+textos  N * @(NMPL).
+
+timidez  N * @(NFSG).
+
+títulos  N * @(NMPL).
+
+trabalhadores  N * @(NMPL).
+
+trabalhos  N * @(NMPL).
+
+treinador  N * @(NMSG).
+
+turnê  N * @(NFSG).
+
+usuário  N * @(NMSG).
+
+valores  N * @(NMPL).
+
+vargas  N * @(NMSGPRP).
+
+variáveis  N * @(NFPL).
+
+vendas  N * @(NFPL).
+
+verbas  N * @(NFPL).
+
+versão  N * @(NFSG).
+
+visão  N * @(NFSG).
+
+volta  N * @(NFSG).
+
+vontade  N * @(NFSG).
+
+votação  N * @(NFSG).
+
+
+
+
+
+
+
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+"Adjectives"
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+
+boas		A * @(AFP).
+
+climáticas	A * @(AFP).
+
+corretas	A * @(AFP).
+
+criminosas	A * @(AFP).
+
+didáticas	A * @(AFP).
+
+dietéticas	A * @(AFP).
+
+documentadas	A * @(AFP).
+
+
+indígenas  A * @(AFP);
+	   N * @(COMMON %stem)
+	      @HUM
+	      @(NUM-N-AGR pl).
+
+econômicas	A * @(AFP).
+
+elaboradas	A * @(AFP).
+
+endividadas	A * @(AFP).
+
+lacradas	A * @(AFP).
+
+mesmas		A * @(AFP).
+
+necessárias	A * @(AFP).
+
+públicas	A * @(AFP).
+
+urbanas		A * @(AFP).
+
+velhas		A * @(AFP).
+
+
+analítica	A * @(AFS).
+
+bancária	A * @(AFS).
+
+básica		A * @(AFS).
+
+descansada	A * @(AFS).
+
+despreparada	A * @(AFS).
+
+desrespeitada	A * @(AFS).
+
+eletrônica	A * @(AFS).
+
+falha		A * @(AFS).
+
+furada		A * @(AFS).
+
+horária		A * @(AFS).
+
+humana		A * @(AFS).
+
+importada	A * @(AFS).
+
+limitada	A * @(AFS).
+
+materna		A * @(AFS).
+
+mesma		A * @(AFS).
+
+operária	A * @(AFS).
+
+paralela	A * @(AFS).
+
+pregressa	A * @(AFS).
+
+privada		A * @(AFS).
+
+pronta		A * @(AFS).
+
+próxima		A * @(AFS).
+
+quebrada	A * @(AFS).
+
+russa		A * @(AFS).
+	
+seletiva	A * @(AFS).
+
+séria		A * @(AFS).
+
+subjetiva	A * @(AFS).
+
+
+
+adequados	A * @(AMP).
+
+albaneses	A * @(AMP).
+
+ameaçados	A * @(AMP).
+
+clínicos	A * @(AMP).
+
+distintos	A * @(AMP).
+
+feridos		A * @(AMP);
+		N * @(NMPL).
+
+honestos	A * @(AMP).
+
+inconformados	A * @(AMP).
+
+juntos		A * @(AMP).
+
+linguísticos	A * @(AMP).
+
+melhores	A * @(ANEUTPL).
+
+piores		A * @(AMP).
+
+plantados	A * @(AMP).
+
+preocupados	A * @(AMP).
+
+presos		A * @(AMP);
+		N * @(NMPL).
+
+primeiros	A * @(AMP).
+
+reflexivos	A * @(AMP).
+
+sérios		A * @(AMP).
+
+submissos	A * @(AMP).
+
+surpresos	A * @(AMP).
+
+unidos		A * @(AMP).
+
+
+
+adequado	A * @(AMS).
+
+alavancador	A * @(AMS).
+
+analisado	A * @(AMS).
+
+apresentado	A * @(AMS).
+
+belo		A * @(AMS).
+
+concluído	A * @(AMS).
+
+construído	A * @(AMS).
+
+corintiano	A * @(AMS).
+
+culposo		A * @(AMS).
+
+derrotado	A * @(AMS).
+
+engraçado	A * @(AMS).
+
+feio		A * @(AMS).
+
+junto		A * @(AMS);
+		Adv * @(Adv {manner}).
+
+um` pouco  	Adv * @(Adv {temp}).
+
+mau		A * @(AMS).
+
+mesmo		A * @(AMS).
+
+molhado		A * @(AMS).
+
+pleno		A * @(AMS).
+
+preocupado	A * @(AMS).
+
+preso		A * @(AMS).
+
+próprio		A * @(AMS).
+
+rápido		A * @(AMS);
+		Adv * @(Adv {manner}).
+
+sério		A * @(AMS).
+
+subdesenvolvido	A * @(AMS).
+
+surpreendido	A * @(AMS).
+
+último		A * @(AMS).
+
+votado		A * @(AMS).
+
+negativo	A * @(AMS).
+
+comerciais	A * @(ANEUTPL).
+
+educacionais	A * @(ANEUTPL).
+
+familiares	A * @(ANEUTPL).
+
+gerais		A * @(ANEUTPL).
+
+inocentes	A * @(ANEUTPL).
+
+juvenis		A * @(ANEUTPL).
+
+menores		A * @(ANEUTPL).
+
+responsáveis	A * @(ANEUTPL);
+		N * @(NNEUTPL).
+
+acessível	A * @(ANEUTSG).
+
+bidimensional	A * @(ANEUTSG).
+
+bóia-fria	A * @(ANEUTSG).
+
+cambial		A * @(ANEUTSG).
+
+cerebral	A * @(ANEUTSG).
+
+colonial	A * @(ANEUTSG).
+
+comportamental	A * @(ANEUTSG).
+
+comum		A * @(ANEUTSG).
+
+corporal	A * @(ANEUTSG).
+
+desleal		A * @(ANEUTSG).
+
+ditatorial	A * @(ANEUTSG).
+
+eleitoral	A * @(ANEUTSG).
+
+escolar		A * @(ANEUTSG).
+
+evitável	A * @(ANEUTSG).
+
+familiar	A * @(ANEUTSG).
+
+federal		A * @(ANEUTSG).
+
+forte		A * @(ANEUTSG).
+
+fundamental	A * @(ANEUTSG).
+
+hormonal	A * @(ANEUTSG).
+
+ideal		A * @(ANEUTSG).
+
+improvável	A * @(ANEUTSG).
+
+imutável	A * @(ANEUTSG).
+
+indivisível	A * @(ANEUTSG).
+
+intelectual	A * @(ANEUTSG).
+
+nacional	A * @(ANEUTSG).
+
+natural		A * @(ANEUTSG).
+
+operacionais	A * @(ANEUTSG).
+
+organizacional	A * @(ANEUTSG).
+
+popular		A * @(ANEUTSG).
+
+referencial	A * @(ANEUTSG);
+	        N * @(NMSG).
+
+rural		A * @(ANEUTSG).
+
+seguinte	A * @(ANEUTSG).
+
+total		A * @(ANEUTSG).
+
+virtual		A * @(ANEUTSG).
+
+
+admirado  A * @(AMS).
+
+ajustado  A * @(AMS).
+
+ajustados  A * @(AMP).
+
+alagadas  A * @(AFP).
+
+alcançado  A * @(AMS).
+
+alimentados  A * @(AMP).
+
+apelidado  A * @(AMS).
+
+apelidados  A * @(AMP).
+
+aplicados  A * @(AMP).
+
+baixo  A * @(AMS).
+
+boa  A * @(AFS).
+
+certa  A * @(AFS).
+
+cuidados  A * @(AMP);
+	  N * @(NMPL).
+
+diferentes  A * @(ANEUTPL).
+
+estável  A * @(ANEUTSG).
+
+fiscal  A * @(ANEUTSG).
+
+livre  A * @(ANEUTSG).
+
+maiores  A * @(ANEUTPL).
+
+militar  A * @(ANEUTSG).
+
+novos  A * @(AMP).
+
+possível  A * @(ANEUTSG).
+
+relevante  A * @(ANEUTSG).
+
+ruim  A * @(ANEUTSG).
+
+ruins  A * @(ANEUTPL).
+
+segundo  A * @(AMS).
+
+verdadeiro  A * @(AMS).
+
+
+
+
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+"Adverbs"
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+
+adiante		Adv * @(Adv {temp loc}).
+
+ali		Adv * @(Adv {loc}).
+
+atrás		Adv * @(Adv {temp loc}).
+
+constantemente	Adv * @(Adv {manner}).
+
+diante		Adv * @(Adv  {loc}).
+
+discretamente	Adv * @(Adv {manner}).
+
+fora		Adv * @(Adv {loc}).
+
+menos		Adv * @(Adv {int}).
+
+simultaneamente	Adv * @(Adv {manner}).
+
+também	Adv * @(Adv sadv).
+
+assim	Adv * @(Adv {manner}).
+
+
+
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+"Conjunctions"
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+
+
+e	Conj * (^ COORD-FORM) = e.
+
+
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+"Dates"
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+
+1820	Date * @(Date %stem).
+
+1823	Date * @(Date %stem).
+
+1969	Date * @(Date %stem).
+
+1995	Date * @(Date %stem).
+
+2002	Date * @(Date %stem).
+
+
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+"Numerals"
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+
+1	Num * @(NUM sg).
+
+13	Num * @(NUM pl).
+
+190	Num * @(NUM pl).
+
+20	Num * @(NUM pl).
+
+200	Num * @(NUM pl).
+
+30	Num * @(NUM pl).
+
+4	Num * @(NUM pl).
+
+43	Num * @(NUM pl).
+
+60	Num * @(NUM pl).
+
+700	Num * @(NUM pl).
+
+98	Num * @(NUM pl).
+
+seis	Num * @(NUM pl).
+
+sete	Num * @(NUM pl).
+
+10%	Num * @(NUM pl).
+
+50%	Num * @(NUM pl).
+
+80% 	Num * @(NUM pl).
+
+vinte 	Num * @(NUM pl).
+
+
+
+
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+"Determiners"
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+
+
+isso 	  PRON * (^ PRED)='isso' 
+		(^ GEND)=masc
+	      (^ NUM)=sg
+	      (^ PERS)=3
+	      (^ DET-TYPE)=demon
+	      (^ DEIXIS)=proximal.
+
+
+
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+"PRONOUNS"
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+
+
+quem 	  PRON * "{ (^ CLAUSE-TYPE)=int | (^ CLAUSE-TYPE)=decl }"
+	      (^ PRED)='quem' 
+	      @(AGR sg 3)
+	      {(^ PRON-TYPE)=int |
+	      (^ PRON-TYPE)=free} "#Valex addition" 
+	      (^ PRON-FORM)=%stem
+	      (^ NTYPE NSYN)=pronoun
+	      @(GL who).
+
+
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+"Prepositions"
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+
+desde P * {(^ PFORM)= desde
+	      (^ PTYPE)=nosem
+	      (^ CASE)=obl |
+	  @(SEM-PREP %stem {temp})}. "#Valex addition" 
+
+por` baixo` de 	  P * @(SEM-PREP %stem {loc}).
+
+em` cima` de 	  P * @(SEM-PREP %stem {loc}).
+
+
+sob 	  P * @(SEM-PREP %stem {loc}).
+
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+"Quantifiers"
+"::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::"
+
+algum  Q * @(N-AGR masc sg)
+	    (^ SPEC QUANT PRED)='algum'.
+
+
+alguns  Q * @(N-AGR masc pl)
+	    (^ SPEC QUANT PRED)='algum'.
+
+
+"muita    Q * @(AMS).
+	      (^ PRON-TYPE)=quant
+	      (^ SPEC QUANT PRED)='muita'."
+
+
+----
+
+
+VALEXPB PORTUGUESE TEMPLATES (1.0)
+
+
+"========================================================================================="
+"NOUNS"
+"========================================================================================="
+
+
+NFPL =   @(COMMON %stem)
+	 @(N-AGR fem pl).
+
+NFSG =   @(COMMON %stem)
+	 @(N-AGR fem sg).
+
+NMPL =   @(COMMON %stem)
+	 @(N-AGR masc pl).
+
+NMSG =   @(COMMON %stem)
+	 @(N-AGR masc sg).
+
+
+
+NFPLPRP = @(PRED %stem)	
+	   (^ NTYPE NSYN) = proper
+ 	  @(N-AGR fem pl).
+
+NMPLPRP = @(PRED %stem)	
+	   (^ NTYPE NSYN) = proper
+ 	  @(N-AGR masc pl).
+
+NMSGPRP = @(PRED %stem)	
+	   (^ NTYPE NSYN) = proper
+ 	  @(N-AGR masc sg).
+	  
+
+NFSGPRP = @(PRED %stem)	
+	   (^ NTYPE NSYN) = proper
+ 	  @(N-AGR fem sg).
+
+
+
+
+NNEUTPL = @(COMMON %stem)
+	  {@(N-AGR fem pl)
+	  |@(N-AGR masc pl)}.
+
+
+NNEUTSG = @(COMMON %stem)
+	  {@(N-AGR fem sg)
+	  |@(N-AGR masc sg)}.
+
+
+"========================================================================================="
+"NUMERALS"
+"========================================================================================="
+
+
+NUM(P) =  (^ NUM)=c P
+	  (^ SPEC NUMBER NUMBER-TYPE)=card.
+
+
+
+
+"========================================================================================="
+"DATES"
+"========================================================================================="
+
+Date(P) = (^ PRED) = 'P'
+	(^ NUM) = sg
+	(^ PERS) = 3
+	(^ NTYPE) = time_date.
+
+
+
+"========================================================================================="
+"ADVERBS"
+"========================================================================================="
+
+Adv(P) = (^ PRED)='%stem'
+	 (^ ADV-TYPE)=P.
+
+
+"========================================================================================="
+"ADJECTIVES"
+"========================================================================================="
+
+
+AFP = 	(^ PRED)='%stem' 
+	(^ GEND) = fem
+	(^ NUM) = pl.
+
+AFS = 	(^ PRED)='%stem' 
+	(^ GEND) = fem
+	(^ NUM) = sg.
+
+AMP = 	(^ PRED)='%stem' 
+	(^ GEND) = masc
+	(^ NUM) = pl.
+
+AMS = 	(^ PRED)='%stem' 
+      	(^ GEND) = masc
+      	(^ NUM) = sg.
+
+ANEUTPL = (^ PRED)='%stem' 
+	  (^ NUM) = pl.
+
+ANEUTSG = (^ PRED)='%stem' 
+	  (^ NUM) = sg.
+
+----

@@ -1,0 +1,44 @@
+VALEXPB  PORTUGUESE   RULES (1.0)
+
+   VP --> (ADV-ADJUNCT) "#Valex addition: allows preverbal adverb"
+	 ({CL: (^ OBJ)=! |CL: (^ OBL)=! | CL: ^=! (! NUM) = (^ SUBJ NUM) (! PERS) = (^SUBJ PER)}) "clitic reflexive objects in Portuguese" "#Valex addition: 'CL: (^ OBL)=!' allows personal pronouns clitics as obliques -> 'O sapato me dói os pés'"
+
+ 	  Vbar.
+   
+   Vbar --> {V: ^=! | [Aux: ^=!, V: ^=! (^ TNS-ASP PROG)]} 
+  	  { [DIR-OBJ, IND-OBJ] |
+	    [IND-OBJ, DIR-OBJ]
+	    POSP-SUBJECT |  "#Valex addition: allowing postposed subject"
+            [POSP-SUBJECT, (IND-OBJ)]|  "#Valex addition: allowing postposed subject optionally followed by Obliques"
+	    BARE-INF | "#Valex addition:"
+	    CP: (^ XCOMP)= ! (! VFORM)=c infinitive (! COMP-FORM) |
+	    Vbar: (^ XCOMP)= ! (! TNS-ASP PROG)=c +_ | "#Valex addition: allowing gerundive clausal complements as in 'Ele continua dormindo.'"
+	    CP: (^ COMP)= ! (! COMP-FORM)|
+	    PP: (^ PREDLINK)= ! |   "#Valex addition: allowing PP as predicative as in 'Ele continuou como ministro.'"
+	    PP: (^ COMP)= ! (! COMP-FORM)| "#Valex addition: PP as COMP, like 'Coincidiu de chover'."
+	    VP: (^ SUBJ)=! (! SUBJ PRED)= 'null_pro' (! VFORM)=c infinitive | "#Valex addition: allowing post-verbal clausal subject as in 'Doeu-lhe deixar o país'"
+	    CP: (^ SUBJ)=! | "#Valex addition: allowing post-verbal CP clausal subject as in 'Acontece que eu te amo'"
+	    DIR-OBJ |
+ 	    IND-OBJ | 
+	    [PP: (^ OBL1)= ! ,  PP: (^ OBL2)= !]| "#Valex Addition: allowing two obliques"
+ 	    PREDIC |
+	    AP: (^ PREDLINK)=!  "(! GEND)= masc (!NUM)= sg (! VFORM)=c infinitive" | "#Valex addition: default agreement as in 'Ele achou necessário vender o carro.' "
+ 	    AP: (^ XCOMP-PRED)=! |
+ 	    AP: (^ XCOMP)=! ; DIR-OBJ |
+ 	    DIR-OBJ AP: (^ XCOMP)=! |
+ 	    DIR-OBJ DP: (^ PREDLINK)=! |
+	    DIR-OBJ PP: (^ PREDLINK)=! |
+ 	    [DIR-OBJ, AP: (^ PREDLINK)=! (! GEND)= (^ OBJ GEND) (!NUM)=(^ OBJ NUM)]| "#Valex addition: allows post-objetc predicative"
+	    { DIR-OBJ | IND-OBJ }#0#1 CP: (^ XCOMP)=! | 
+ 	    [ DIR-OBJ, BARE-INF] |
+	    [BARE-INF, PP: (^ XCOMP2)=! (! VFORM)=c infinitive ] |
+	    [ DIR-OBJ, Vbar: (^ XCOMP)= ! (! TNS-ASP PROG)=c +_] | "#Valex Addition: ex.: Ela viu o menino chegando."
+	    [DIR-OBJ, PP: (^ XCOMP)=! (! VFORM)=c infinitive (! PFORM)] | 
+	    IND-OBJ PP: (^ XCOMP)=! |
+ 	    [IND-OBJ, BARE-INF] |
+	    (DIR-OBJ) CP: (^ COMP)=! (! COMP-FORM)| "#Valex Addition: allowing object followed by COMP as in 'Eu lembrei ela que vovó estava doente'"
+ 	    (IND-OBJ) CP: (^ COMP)=! 
+ 	  }#0#1 / V-ADJUNCT.
+ 	
+
+----
